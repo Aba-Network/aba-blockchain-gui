@@ -116,6 +116,7 @@ export default function LayoutDashboard(props: LayoutDashboardProps) {
   }
 
   function renderNewVersionBanner() {
+    return null; // TODO update later
     if (isNewVersionBannerShown()) {
       return (
         <Flex

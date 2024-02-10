@@ -211,7 +211,7 @@ export async function processSessionRequest(
     }
 
     const [network, instance] = chainId.split(':');
-    if (network !== 'chia') {
+    if (network !== 'aba') {
       throw new Error('Network not supported');
     }
 
