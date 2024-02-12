@@ -39,8 +39,8 @@ describe('createDefaultValues', () => {
       });
     });
   });
-  describe('when an XCH wallet type is provided', () => {
-    it('should return an object with an XCH entry', () => {
+  describe('when an ABA wallet type is provided', () => {
+    it('should return an object with an ABA entry', () => {
       expect(createDefaultValues({ walletType: WalletType.STANDARD_WALLET })).toEqual({
         offered: {
           xch: [{ amount: '' }],

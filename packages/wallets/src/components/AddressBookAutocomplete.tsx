@@ -62,7 +62,7 @@ export default function AddressBookAutocomplete(props: Props) {
         renderInput={(params) => (
           <TextField
             autoComplete="off"
-            label={<Trans>Address or Contact</Trans>}
+            label={<Trans>Address or .aba Name or Contact</Trans>}
             required={required}
             onBlur={onBlur}
             onChange={(_e) => handleChange(_e.target.value)}

@@ -16,7 +16,7 @@ export type OfferExpirationDefaultTimeOutput = {
 };
 
 export const offerExpirationDefaultTimeDefaults = {
-  enabled: true,
+  enabled: false,
   days: 7,
   hours: 0,
   minutes: 0,

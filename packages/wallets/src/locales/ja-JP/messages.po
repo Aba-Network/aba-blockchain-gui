@@ -22,11 +22,11 @@ msgstr ""
 msgid "-"
 msgstr "-"
 
-#: src/components/WalletSend.tsx:367
+#: src/components/WalletSend.tsx:390
 msgid "- Memo helps the receiver side to identify the payment.<0/>- Anything you enter will be publicly accessible on the blockchain."
 msgstr ""
 
-#: src/components/WalletSend.tsx:294
+#: src/components/WalletSend.tsx:317
 msgid "- Set a time frame which allows you claw back (revoke) the transaction.<0/>- Recipient of the transaction can only claim the funds once that time frame expires."
 msgstr ""
 
@@ -42,7 +42,7 @@ msgstr "操作"
 msgid "Add"
 msgstr "追加"
 
-#: src/components/WalletSend.tsx:288
+#: src/components/WalletSend.tsx:311
 msgid "Add option to claw back transaction"
 msgstr ""
 
@@ -52,7 +52,7 @@ msgstr ""
 msgid "Add Token"
 msgstr "トークンを追加"
 
-#: src/components/WalletSend.tsx:362
+#: src/components/WalletSend.tsx:385
 msgid "Add transaction memo"
 msgstr "取引メモを追加"
 
@@ -70,11 +70,15 @@ msgstr "アドレス"
 #~ msgstr "Address / Puzzle hash"
 
 #: src/components/AddressBookAutocomplete.tsx:65
-msgid "Address or Contact"
-msgstr "アドレスまたは連絡先"
+msgid "Address or .aba Name or Contact"
+msgstr ""
 
-#: src/components/cat/WalletCATSend.tsx:214
-#: src/components/WalletSend.tsx:241
+#: src/components/AddressBookAutocomplete.tsx:65
+#~ msgid "Address or Contact"
+#~ msgstr "アドレスまたは連絡先"
+
+#: src/components/cat/WalletCATSend.tsx:237
+#: src/components/WalletSend.tsx:264
 msgid "Amount"
 msgstr "金額"
 
@@ -120,7 +124,7 @@ msgstr ""
 msgid "Auto-claim transactions with this fee from now on."
 msgstr ""
 
-#: src/components/WalletSend.tsx:336
+#: src/components/WalletSend.tsx:359
 msgid "Before sending this transaction, you should ensure that the recipient has a wallet that can claim it manually after the timer has expired."
 msgstr ""
 
@@ -146,8 +150,6 @@ msgstr ""
 #~ msgid "Check my snapshot balance"
 #~ msgstr "Check my snapshot balance"
 
-#: src/components/cat/WalletCATSelect.tsx:25
-#: src/components/create/WalletCreateList.tsx:32
 #: src/constants/WalletName.ts:23
 msgid "Chia Asset Token"
 msgstr "チア上資産トークン"
@@ -193,11 +195,11 @@ msgstr ""
 msgid "Clawback payment clawed back"
 msgstr ""
 
-#: src/components/WalletSend.tsx:334
+#: src/components/WalletSend.tsx:357
 msgid "Clawback will be applied."
 msgstr ""
 
-#: src/components/WalletSend.tsx:344
+#: src/components/WalletSend.tsx:367
 msgid "Clawback will not be applied."
 msgstr ""
 
@@ -248,13 +250,18 @@ msgstr "新しいウォレットを作成"
 msgid "Create Offer"
 msgstr "取引依頼を作成"
 
-#: src/components/cat/WalletCATSend.tsx:178
-#: src/components/WalletSend.tsx:213
+#: src/components/cat/WalletCATSend.tsx:201
+#: src/components/WalletSend.tsx:236
 msgid "Create Transaction"
 msgstr "取引を作成"
 
 #: src/components/WalletHistory.tsx:223
 msgid "Creation Date"
+msgstr ""
+
+#: src/components/cat/WalletCATSelect.tsx:25
+#: src/components/create/WalletCreateList.tsx:32
+msgid "Crypto Asset Token"
 msgstr ""
 
 #: src/constants/WalletName.ts:20
@@ -289,7 +296,7 @@ msgstr "導出指数: {0}"
 msgid "DID Wallet"
 msgstr "DID ウォレット"
 
-#: src/components/WalletSend.tsx:327
+#: src/components/WalletSend.tsx:350
 msgid "Disable"
 msgstr "無効化"
 
@@ -298,21 +305,25 @@ msgid "Distributed Identity"
 msgstr "分散型アイデンティティ"
 
 #: src/components/WalletImport.tsx:157
-msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "チアウォレットを復元するには、 {mnemonicWordCount} 語の合言葉を入力してください。"
+msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Aba wallet."
+msgstr ""
+
+#: src/components/WalletImport.tsx:157
+#~ msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Chia wallet."
+#~ msgstr "チアウォレットを復元するには、 {mnemonicWordCount} 語の合言葉を入力してください。"
 
 #: src/components/cat/WalletCATSend.tsx:127
 msgid "Error the entered address appears to be for a different colour."
 msgstr ""
 
-#: src/components/cat/WalletCATSend.tsx:252
-#: src/components/WalletSend.tsx:390
+#: src/components/cat/WalletCATSend.tsx:275
+#: src/components/WalletSend.tsx:413
 msgid "Farm"
 msgstr "農家"
 
-#: src/components/cat/WalletCATSend.tsx:228
+#: src/components/cat/WalletCATSend.tsx:251
 #: src/components/WalletHistory.tsx:237
-#: src/components/WalletSend.tsx:254
+#: src/components/WalletSend.tsx:277
 msgid "Fee"
 msgstr "手数料"
 
@@ -362,8 +373,8 @@ msgstr "接続がありません"
 msgid "Manage token list"
 msgstr "トークンリストの管理"
 
-#: src/components/cat/WalletCATSend.tsx:242
-#: src/components/WalletSend.tsx:379
+#: src/components/cat/WalletCATSend.tsx:265
+#: src/components/WalletSend.tsx:402
 msgid "Memo"
 msgstr "メモ"
 
@@ -441,10 +452,13 @@ msgstr "取引依頼が受け入れられました"
 msgid "OK"
 msgstr "OK"
 
-#: src/components/cat/WalletCATSend.tsx:181
-#: src/components/WalletSend.tsx:216
+#: src/components/WalletSend.tsx:239
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr "取引ブロックは約1分間隔で作成されます。混雑時を除き、1分以内にあなたの送金も取り込まれるはずです。"
+
+#: src/components/cat/WalletCATSend.tsx:204
+msgid "On average there is one minute between each transaction block. Unless there is congestion, you can expect your transaction to be included in less than a minute."
+msgstr ""
 
 #: src/components/WalletHistory.tsx:87
 #~ msgid "Outgoing"
@@ -608,9 +622,9 @@ msgstr ""
 msgid "Select Wallet Type"
 msgstr "ウォレットの種類を選択してください:"
 
-#: src/components/cat/WalletCATSend.tsx:263
+#: src/components/cat/WalletCATSend.tsx:286
 #: src/components/WalletHeader.tsx:47
-#: src/components/WalletSend.tsx:401
+#: src/components/WalletSend.tsx:424
 msgid "Send"
 msgstr "送る"
 
@@ -650,7 +664,7 @@ msgstr "同期中"
 msgid "The derivation index sets the range of wallet addresses that the wallet scans the blockchain for. This number is generally higher if you have a lot of transactions or canceled offers for XCH, CATs, or NFTs. If you believe your balance is incorrect because it’s missing coins, then increasing the derivation index could help the wallet include the missing coins in the balance total."
 msgstr "導出指数はウォレットがブロックチェーン上で検索するウォレットアドレスの範囲を定めます。XCH、 CAT、または NFT の取引や取り下げた取引依頼の総数が多い方では高めの値に設定されていることがあります。もしご自身の残高の値が誤っていて、全てのコインを反映できていないと考えられる場合、導出指数を上げることでウォレットが反映できていないコインを見つけられ、残高に反映できる場合があります。"
 
-#: src/components/cat/WalletCATSend.tsx:200
+#: src/components/cat/WalletCATSend.tsx:223
 msgid "The recipient of this transaction will need to have valid credentials in order to claim the sent assets. See the CR CAT restrictions above."
 msgstr ""
 
@@ -681,8 +695,12 @@ msgid "This is not a valid address for sending funds to"
 msgstr ""
 
 #: src/components/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "取引に使用できるチアの額です。承認待ちの耕作報酬、承認待ちの入金取引、及びブロックチェーンにまだ含まれていない消費チアはいずれも含まれていません。"
+msgid "This is the amount of Aba that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Aba that you have just spent but is not yet in the blockchain."
+msgstr ""
+
+#: src/components/standard/WalletStandardCards.tsx:23
+#~ msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+#~ msgstr "取引に使用できるチアの額です。承認待ちの耕作報酬、承認待ちの入金取引、及びブロックチェーンにまだ含まれていない消費チアはいずれも含まれていません。"
 
 #: src/components/standard/WalletStandardCards.tsx:42
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -693,12 +711,21 @@ msgid "This is the sum of the incoming and outgoing pending transactions (not ye
 msgstr "これが (まだブロックチェーンに含まれていない) 保留中の入出金の合計です。耕作報酬は含まれていません。"
 
 #: src/components/standard/WalletStandardCards.tsx:17
-msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of Aba in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr ""
+
+#: src/components/standard/WalletStandardCards.tsx:17
+#~ msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+#~ msgstr ""
 
 #: src/components/standard/WalletStandardCards.tsx:30
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
 msgstr "これが全残高 + 保留中残高です: 全ての保留中の取引が承認されたら、残高はこの額になります。"
+
+#: src/components/cat/WalletCATSend.tsx:157
+#: src/components/WalletSend.tsx:182
+msgid "This Namesdao .aba name is not yet registered. You can register a name at www.namesdao.org"
+msgstr ""
 
 #: src/components/ClawbackClaimTransactionDialog.tsx:201
 msgid "This transaction will be automatically claimed with a fee:"

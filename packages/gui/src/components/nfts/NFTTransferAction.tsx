@@ -79,16 +79,6 @@ export default function NFTTransferAction(props: NFTTransferActionProps) {
     const { destination: destinationLocal, fee } = formData;
     const feeInMojos = chiaToMojo(fee || 0);
 
-    try {
-      if (!currencyCode) {
-        throw new Error('Selected network address prefix is not defined');
-      }
-      validAddress(destinationLocal, [currencyCode.toLowerCase()]);
-    } catch (error) {
-      showError(error);
-      return;
-    }
-
     const description = nfts.length > 1 && (
       <Trans>
         Once you initiate this transfer, you will not be able to cancel the transaction. Are you sure you want to
@@ -104,6 +94,41 @@ export default function NFTTransferAction(props: NFTTransferActionProps) {
       let success;
       let errorMessage;
 
+      // trim off any whitespace user entered
+      address = address.trim();
+      // console.log("address after trimming: " + address);
+
+      // If it's a Namesdao .xch name, do a lookup for the address
+      if (address.length !== 62) {
+        // convert name to lowercase
+        address = address.toLowerCase();
+
+        // trim off .xch for lookup
+        address = address.replace(/\.aba$/, '');
+        // console.log("looking up: " + address);
+
+        // start lookup
+        await fetch(`https://abanamesdaolookup.xchstorage.com/${address}.json`)
+          .then((response) => response.json())
+          .then((data1) => {
+            address = data1.address;
+          })
+          .catch((error) => {
+            throw new Error(
+              t`${error}This Namesdao .aba name is not yet registered. You can register a name at www.namesdao.org`
+            );
+          });
+      }
+
+      try {
+        if (!currencyCode) {
+          throw new Error('Selected network address prefix is not defined');
+        }
+        validAddress(destinationLocal, [currencyCode.toLowerCase()]);
+      } catch (error) {
+        showError(error);
+        return;
+      }
       try {
         await transferNFT({
           walletId: nfts[0].walletId,

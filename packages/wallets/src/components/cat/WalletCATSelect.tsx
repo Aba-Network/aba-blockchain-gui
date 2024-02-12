@@ -22,7 +22,7 @@ export default function WalletCATSelect() {
     <Flex flexDirection="column" gap={3}>
       <Flex flexGrow={1}>
         <Back variant="h5" to="/dashboard/wallets/create">
-          <Trans>Chia Asset Token</Trans>
+          <Trans>Crypto Asset Token</Trans>
         </Back>
       </Flex>
       <Grid spacing={3} alignItems="stretch" container>

@@ -39,7 +39,7 @@ msgid "Would you like to move {count} NFTs to a profile?"
 msgstr "你要將 {count} 張 NFT 移至個人檔案嗎？"
 
 #. js-lingui-explicit-id
-#: src/components/nfts/NFTTransferAction.tsx:225
+#: src/components/nfts/NFTTransferAction.tsx:250
 msgid "Would you like to transfer {count} NFTs to a new owner?"
 msgstr "你要將 {count} 張 NFT 轉移給新擁有者嗎？"
 
@@ -341,6 +341,10 @@ msgstr "引用伺服器可用於創建 DataLayer 的鏡像副本。"
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:152
 msgid "A value of {0} is recommended"
 msgstr "推薦數值為{0}"
+
+#: src/components/offers2/OfferBuilderXCHSection.tsx:77
+msgid "Aba ({currencyCode}) is a digital currency"
+msgstr ""
 
 #: src/electron/main.tsx:1101
 #: src/electron/main.tsx:1188
@@ -918,12 +922,12 @@ msgstr "在Spacescan.io上面檢查出處"
 #~ msgstr "Chia"
 
 #: src/components/offers2/OfferBuilderXCHSection.tsx:77
-msgid "Chia ({currencyCode}) is a digital currency that is secure and sustainable"
-msgstr "Chia ({currencyCode}) 是一種安全且可持續的數位貨幣"
+#~ msgid "Chia ({currencyCode}) is a digital currency that is secure and sustainable"
+#~ msgstr "Chia ({currencyCode}) 是一種安全且可持續的數位貨幣"
 
 #: src/components/offers2/OfferBuilderTokensSection.tsx:115
-msgid "Chia Asset Tokens (CATs) are tokens built on top of XCH"
-msgstr "Chia 資產代幣 (CATs) 是建立在 XCH 之上的代幣"
+#~ msgid "Chia Asset Tokens (CATs) are tokens built on top of XCH"
+#~ msgstr "Chia 資產代幣 (CATs) 是建立在 XCH 之上的代幣"
 
 #: src/electron/main.tsx:1047
 #~ msgid "Chia Blockchain Wiki"
@@ -990,7 +994,7 @@ msgstr ""
 #: src/components/app/AppVersionWarning.tsx:57
 #: src/components/nfts/MultipleDownloadDialog.tsx:116
 #: src/components/nfts/NFTMoveToProfileDialog.tsx:328
-#: src/components/nfts/NFTTransferAction.tsx:166
+#: src/components/nfts/NFTTransferAction.tsx:191
 #: src/components/notification/NotificationAnnouncementDialog.tsx:75
 #: src/components/notification/NotificationSendDialog.tsx:308
 #: src/components/offers/ConfirmOfferCancellation.tsx:126
@@ -1207,8 +1211,12 @@ msgid "Create & Manage plots"
 msgstr "建立與管理耕地"
 
 #: src/components/offers/OfferManager.tsx:416
-msgid "Create a file that you can use to trade XCH, Chia Asset Tokens, or NFTs with no counter-party risk."
-msgstr "創建一個文件，您可以使用它來進行XCH，Chia 資產代幣或NFT的交易，並且不會有交易對方的風險。"
+msgid "Create a file that you can use to trade ABA, Crypto Asset Tokens, or NFTs with no counter-party risk."
+msgstr ""
+
+#: src/components/offers/OfferManager.tsx:416
+#~ msgid "Create a file that you can use to trade XCH, Chia Asset Tokens, or NFTs with no counter-party risk."
+#~ msgstr "創建一個文件，您可以使用它來進行XCH，Chia 資產代幣或NFT的交易，並且不會有交易對方的風險。"
 
 #: src/components/settings/ProfileAdd.tsx:113
 msgid "Create a new profile"
@@ -1311,6 +1319,10 @@ msgstr "創建版稅的比例似乎有點高"
 msgid "Credentials"
 msgstr "憑證"
 
+#: src/components/offers2/OfferBuilderTokensSection.tsx:115
+msgid "Crypto Asset Tokens (CATs) are tokens built on top of ABA"
+msgstr ""
+
 #: src/components/plot/add/PlotAddForm.tsx:158
 msgid "Currency code is not defined"
 msgstr "未定義貨幣代碼"
@@ -1371,8 +1383,12 @@ msgid "Decompressor Thread Count"
 msgstr ""
 
 #: src/components/settings/SettingsCustody.tsx:41
-msgid "Default claw back time for outgoing XCH transactions"
-msgstr "對於外發的 XCH 交易，默認撤銷時間"
+msgid "Default claw back time for outgoing ABA transactions"
+msgstr ""
+
+#: src/components/settings/SettingsCustody.tsx:41
+#~ msgid "Default claw back time for outgoing XCH transactions"
+#~ msgstr "對於外發的 XCH 交易，默認撤銷時間"
 
 #: src/components/settings/SettingsCustodyClawbackOutgoing.tsx:114
 msgid "Default claw back time is disabled."
@@ -2009,7 +2025,7 @@ msgstr "功能以提供更多保護和控制您的數位資產。"
 
 #: src/components/nfts/NFTBurnDialog.tsx:167
 #: src/components/nfts/NFTMoveToProfileDialog.tsx:320
-#: src/components/nfts/NFTTransferAction.tsx:158
+#: src/components/nfts/NFTTransferAction.tsx:183
 #: src/components/offers/ConfirmOfferCancellation.tsx:109
 #: src/components/offers/NFTOfferViewer.tsx:615
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:158
@@ -2436,8 +2452,13 @@ msgstr "包含錢包元數據"
 
 #: src/components/offers/NFTOfferEditor.tsx:88
 #: src/components/offers/OfferEditorConditionsPanel.tsx:393
-msgid "Including a fee in the offer can help expedite the transaction when the offer is accepted. The recommended minimum fee is 0.000005 XCH (5,000,000 mojos)"
-msgstr "在報價單中加入費用可以幫助在接受報價單時加速交易。建議最低的費用為0.000005 XCH(5,000,000 mojos)"
+msgid "Including a fee in the offer can help expedite the transaction when the offer is accepted. The recommended minimum fee is 0.000005 ABA (5,000,000 mojos)"
+msgstr ""
+
+#: src/components/offers/NFTOfferEditor.tsx:88
+#: src/components/offers/OfferEditorConditionsPanel.tsx:393
+#~ msgid "Including a fee in the offer can help expedite the transaction when the offer is accepted. The recommended minimum fee is 0.000005 XCH (5,000,000 mojos)"
+#~ msgstr "在報價單中加入費用可以幫助在接受報價單時加速交易。建議最低的費用為0.000005 XCH(5,000,000 mojos)"
 
 #: src/components/offers2/OfferIncomingTable.tsx:121
 msgid "Incoming Offers"
@@ -3252,6 +3273,10 @@ msgstr ""
 msgid "Not Synced"
 msgstr "未同步"
 
+#: src/components/settings/SettingsIntegration.tsx:142
+msgid "NOT YET AVAILABLE, stay tuned... WalletConnect enables a decentralized app on the Aba blockchain to communicate and make requests directly to an Aba wallet."
+msgstr ""
+
 #: src/components/farm/FarmManageFarmingRewards.tsx:152
 msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
 msgstr "請注意，這不會變更您的農會支付位址。這只會影響舊的耕地格式和 0.25XCH 的農會耕地獎勵。"
@@ -3475,7 +3500,7 @@ msgstr "好"
 msgid "Once you accept this offer, you will not be able to cancel the transaction. Are you sure you want to accept this offer?"
 msgstr "一旦你接受此報價單，您將無法取消交易。您確定要接受此報價單嗎?"
 
-#: src/components/nfts/NFTTransferAction.tsx:93
+#: src/components/nfts/NFTTransferAction.tsx:85
 msgid "Once you initiate this transfer, you will not be able to cancel the transaction. Are you sure you want to transfer {0} NFTs?"
 msgstr "一旦您啟動此轉帳，您將無法取消交易。您確定要轉帳 {0} 個 NFT 嗎？"
 
@@ -4575,8 +4600,12 @@ msgid "Send Transaction"
 msgstr "發送交易"
 
 #: src/components/settings/SettingsCustody.tsx:45
-msgid "Set a default time frame for all outbound XCH transactions."
-msgstr "設置所有外發XCH交易的默認時間範圍。"
+msgid "Set a default time frame for all outbound ABA transactions."
+msgstr ""
+
+#: src/components/settings/SettingsCustody.tsx:45
+#~ msgid "Set a default time frame for all outbound XCH transactions."
+#~ msgstr "設置所有外發XCH交易的默認時間範圍。"
 
 #: src/components/offers2/OfferBuilderExpirationSection.tsx:187
 msgid "Set a time after which this offer expires."
@@ -5185,8 +5214,12 @@ msgid "This will reset all previously granted permissions across all Dapps that 
 msgstr "這將重置您之前在所有連接過的 Dapps 上授予的所有權限。重置後，您將被要求再次授予權限。"
 
 #: src/components/settings/SettingsIntegration.tsx:359
-msgid "This will restore the selected Dapp's permissions back to their default values. By default, every command issued by the Dapp will require confirmation in the Chia wallet."
-msgstr "這將將所選 Dapp 的權限恢復為其默認值。默認情況下，Dapp 發出的每個命令都需要在 Chia 錢包中確認。"
+msgid "This will restore the selected Dapp's permissions back to their default values. By default, every command issued by the Dapp will require confirmation in the Aba Core wallet."
+msgstr ""
+
+#: src/components/settings/SettingsIntegration.tsx:359
+#~ msgid "This will restore the selected Dapp's permissions back to their default values. By default, every command issued by the Dapp will require confirmation in the Chia wallet."
+#~ msgstr "這將將所選 Dapp 的權限恢復為其默認值。默認情況下，Dapp 發出的每個命令都需要在 Chia 錢包中確認。"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:151
 msgid "Thread Multiplier for Phase 2"
@@ -5372,13 +5405,13 @@ msgstr "交易過濾雜湊值"
 msgid "Transactions less than the fee will not be auto claimed."
 msgstr "低於費用的交易將不會自動索取。"
 
-#: src/components/nfts/NFTTransferAction.tsx:169
+#: src/components/nfts/NFTTransferAction.tsx:194
 #: src/components/nfts/NFTTransferConfirmationDialog.tsx:45
 msgid "Transfer"
 msgstr "轉移"
 
 #: src/components/nfts/NFTContextualActions.tsx:197
-#: src/components/nfts/NFTTransferAction.tsx:217
+#: src/components/nfts/NFTTransferAction.tsx:242
 #: src/constants/WalletConnectCommands.tsx:695
 msgid "Transfer NFT"
 msgstr "轉移 NFT"
@@ -5788,8 +5821,8 @@ msgid "WalletConnect"
 msgstr "錢包連接"
 
 #: src/components/settings/SettingsIntegration.tsx:142
-msgid "WalletConnect enables a decentralized app on the Chia blockchain to communicate and make requests directly to a Chia wallet."
-msgstr "WalletConnect 可讓 Chia 區塊鏈上的去中心化應用程式直接與 Chia 錢包通訊並直接發出請求。"
+#~ msgid "WalletConnect enables a decentralized app on the Chia blockchain to communicate and make requests directly to a Chia wallet."
+#~ msgstr "WalletConnect 可讓 Chia 區塊鏈上的去中心化應用程式直接與 Chia 錢包通訊並直接發出請求。"
 
 #: src/components/walletConnect/WalletConnectAddConnectionDialog.tsx:241
 msgid "WalletConnect Integration"
@@ -5874,7 +5907,7 @@ msgstr "您是否要將指定的 NFT 移至個人檔案？"
 #~ msgid "Would you like to transfer the specified NFT to a new owner"
 #~ msgstr ""
 
-#: src/components/nfts/NFTTransferAction.tsx:227
+#: src/components/nfts/NFTTransferAction.tsx:252
 msgid "Would you like to transfer the specified NFT to a new owner?"
 msgstr "您是否要將指定的 NFT 轉移給新擁有者？"
 

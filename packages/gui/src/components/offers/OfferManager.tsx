@@ -91,7 +91,7 @@ function OfferList(props: OfferListProps) {
   const [saveOffer] = useSaveOfferFile();
   const { isLoading: isLoadingWallets } = useGetWalletsQuery();
   const { lookupByAssetId } = useAssetIdName();
-  const testnet = useCurrencyCode() === 'TXCH';
+  const testnet = useCurrencyCode() === 'TABA';
   const openDialog = useOpenDialog();
   const { navigate } = useSerializedNavigationState();
   const {
@@ -414,8 +414,8 @@ export function OfferManager() {
                       </Typography>
                       <Typography variant="body1" color="textSecondary">
                         <Trans>
-                          Create a file that you can use to trade XCH, Chia Asset Tokens, or NFTs with no counter-party
-                          risk.
+                          Create a file that you can use to trade ABA, Crypto Asset Tokens, or NFTs with no
+                          counter-party risk.
                         </Trans>
                       </Typography>
                     </Flex>
@@ -454,7 +454,7 @@ export function CreateOffer() {
   const openDialog = useOpenDialog();
   const [saveOffer] = useSaveOfferFile();
   const currencyCode = useCurrencyCode();
-  const testnet = currencyCode === 'TXCH';
+  const testnet = currencyCode === 'TABA';
 
   async function handleOfferCreated(obj: { offerRecord: any; offerData: any; address?: string }) {
     const { offerRecord, offerData, address: ph } = obj;

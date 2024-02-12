@@ -163,7 +163,7 @@ msgstr "Вимкнути захист кодовою фразою"
 msgid "Discard"
 msgstr "Скасувати"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:148
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:149
 msgid "Download"
 msgstr ""
 
@@ -308,7 +308,7 @@ msgstr "НІКОЛИ НІ З КИМ НЕ ДІЛІТЬСЯ ЦИМ"
 msgid "New passphrase is the same as your current passphrase"
 msgstr "Новий пароль такий самий, як і ваш поточний пароль"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:133
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:134
 msgid "New version {latestVersion} available"
 msgstr ""
 
@@ -443,7 +443,7 @@ msgstr "Показати розширені параметри"
 #~ msgid "Sign In"
 #~ msgstr "Sign In"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:136
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:137
 #: src/hooks/useValidateChangePassphraseParams.tsx:51
 msgid "Skip"
 msgstr "Пропустити"
@@ -529,7 +529,7 @@ msgstr "Рекомендовано використовувати пароль �
 msgid "Value seems high"
 msgstr "Значення здається високим"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:233
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:234
 #: src/components/Settings/SettingsApp.tsx:87
 msgid "Wallet"
 msgstr "Гаманець"
@@ -551,7 +551,7 @@ msgstr ""
 #~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
 #~ msgstr "Welcome to Chia. Please log in with an existing key, or create a new key."
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:142
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:143
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:66
 msgid "What's New"
 msgstr ""

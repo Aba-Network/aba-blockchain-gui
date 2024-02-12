@@ -22,11 +22,11 @@ msgstr ""
 msgid "-"
 msgstr "-"
 
-#: src/components/WalletSend.tsx:367
+#: src/components/WalletSend.tsx:390
 msgid "- Memo helps the receiver side to identify the payment.<0/>- Anything you enter will be publicly accessible on the blockchain."
 msgstr "- Meddelande hjälper mottagarsidan att identifiera betalningen.<0/>- Allt du anger kommer att vara publikt åtkomligt på blockkedjan."
 
-#: src/components/WalletSend.tsx:294
+#: src/components/WalletSend.tsx:317
 msgid "- Set a time frame which allows you claw back (revoke) the transaction.<0/>- Recipient of the transaction can only claim the funds once that time frame expires."
 msgstr ""
 
@@ -42,7 +42,7 @@ msgstr "Åtgärder"
 msgid "Add"
 msgstr "Lägg till"
 
-#: src/components/WalletSend.tsx:288
+#: src/components/WalletSend.tsx:311
 msgid "Add option to claw back transaction"
 msgstr ""
 
@@ -52,7 +52,7 @@ msgstr ""
 msgid "Add Token"
 msgstr "Lägg till token"
 
-#: src/components/WalletSend.tsx:362
+#: src/components/WalletSend.tsx:385
 msgid "Add transaction memo"
 msgstr "Lägg till transaktionsmeddelande"
 
@@ -70,11 +70,15 @@ msgstr "Adress"
 #~ msgstr "Address / Puzzle hash"
 
 #: src/components/AddressBookAutocomplete.tsx:65
-msgid "Address or Contact"
-msgstr "Adress eller kontakt"
+msgid "Address or .aba Name or Contact"
+msgstr ""
 
-#: src/components/cat/WalletCATSend.tsx:214
-#: src/components/WalletSend.tsx:241
+#: src/components/AddressBookAutocomplete.tsx:65
+#~ msgid "Address or Contact"
+#~ msgstr "Adress eller kontakt"
+
+#: src/components/cat/WalletCATSend.tsx:237
+#: src/components/WalletSend.tsx:264
 msgid "Amount"
 msgstr "Belopp"
 
@@ -120,7 +124,7 @@ msgstr "Auktoriserade leverantörer"
 msgid "Auto-claim transactions with this fee from now on."
 msgstr ""
 
-#: src/components/WalletSend.tsx:336
+#: src/components/WalletSend.tsx:359
 msgid "Before sending this transaction, you should ensure that the recipient has a wallet that can claim it manually after the timer has expired."
 msgstr ""
 
@@ -146,8 +150,6 @@ msgstr "CAT-autentiseringsbegränsningar"
 #~ msgid "Check my snapshot balance"
 #~ msgstr "Check my snapshot balance"
 
-#: src/components/cat/WalletCATSelect.tsx:25
-#: src/components/create/WalletCreateList.tsx:32
 #: src/constants/WalletName.ts:23
 msgid "Chia Asset Token"
 msgstr "Chia tillgångstoken (CAT)"
@@ -193,11 +195,11 @@ msgstr ""
 msgid "Clawback payment clawed back"
 msgstr ""
 
-#: src/components/WalletSend.tsx:334
+#: src/components/WalletSend.tsx:357
 msgid "Clawback will be applied."
 msgstr ""
 
-#: src/components/WalletSend.tsx:344
+#: src/components/WalletSend.tsx:367
 msgid "Clawback will not be applied."
 msgstr ""
 
@@ -248,13 +250,18 @@ msgstr "Skapa ny plånbok"
 msgid "Create Offer"
 msgstr "Skapa erbjudande"
 
-#: src/components/cat/WalletCATSend.tsx:178
-#: src/components/WalletSend.tsx:213
+#: src/components/cat/WalletCATSend.tsx:201
+#: src/components/WalletSend.tsx:236
 msgid "Create Transaction"
 msgstr "Skapa transaktion"
 
 #: src/components/WalletHistory.tsx:223
 msgid "Creation Date"
+msgstr ""
+
+#: src/components/cat/WalletCATSelect.tsx:25
+#: src/components/create/WalletCreateList.tsx:32
+msgid "Crypto Asset Token"
 msgstr ""
 
 #: src/constants/WalletName.ts:20
@@ -289,7 +296,7 @@ msgstr "Deriveringsindex: {0}"
 msgid "DID Wallet"
 msgstr "DID-plånbok"
 
-#: src/components/WalletSend.tsx:327
+#: src/components/WalletSend.tsx:350
 msgid "Disable"
 msgstr "Inaktivera"
 
@@ -298,21 +305,25 @@ msgid "Distributed Identity"
 msgstr "Distribuerad identitet"
 
 #: src/components/WalletImport.tsx:157
-msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Aba wallet."
 msgstr ""
+
+#: src/components/WalletImport.tsx:157
+#~ msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Chia wallet."
+#~ msgstr ""
 
 #: src/components/cat/WalletCATSend.tsx:127
 msgid "Error the entered address appears to be for a different colour."
 msgstr "Fel den angivna adressen verkar vara för en annan färg."
 
-#: src/components/cat/WalletCATSend.tsx:252
-#: src/components/WalletSend.tsx:390
+#: src/components/cat/WalletCATSend.tsx:275
+#: src/components/WalletSend.tsx:413
 msgid "Farm"
 msgstr "Odling"
 
-#: src/components/cat/WalletCATSend.tsx:228
+#: src/components/cat/WalletCATSend.tsx:251
 #: src/components/WalletHistory.tsx:237
-#: src/components/WalletSend.tsx:254
+#: src/components/WalletSend.tsx:277
 msgid "Fee"
 msgstr "Avgift"
 
@@ -362,8 +373,8 @@ msgstr "Lista över anslutningar är tom"
 msgid "Manage token list"
 msgstr "Hantera tokenlista"
 
-#: src/components/cat/WalletCATSend.tsx:242
-#: src/components/WalletSend.tsx:379
+#: src/components/cat/WalletCATSend.tsx:265
+#: src/components/WalletSend.tsx:402
 msgid "Memo"
 msgstr "Meddelande"
 
@@ -441,10 +452,13 @@ msgstr "Erbjudandet accepterat"
 msgid "OK"
 msgstr "OK"
 
-#: src/components/cat/WalletCATSend.tsx:181
-#: src/components/WalletSend.tsx:216
+#: src/components/WalletSend.tsx:239
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr "I genomsnitt är det en minut mellan varje transaktionsblock. Om det inte är någon form av köbildning kan du räkna med att en transaktion inkluderas i blockkedjan på under en minut."
+
+#: src/components/cat/WalletCATSend.tsx:204
+msgid "On average there is one minute between each transaction block. Unless there is congestion, you can expect your transaction to be included in less than a minute."
+msgstr ""
 
 #: src/components/WalletHistory.tsx:87
 #~ msgid "Outgoing"
@@ -608,9 +622,9 @@ msgstr "Sök i Tail-databasen"
 msgid "Select Wallet Type"
 msgstr "Välj plånbokstyp"
 
-#: src/components/cat/WalletCATSend.tsx:263
+#: src/components/cat/WalletCATSend.tsx:286
 #: src/components/WalletHeader.tsx:47
-#: src/components/WalletSend.tsx:401
+#: src/components/WalletSend.tsx:424
 msgid "Send"
 msgstr "Skicka"
 
@@ -650,7 +664,7 @@ msgstr "Synkar"
 msgid "The derivation index sets the range of wallet addresses that the wallet scans the blockchain for. This number is generally higher if you have a lot of transactions or canceled offers for XCH, CATs, or NFTs. If you believe your balance is incorrect because it’s missing coins, then increasing the derivation index could help the wallet include the missing coins in the balance total."
 msgstr ""
 
-#: src/components/cat/WalletCATSend.tsx:200
+#: src/components/cat/WalletCATSend.tsx:223
 msgid "The recipient of this transaction will need to have valid credentials in order to claim the sent assets. See the CR CAT restrictions above."
 msgstr "Mottagaren av denna transaktion måste ha giltiga autentiseringsuppgifter för att kunna göra anspråk på de skickade tillgångarna. Se CR CAT-begränsningarna ovan."
 
@@ -681,8 +695,12 @@ msgid "This is not a valid address for sending funds to"
 msgstr "Detta är inte en giltig adress för att skicka betalning till"
 
 #: src/components/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Detta är den mängd Chia du för tillfället kan använda för transaktioner. Det innefattar inte väntande odlingsbelöningar, väntande inkommande transaktioner eller Chia som du just spenderat men som ännu inte finns i blockkedjan."
+msgid "This is the amount of Aba that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Aba that you have just spent but is not yet in the blockchain."
+msgstr ""
+
+#: src/components/standard/WalletStandardCards.tsx:23
+#~ msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+#~ msgstr "Detta är den mängd Chia du för tillfället kan använda för transaktioner. Det innefattar inte väntande odlingsbelöningar, väntande inkommande transaktioner eller Chia som du just spenderat men som ännu inte finns i blockkedjan."
 
 #: src/components/standard/WalletStandardCards.tsx:42
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -693,12 +711,21 @@ msgid "This is the sum of the incoming and outgoing pending transactions (not ye
 msgstr "Detta är summan av inkommande och utgående väntande transaktioner (som ännu inte inkluderats i blockkedjan). Den innefattar inte odlingsbelöningar."
 
 #: src/components/standard/WalletStandardCards.tsx:17
-msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Detta är den sammanlagda mängden chia i blockkedjan vid det aktuella topp-blocket som kontrolleras av dina privata nycklar. Det innefattar frusna odlingsbelöningar, men inte väntande inkommande och utgående transaktioner."
+msgid "This is the total amount of Aba in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr ""
+
+#: src/components/standard/WalletStandardCards.tsx:17
+#~ msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+#~ msgstr "Detta är den sammanlagda mängden chia i blockkedjan vid det aktuella topp-blocket som kontrolleras av dina privata nycklar. Det innefattar frusna odlingsbelöningar, men inte väntande inkommande och utgående transaktioner."
 
 #: src/components/standard/WalletStandardCards.tsx:30
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
 msgstr "Detta är totalt saldo + väntande saldo: det är vad ditt saldo kommer att vara när alla väntande transaktioner har bekräftats."
+
+#: src/components/cat/WalletCATSend.tsx:157
+#: src/components/WalletSend.tsx:182
+msgid "This Namesdao .aba name is not yet registered. You can register a name at www.namesdao.org"
+msgstr ""
 
 #: src/components/ClawbackClaimTransactionDialog.tsx:201
 msgid "This transaction will be automatically claimed with a fee:"

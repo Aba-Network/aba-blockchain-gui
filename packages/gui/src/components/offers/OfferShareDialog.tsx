@@ -195,7 +195,7 @@ async function postToMintGarden(offerData: string, testnet: boolean): Promise<st
 
 enum HashgreenErrorCodes {
   OFFERED_AMOUNT_TOO_SMALL = 40_020, // The offered amount is too small
-  MARKET_NOT_FOUND = 50_029, // Pairing doesn't exist e.g. XCH/RandoCoin
+  MARKET_NOT_FOUND = 50_029, // Pairing doesn't exist e.g. ABA/RandoCoin
   OFFER_FILE_EXISTS = 50_037, // Offer already shared
   COINS_ALREADY_COMMITTED = 50_041, // Coins in the offer are already committed in another offer
 }

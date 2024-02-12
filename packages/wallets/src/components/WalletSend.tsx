@@ -160,6 +160,32 @@ export default function WalletSend(props: SendCardProps) {
       address = address.slice(2);
     }
 
+    // trim off any whitespace user entered
+    address = address.trim();
+    // console.log("address after trimming: " + address);
+
+    // If it's a Namesdao .xch name, do a lookup for the address
+    if (address.length !== 62) {
+      // convert name to lowercase
+      address = address.toLowerCase();
+
+      // trim off .xch for lookup
+      address = address.replace(/\.aba$/, '');
+      // console.log("looking up: " + address);
+
+      // start lookup
+      await fetch(`https://abanamesdaolookup.xchstorage.com/${address}.json`)
+        .then((response) => response.json())
+        .then((data1) => {
+          address = data1.address;
+        })
+        .catch((error) => {
+          throw new Error(
+            t`${error}This Namesdao .aba name is not yet registered. You can register a name at www.namesdao.org`
+          );
+        });
+    }
+
     const memo = data.memo.trim();
     const memos = memo ? [memo] : undefined; // Avoid sending empty string
 

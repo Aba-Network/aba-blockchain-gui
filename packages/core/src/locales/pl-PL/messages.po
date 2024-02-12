@@ -163,7 +163,7 @@ msgstr "Wyłącz ochronę hasłem"
 msgid "Discard"
 msgstr "Odrzuć"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:148
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:149
 msgid "Download"
 msgstr ""
 
@@ -308,7 +308,7 @@ msgstr ""
 msgid "New passphrase is the same as your current passphrase"
 msgstr "Nowe hasło jest takie samo jak twoje obecne hasło"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:133
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:134
 msgid "New version {latestVersion} available"
 msgstr ""
 
@@ -443,7 +443,7 @@ msgstr "Pokaż zaawansowane opcje"
 #~ msgid "Sign In"
 #~ msgstr "Sign In"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:136
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:137
 #: src/hooks/useValidateChangePassphraseParams.tsx:51
 msgid "Skip"
 msgstr "Pomiń"
@@ -529,7 +529,7 @@ msgstr "Zdecydowanie zaleca się używanie hasła, aby chronić klucze. Czy na p
 msgid "Value seems high"
 msgstr "Wartość wydaje się wysoka"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:233
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:234
 #: src/components/Settings/SettingsApp.tsx:87
 msgid "Wallet"
 msgstr "Portfel"
@@ -551,7 +551,7 @@ msgstr ""
 #~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
 #~ msgstr "Welcome to Chia. Please log in with an existing key, or create a new key."
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:142
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:143
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:66
 msgid "What's New"
 msgstr ""

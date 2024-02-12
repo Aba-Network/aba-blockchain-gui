@@ -163,7 +163,7 @@ msgstr "停用密碼保護"
 msgid "Discard"
 msgstr "放棄"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:148
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:149
 msgid "Download"
 msgstr "下載"
 
@@ -308,7 +308,7 @@ msgstr "絕不與任何人分享這些金鑰"
 msgid "New passphrase is the same as your current passphrase"
 msgstr "新的密碼與您目前的密碼相同"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:133
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:134
 msgid "New version {latestVersion} available"
 msgstr "新版本 {latestVersion} 可用"
 
@@ -443,7 +443,7 @@ msgstr "顯示進階選項"
 #~ msgid "Sign In"
 #~ msgstr "Sign In"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:136
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:137
 #: src/hooks/useValidateChangePassphraseParams.tsx:51
 msgid "Skip"
 msgstr "跳過"
@@ -529,7 +529,7 @@ msgstr "強烈建議使用密碼保護您的金鑰。您確定要停用密碼保
 msgid "Value seems high"
 msgstr "數值似乎較高"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:233
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:234
 #: src/components/Settings/SettingsApp.tsx:87
 msgid "Wallet"
 msgstr "錢包"
@@ -551,7 +551,7 @@ msgstr "錢包金鑰"
 #~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
 #~ msgstr "Welcome to Chia. Please log in with an existing key, or create a new key."
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:142
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:143
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:66
 msgid "What's New"
 msgstr "最新消息"

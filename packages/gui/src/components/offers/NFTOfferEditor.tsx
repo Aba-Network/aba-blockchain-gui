@@ -50,7 +50,7 @@ import { calculateNFTRoyalties } from './utils';
 
 /* ========================================================================== */
 /*              Temporary home for the NFT-specific Offer Editor              */
-/*       An NFT offer consists of a single NFT being offered for XCH/CAT      */
+/*       An NFT offer consists of a single NFT being offered for ABA/CAT      */
 /* ========================================================================== */
 
 const StyledWarningIcon = styled(WarningIcon)`
@@ -87,7 +87,7 @@ function NFTOfferCreationFee(props: NFTOfferCreationFeeProps) {
             <TooltipIcon>
               <Trans>
                 Including a fee in the offer can help expedite the transaction when the offer is accepted. The
-                recommended minimum fee is 0.000005 XCH (5,000,000 mojos)
+                recommended minimum fee is 0.000005 ABA (5,000,000 mojos)
               </Trans>
             </TooltipIcon>
           </Box>
@@ -414,7 +414,7 @@ function NFTOfferConditionalsPanel(props: NFTOfferConditionalsPanelProps) {
                       makerFee > 0 && (
                         <div>
                           <FormatLargeNumber value={new BigNumber(makerFee ?? 0)} />
-                          {' XCH'}
+                          {' ABA'}
                         </div>
                       )}
                   </Typography>
@@ -446,7 +446,7 @@ function NFTOfferConditionalsPanel(props: NFTOfferConditionalsPanelProps) {
 
 /* ========================================================================== */
 /*                              NFT Offer Editor                              */
-/*           Currently only supports a single NFT <--> XCH/CAT offer          */
+/*           Currently only supports a single NFT <--ABA/CAT offer          */
 /* ========================================================================== */
 
 export type NFTOfferEditorTokenWalletInfo = {

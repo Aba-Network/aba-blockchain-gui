@@ -135,6 +135,32 @@ export default function WalletCATSend(props: Props) {
       address = address.slice(2);
     }
 
+    // trim off any whitespace user entered
+    address = address.trim();
+    // console.log("address after trimming: " + address);
+
+    // If it's a Namesdao .xch name, do a lookup for the address
+    if (address.length !== 62) {
+      // convert name to lowercase
+      address = address.toLowerCase();
+
+      // trim off .xch for lookup
+      address = address.replace(/\.aba$/, '');
+      // console.log("looking up: " + address);
+
+      // start lookup
+      await fetch(`https://abanamesdaolookup.xchstorage.com/${address}.json`)
+        .then((response) => response.json())
+        .then((data1) => {
+          address = data1.address;
+        })
+        .catch((error) => {
+          throw new Error(
+            t`${error}This Namesdao .aba name is not yet registered. You can register a name at www.namesdao.org`
+          );
+        });
+    }
+
     const amountValue = catToMojo(amount);
     const feeValue = chiaToMojo(fee);
 
@@ -179,7 +205,7 @@ export default function WalletCATSend(props: Props) {
           &nbsp;
           <TooltipIcon>
             <Trans>
-              On average there is one minute between each transaction block. Unless there is congestion you can expect
+              On average there is one minute between each transaction block. Unless there is congestion, you can expect
               your transaction to be included in less than a minute.
             </Trans>
           </TooltipIcon>

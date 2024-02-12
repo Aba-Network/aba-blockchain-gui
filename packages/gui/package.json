@@ -1,9 +1,9 @@
 {
   "name": "@chia-network/gui",
-  "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-  "description": "GUI for Chia Blockchain",
+  "author": "Aba Blockchain team (https://aba.ooo/)",
+  "description": "GUI for Aba Blockchain Core",
   "license": "Apache-2.0",
-  "productName": "Chia Blockchain",
+  "productName": "Aba Blockchain Core",
   "homepage": "./",
   "main": "build/electron/main.js",
   "engines": {

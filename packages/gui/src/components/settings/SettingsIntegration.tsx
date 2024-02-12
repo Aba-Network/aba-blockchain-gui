@@ -140,8 +140,8 @@ export default function SettingsIntegration() {
           </SettingsSection>
           <SettingsText>
             <Trans>
-              WalletConnect enables a decentralized app on the Chia blockchain to communicate and make requests directly
-              to a Chia wallet.
+              NOT YET AVAILABLE, stay tuned... WalletConnect enables a decentralized app on the Aba blockchain to
+              communicate and make requests directly to an Aba wallet.
             </Trans>
           </SettingsText>
         </Flex>
@@ -358,7 +358,7 @@ export default function SettingsIntegration() {
                   <SettingsText>
                     <Trans>
                       This will restore the selected Dapp's permissions back to their default values. By default, every
-                      command issued by the Dapp will require confirmation in the Chia wallet.
+                      command issued by the Dapp will require confirmation in the Aba Core wallet.
                     </Trans>
                   </SettingsText>
                 </Grid>

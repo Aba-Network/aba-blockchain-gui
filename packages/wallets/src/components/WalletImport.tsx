@@ -155,7 +155,7 @@ export default function WalletImport() {
           </Grid>
           <Typography variant="subtitle1" align="center">
             <Trans>
-              Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Chia wallet.
+              Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Aba wallet.
             </Trans>
           </Typography>
           <Grid spacing={2} rowSpacing={3} container>

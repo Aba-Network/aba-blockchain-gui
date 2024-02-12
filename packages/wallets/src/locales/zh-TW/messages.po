@@ -22,11 +22,11 @@ msgstr ""
 msgid "-"
 msgstr "－"
 
-#: src/components/WalletSend.tsx:367
+#: src/components/WalletSend.tsx:390
 msgid "- Memo helps the receiver side to identify the payment.<0/>- Anything you enter will be publicly accessible on the blockchain."
 msgstr "-Memo可以幫助接收方辨識付款。<0/>-你輸入的內容將會公開在區塊鏈上。"
 
-#: src/components/WalletSend.tsx:294
+#: src/components/WalletSend.tsx:317
 msgid "- Set a time frame which allows you claw back (revoke) the transaction.<0/>- Recipient of the transaction can only claim the funds once that time frame expires."
 msgstr "-設定一個可讓你撤回(撤銷) 交易的時間範圍<0/>-交易的接收者只能在該時間之後領取資金。"
 
@@ -42,7 +42,7 @@ msgstr "操作"
 msgid "Add"
 msgstr "新增"
 
-#: src/components/WalletSend.tsx:288
+#: src/components/WalletSend.tsx:311
 msgid "Add option to claw back transaction"
 msgstr "添加可撤回的的交易選項"
 
@@ -52,7 +52,7 @@ msgstr "添加可撤回的的交易選項"
 msgid "Add Token"
 msgstr "新增代幣"
 
-#: src/components/WalletSend.tsx:362
+#: src/components/WalletSend.tsx:385
 msgid "Add transaction memo"
 msgstr "添加交易Memo"
 
@@ -70,11 +70,15 @@ msgstr "位址"
 #~ msgstr "Address / Puzzle hash"
 
 #: src/components/AddressBookAutocomplete.tsx:65
-msgid "Address or Contact"
-msgstr "地址或聯絡簿"
+msgid "Address or .aba Name or Contact"
+msgstr ""
 
-#: src/components/cat/WalletCATSend.tsx:214
-#: src/components/WalletSend.tsx:241
+#: src/components/AddressBookAutocomplete.tsx:65
+#~ msgid "Address or Contact"
+#~ msgstr "地址或聯絡簿"
+
+#: src/components/cat/WalletCATSend.tsx:237
+#: src/components/WalletSend.tsx:264
 msgid "Amount"
 msgstr "數量"
 
@@ -120,7 +124,7 @@ msgstr "授權提供商"
 msgid "Auto-claim transactions with this fee from now on."
 msgstr "從現在開始自動聲明具有此費用的交易。"
 
-#: src/components/WalletSend.tsx:336
+#: src/components/WalletSend.tsx:359
 msgid "Before sending this transaction, you should ensure that the recipient has a wallet that can claim it manually after the timer has expired."
 msgstr "再發起此交易之前，應確保接收方的錢包，在定時到期後可以手動確定這筆交易。"
 
@@ -146,8 +150,6 @@ msgstr "CAT憑證限制"
 #~ msgid "Check my snapshot balance"
 #~ msgstr "Check my snapshot balance"
 
-#: src/components/cat/WalletCATSelect.tsx:25
-#: src/components/create/WalletCreateList.tsx:32
 #: src/constants/WalletName.ts:23
 msgid "Chia Asset Token"
 msgstr "奇亞資產代幣"
@@ -193,11 +195,11 @@ msgstr "收回款項已聲明"
 msgid "Clawback payment clawed back"
 msgstr "收回款項已收回"
 
-#: src/components/WalletSend.tsx:334
+#: src/components/WalletSend.tsx:357
 msgid "Clawback will be applied."
 msgstr "將應用收回"
 
-#: src/components/WalletSend.tsx:344
+#: src/components/WalletSend.tsx:367
 msgid "Clawback will not be applied."
 msgstr "將不應用收回"
 
@@ -248,14 +250,19 @@ msgstr "建立新錢包"
 msgid "Create Offer"
 msgstr "建立報價單"
 
-#: src/components/cat/WalletCATSend.tsx:178
-#: src/components/WalletSend.tsx:213
+#: src/components/cat/WalletCATSend.tsx:201
+#: src/components/WalletSend.tsx:236
 msgid "Create Transaction"
 msgstr "建立交易"
 
 #: src/components/WalletHistory.tsx:223
 msgid "Creation Date"
 msgstr "建立日期"
+
+#: src/components/cat/WalletCATSelect.tsx:25
+#: src/components/create/WalletCreateList.tsx:32
+msgid "Crypto Asset Token"
+msgstr ""
 
 #: src/constants/WalletName.ts:20
 msgid "Custody Wallet"
@@ -289,7 +296,7 @@ msgstr "導出索引: {0}"
 msgid "DID Wallet"
 msgstr "DID 錢包"
 
-#: src/components/WalletSend.tsx:327
+#: src/components/WalletSend.tsx:350
 msgid "Disable"
 msgstr "禁用"
 
@@ -298,21 +305,25 @@ msgid "Distributed Identity"
 msgstr "分散式識別"
 
 #: src/components/WalletImport.tsx:157
-msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "輸入您儲存的 {mnemonicWordCount} 字詞助記詞，以還原您的 Chia 錢包。"
+msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Aba wallet."
+msgstr ""
+
+#: src/components/WalletImport.tsx:157
+#~ msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Chia wallet."
+#~ msgstr "輸入您儲存的 {mnemonicWordCount} 字詞助記詞，以還原您的 Chia 錢包。"
 
 #: src/components/cat/WalletCATSend.tsx:127
 msgid "Error the entered address appears to be for a different colour."
 msgstr "錯誤：輸入的地址似乎是屬於不同的代幣類型。"
 
-#: src/components/cat/WalletCATSend.tsx:252
-#: src/components/WalletSend.tsx:390
+#: src/components/cat/WalletCATSend.tsx:275
+#: src/components/WalletSend.tsx:413
 msgid "Farm"
 msgstr "耕種"
 
-#: src/components/cat/WalletCATSend.tsx:228
+#: src/components/cat/WalletCATSend.tsx:251
 #: src/components/WalletHistory.tsx:237
-#: src/components/WalletSend.tsx:254
+#: src/components/WalletSend.tsx:277
 msgid "Fee"
 msgstr "費用"
 
@@ -364,8 +375,8 @@ msgstr "連接列表是空的"
 msgid "Manage token list"
 msgstr "管理代幣列表"
 
-#: src/components/cat/WalletCATSend.tsx:242
-#: src/components/WalletSend.tsx:379
+#: src/components/cat/WalletCATSend.tsx:265
+#: src/components/WalletSend.tsx:402
 msgid "Memo"
 msgstr "備註（Memo）"
 
@@ -443,10 +454,13 @@ msgstr "接受報價"
 msgid "OK"
 msgstr "好"
 
-#: src/components/cat/WalletCATSend.tsx:181
-#: src/components/WalletSend.tsx:216
+#: src/components/WalletSend.tsx:239
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr "平均每個交易區塊之間有 1 分鐘的時間。除非出現擁塞，否則你可以在不到 1 分鐘的時間內完成交易。"
+
+#: src/components/cat/WalletCATSend.tsx:204
+msgid "On average there is one minute between each transaction block. Unless there is congestion, you can expect your transaction to be included in less than a minute."
+msgstr ""
 
 #: src/components/WalletHistory.tsx:87
 #~ msgid "Outgoing"
@@ -610,9 +624,9 @@ msgstr "在 Tail 資料庫中進行搜尋。"
 msgid "Select Wallet Type"
 msgstr "選擇錢包類型"
 
-#: src/components/cat/WalletCATSend.tsx:263
+#: src/components/cat/WalletCATSend.tsx:286
 #: src/components/WalletHeader.tsx:47
-#: src/components/WalletSend.tsx:401
+#: src/components/WalletSend.tsx:424
 msgid "Send"
 msgstr "發送"
 
@@ -652,7 +666,7 @@ msgstr "同步中"
 msgid "The derivation index sets the range of wallet addresses that the wallet scans the blockchain for. This number is generally higher if you have a lot of transactions or canceled offers for XCH, CATs, or NFTs. If you believe your balance is incorrect because it’s missing coins, then increasing the derivation index could help the wallet include the missing coins in the balance total."
 msgstr "衍生索引設置錢包掃描區塊鏈的地址範圍。如果您有大量的交易或取消的 XCH、CATs 或 NFTs 的報價，則這個數字通常會較高。如果您認為您的餘額不正確，因為缺少硬幣，則增加衍生索引可能有助於將缺少的硬幣納入餘額總計。"
 
-#: src/components/cat/WalletCATSend.tsx:200
+#: src/components/cat/WalletCATSend.tsx:223
 msgid "The recipient of this transaction will need to have valid credentials in order to claim the sent assets. See the CR CAT restrictions above."
 msgstr "交易的接收方將需要有效的憑證才能領取發送的資產。請參閱上面的CR CAT限制。"
 
@@ -683,8 +697,12 @@ msgid "This is not a valid address for sending funds to"
 msgstr "這不是一個有效的地址用於匯款"
 
 #: src/components/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "這是你目前可用來交易的 Chia 數量。他不包括未結的耕種獎勵，未結的匯入交易和你剛花用，但還沒在區塊鏈內的 Chia 。"
+msgid "This is the amount of Aba that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Aba that you have just spent but is not yet in the blockchain."
+msgstr ""
+
+#: src/components/standard/WalletStandardCards.tsx:23
+#~ msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+#~ msgstr "這是你目前可用來交易的 Chia 數量。他不包括未結的耕種獎勵，未結的匯入交易和你剛花用，但還沒在區塊鏈內的 Chia 。"
 
 #: src/components/standard/WalletStandardCards.tsx:42
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -695,12 +713,21 @@ msgid "This is the sum of the incoming and outgoing pending transactions (not ye
 msgstr "這是匯入和匯出的未結交易的總和（還沒包含在區塊鏈中）。這不包括耕種獎勵。"
 
 #: src/components/standard/WalletStandardCards.tsx:17
-msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "這是由您的私鑰所控制的目前區塊鏈中的總 Chia 金額，其中包括已凍結的耕種獎勵，但不包括待處理的匯入和匯出交易。"
+msgid "This is the total amount of Aba in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr ""
+
+#: src/components/standard/WalletStandardCards.tsx:17
+#~ msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+#~ msgstr "這是由您的私鑰所控制的目前區塊鏈中的總 Chia 金額，其中包括已凍結的耕種獎勵，但不包括待處理的匯入和匯出交易。"
 
 #: src/components/standard/WalletStandardCards.tsx:30
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
 msgstr "這是總餘額 + 未結餘額：這是在全部未結交易結清後你的餘額。"
+
+#: src/components/cat/WalletCATSend.tsx:157
+#: src/components/WalletSend.tsx:182
+msgid "This Namesdao .aba name is not yet registered. You can register a name at www.namesdao.org"
+msgstr ""
 
 #: src/components/ClawbackClaimTransactionDialog.tsx:201
 msgid "This transaction will be automatically claimed with a fee:"

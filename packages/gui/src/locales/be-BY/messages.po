@@ -39,7 +39,7 @@ msgid "Would you like to move {count} NFTs to a profile?"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: src/components/nfts/NFTTransferAction.tsx:225
+#: src/components/nfts/NFTTransferAction.tsx:250
 msgid "Would you like to transfer {count} NFTs to a new owner?"
 msgstr ""
 
@@ -340,6 +340,10 @@ msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:152
 msgid "A value of {0} is recommended"
+msgstr ""
+
+#: src/components/offers2/OfferBuilderXCHSection.tsx:77
+msgid "Aba ({currencyCode}) is a digital currency"
 msgstr ""
 
 #: src/electron/main.tsx:1101
@@ -918,12 +922,12 @@ msgstr ""
 #~ msgstr "Chia"
 
 #: src/components/offers2/OfferBuilderXCHSection.tsx:77
-msgid "Chia ({currencyCode}) is a digital currency that is secure and sustainable"
-msgstr ""
+#~ msgid "Chia ({currencyCode}) is a digital currency that is secure and sustainable"
+#~ msgstr ""
 
 #: src/components/offers2/OfferBuilderTokensSection.tsx:115
-msgid "Chia Asset Tokens (CATs) are tokens built on top of XCH"
-msgstr ""
+#~ msgid "Chia Asset Tokens (CATs) are tokens built on top of XCH"
+#~ msgstr ""
 
 #: src/electron/main.tsx:1047
 #~ msgid "Chia Blockchain Wiki"
@@ -990,7 +994,7 @@ msgstr ""
 #: src/components/app/AppVersionWarning.tsx:57
 #: src/components/nfts/MultipleDownloadDialog.tsx:116
 #: src/components/nfts/NFTMoveToProfileDialog.tsx:328
-#: src/components/nfts/NFTTransferAction.tsx:166
+#: src/components/nfts/NFTTransferAction.tsx:191
 #: src/components/notification/NotificationAnnouncementDialog.tsx:75
 #: src/components/notification/NotificationSendDialog.tsx:308
 #: src/components/offers/ConfirmOfferCancellation.tsx:126
@@ -1207,8 +1211,12 @@ msgid "Create & Manage plots"
 msgstr ""
 
 #: src/components/offers/OfferManager.tsx:416
-msgid "Create a file that you can use to trade XCH, Chia Asset Tokens, or NFTs with no counter-party risk."
+msgid "Create a file that you can use to trade ABA, Crypto Asset Tokens, or NFTs with no counter-party risk."
 msgstr ""
+
+#: src/components/offers/OfferManager.tsx:416
+#~ msgid "Create a file that you can use to trade XCH, Chia Asset Tokens, or NFTs with no counter-party risk."
+#~ msgstr ""
 
 #: src/components/settings/ProfileAdd.tsx:113
 msgid "Create a new profile"
@@ -1311,6 +1319,10 @@ msgstr ""
 msgid "Credentials"
 msgstr ""
 
+#: src/components/offers2/OfferBuilderTokensSection.tsx:115
+msgid "Crypto Asset Tokens (CATs) are tokens built on top of ABA"
+msgstr ""
+
 #: src/components/plot/add/PlotAddForm.tsx:158
 msgid "Currency code is not defined"
 msgstr ""
@@ -1371,8 +1383,12 @@ msgid "Decompressor Thread Count"
 msgstr ""
 
 #: src/components/settings/SettingsCustody.tsx:41
-msgid "Default claw back time for outgoing XCH transactions"
+msgid "Default claw back time for outgoing ABA transactions"
 msgstr ""
+
+#: src/components/settings/SettingsCustody.tsx:41
+#~ msgid "Default claw back time for outgoing XCH transactions"
+#~ msgstr ""
 
 #: src/components/settings/SettingsCustodyClawbackOutgoing.tsx:114
 msgid "Default claw back time is disabled."
@@ -2009,7 +2025,7 @@ msgstr ""
 
 #: src/components/nfts/NFTBurnDialog.tsx:167
 #: src/components/nfts/NFTMoveToProfileDialog.tsx:320
-#: src/components/nfts/NFTTransferAction.tsx:158
+#: src/components/nfts/NFTTransferAction.tsx:183
 #: src/components/offers/ConfirmOfferCancellation.tsx:109
 #: src/components/offers/NFTOfferViewer.tsx:615
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:158
@@ -2436,8 +2452,13 @@ msgstr ""
 
 #: src/components/offers/NFTOfferEditor.tsx:88
 #: src/components/offers/OfferEditorConditionsPanel.tsx:393
-msgid "Including a fee in the offer can help expedite the transaction when the offer is accepted. The recommended minimum fee is 0.000005 XCH (5,000,000 mojos)"
+msgid "Including a fee in the offer can help expedite the transaction when the offer is accepted. The recommended minimum fee is 0.000005 ABA (5,000,000 mojos)"
 msgstr ""
+
+#: src/components/offers/NFTOfferEditor.tsx:88
+#: src/components/offers/OfferEditorConditionsPanel.tsx:393
+#~ msgid "Including a fee in the offer can help expedite the transaction when the offer is accepted. The recommended minimum fee is 0.000005 XCH (5,000,000 mojos)"
+#~ msgstr ""
 
 #: src/components/offers2/OfferIncomingTable.tsx:121
 msgid "Incoming Offers"
@@ -3252,6 +3273,10 @@ msgstr ""
 msgid "Not Synced"
 msgstr "Не сінхранізаваны"
 
+#: src/components/settings/SettingsIntegration.tsx:142
+msgid "NOT YET AVAILABLE, stay tuned... WalletConnect enables a decentralized app on the Aba blockchain to communicate and make requests directly to an Aba wallet."
+msgstr ""
+
 #: src/components/farm/FarmManageFarmingRewards.tsx:152
 msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
 msgstr ""
@@ -3475,7 +3500,7 @@ msgstr "ОК"
 msgid "Once you accept this offer, you will not be able to cancel the transaction. Are you sure you want to accept this offer?"
 msgstr ""
 
-#: src/components/nfts/NFTTransferAction.tsx:93
+#: src/components/nfts/NFTTransferAction.tsx:85
 msgid "Once you initiate this transfer, you will not be able to cancel the transaction. Are you sure you want to transfer {0} NFTs?"
 msgstr ""
 
@@ -4575,8 +4600,12 @@ msgid "Send Transaction"
 msgstr ""
 
 #: src/components/settings/SettingsCustody.tsx:45
-msgid "Set a default time frame for all outbound XCH transactions."
+msgid "Set a default time frame for all outbound ABA transactions."
 msgstr ""
+
+#: src/components/settings/SettingsCustody.tsx:45
+#~ msgid "Set a default time frame for all outbound XCH transactions."
+#~ msgstr ""
 
 #: src/components/offers2/OfferBuilderExpirationSection.tsx:187
 msgid "Set a time after which this offer expires."
@@ -5185,8 +5214,12 @@ msgid "This will reset all previously granted permissions across all Dapps that 
 msgstr ""
 
 #: src/components/settings/SettingsIntegration.tsx:359
-msgid "This will restore the selected Dapp's permissions back to their default values. By default, every command issued by the Dapp will require confirmation in the Chia wallet."
+msgid "This will restore the selected Dapp's permissions back to their default values. By default, every command issued by the Dapp will require confirmation in the Aba Core wallet."
 msgstr ""
+
+#: src/components/settings/SettingsIntegration.tsx:359
+#~ msgid "This will restore the selected Dapp's permissions back to their default values. By default, every command issued by the Dapp will require confirmation in the Chia wallet."
+#~ msgstr ""
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:151
 msgid "Thread Multiplier for Phase 2"
@@ -5372,13 +5405,13 @@ msgstr "Хэш фільтра трансакцый"
 msgid "Transactions less than the fee will not be auto claimed."
 msgstr ""
 
-#: src/components/nfts/NFTTransferAction.tsx:169
+#: src/components/nfts/NFTTransferAction.tsx:194
 #: src/components/nfts/NFTTransferConfirmationDialog.tsx:45
 msgid "Transfer"
 msgstr ""
 
 #: src/components/nfts/NFTContextualActions.tsx:197
-#: src/components/nfts/NFTTransferAction.tsx:217
+#: src/components/nfts/NFTTransferAction.tsx:242
 #: src/constants/WalletConnectCommands.tsx:695
 msgid "Transfer NFT"
 msgstr ""
@@ -5788,8 +5821,8 @@ msgid "WalletConnect"
 msgstr ""
 
 #: src/components/settings/SettingsIntegration.tsx:142
-msgid "WalletConnect enables a decentralized app on the Chia blockchain to communicate and make requests directly to a Chia wallet."
-msgstr ""
+#~ msgid "WalletConnect enables a decentralized app on the Chia blockchain to communicate and make requests directly to a Chia wallet."
+#~ msgstr ""
 
 #: src/components/walletConnect/WalletConnectAddConnectionDialog.tsx:241
 msgid "WalletConnect Integration"
@@ -5874,7 +5907,7 @@ msgstr ""
 #~ msgid "Would you like to transfer the specified NFT to a new owner"
 #~ msgstr ""
 
-#: src/components/nfts/NFTTransferAction.tsx:227
+#: src/components/nfts/NFTTransferAction.tsx:252
 msgid "Would you like to transfer the specified NFT to a new owner?"
 msgstr ""
 

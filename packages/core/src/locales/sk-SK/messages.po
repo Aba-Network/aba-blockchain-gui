@@ -163,7 +163,7 @@ msgstr "Deaktivovať ochranu prístupovou frázou"
 msgid "Discard"
 msgstr "Odstrániť"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:148
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:149
 msgid "Download"
 msgstr "Stiahnuť"
 
@@ -308,7 +308,7 @@ msgstr "TIETO NIKDY NIKOMU NEPREZRÁDZAJTE"
 msgid "New passphrase is the same as your current passphrase"
 msgstr "Nová prístupová fráza je rovnaká ako vaša aktuálna prístupová fráza"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:133
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:134
 msgid "New version {latestVersion} available"
 msgstr "K dispozícii je nová verzia {latestVersion}"
 
@@ -443,7 +443,7 @@ msgstr "Zobraziť rozšírené možnosti"
 #~ msgid "Sign In"
 #~ msgstr "Sign In"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:136
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:137
 #: src/hooks/useValidateChangePassphraseParams.tsx:51
 msgid "Skip"
 msgstr "Preskočiť"
@@ -529,7 +529,7 @@ msgstr "Na ochranu vašich kľúčov sa dôrazne odporúča používať prístup
 msgid "Value seems high"
 msgstr "Hodnota sa zdá byť vysoká"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:233
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:234
 #: src/components/Settings/SettingsApp.tsx:87
 msgid "Wallet"
 msgstr "Peňaženka"
@@ -551,7 +551,7 @@ msgstr "Kľúče peňaženiek"
 #~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
 #~ msgstr "Welcome to Chia. Please log in with an existing key, or create a new key."
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:142
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:143
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:66
 msgid "What's New"
 msgstr "Čo je nové"

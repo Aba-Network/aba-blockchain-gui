@@ -29,7 +29,7 @@ export default function WalletCreateList() {
         <Grid xs={12} sm={6} md={4} item>
           <WalletCreateCard
             onSelect={handleCreateCAT}
-            title={<Trans>Chia Asset Token</Trans>}
+            title={<Trans>Crypto Asset Token</Trans>}
             icon={<HomeWorkIcon fontSize="large" color="primary" />}
           />
         </Grid>
