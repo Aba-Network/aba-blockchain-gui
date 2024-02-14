@@ -1,3 +1,4 @@
+// Aba has modified this file.
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 
@@ -115,7 +116,10 @@ export default function About(props: Props) {
         </StyledLink>
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
-        <div className="copyright">Copyright (c) {currentYear} Aba Blockchain</div>
+        <div className="copyright">
+          Modifications Copyright (c) {currentYear} Aba Blockchain. Other code Copyright (c) {currentYear} Chia Network
+          Inc.
+        </div>
         <Spacer />
         <VersionsTable>
           {versions?.electron && (

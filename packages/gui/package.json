@@ -1,7 +1,7 @@
 {
   "name": "@chia-network/gui",
   "author": "Aba Blockchain team (https://aba.ooo/)",
-  "description": "GUI for Aba Blockchain Core",
+  "description": "GUI for Aba Blockchain Core. Modified by Aba.",
   "license": "Apache-2.0",
   "productName": "Aba Blockchain Core",
   "homepage": "./",

@@ -1,12 +1,8 @@
-# chia-blockchain-gui
+# aba-blockchain-gui
 
-![Chia logo](https://www.chia.net/wp-content/uploads/2022/09/chia-logo.svg)
+Welcome to the Aba GUI repo!
 
-![GitHub contributors](https://img.shields.io/github/contributors/Chia-Network/chia-blockchain-gui?logo=GitHub)
-
-Welcome to the Chia GUI repo!
-
-Chia GUI is written in TypeScript and uses Electron/React.
+Aba GUI is written in TypeScript and uses Electron/React.
 
 This monorepo consists of the following packages:
 
@@ -21,15 +17,15 @@ This monorepo consists of the following packages:
 
 ## Development
 
-1. This repo (chia-blockchain-gui) must be under chia-blockchain repo. Please follow the [installation steps for the chia-blockchain](https://github.com/Chia-Network/chia-blockchain/wiki/INSTALL#install-from-source). Make sure to install from source code (git clone...).
-2. Run the `sh install-gui.sh` as instructed in the previous step. This will clone the chia-blockchain-gui under chia-blockchain repo.
+1. This repo (aba-blockchain-gui) must be under chia-blockchain repo. Make sure to install from source code (git clone...).
+2. Run the `sh install-gui.sh` as instructed in the previous step. This will clone the aba-blockchain-gui under aba-blockchain repo.
 3. Change directory into the chia-blockchain-gui subdirectory.
 4. Run `npm run dev:gui`
 
 **When developing, please:**
 
 - Only edit the code with the **Vscode editor**.
-- Always have **chia-blockchain-gui opened as a root folder in the Vscode** and not chia-blockchain, or chia-blockchain-gui/packages/... Failing to do so will result in incorrect auto linting and auto formatting which would not go through the CI quality checks.
+- Always have **aba-blockchain-gui opened as a root folder in the Vscode** and not aba-blockchain, or aba-blockchain-gui/packages/... Failing to do so will result in incorrect auto linting and auto formatting which would not go through the CI quality checks.
 - When you open the repo in the vscode, click on "**Install recommended plugins**" pop-up.
 - To develop in testnet, please follow [these steps](https://github.com/Chia-Network/chia-blockchain/wiki/How-to-connect-to-the-Testnet).
 - Please write tests for your code
@@ -136,7 +132,7 @@ Do not edit files directly in the repo, but instead please head over to our [Cro
 
 ## Debugging
 
-1. In the Chia Electron app, click `View -> Developer -> Developer tools`.
+1. In the Aba Electron app, click `View -> Developer -> Developer tools`.
 2. In the console tab of the developer tools, change the default console events to include `verbose` events. These are the events emitted from the `debug` package.
 
 ## Simulator / SimNet
@@ -151,14 +147,10 @@ export CHIA_KEYS_ROOT=~/.chia_keys_simulator
 ```
 
 3. `. ./activate`
-4. `chia start simulator`
-5. `cd chia-blockchain-gui/packages/gui`
+4. `aba start simulator`
+5. `cd aba-blockchain-gui/packages/gui`
 6. `npm run dev:skipLocales`
 7. You should see your simulator wallets. You should not see your testNet / mainNet wallets.
-8. Run `chia dev sim farm` as many times you want to farm some coins.
+8. Run `aba dev sim farm` as many times you want to farm some coins.
 
-## Chia FAQ/WIKI
-
-Please check out the [wiki](https://github.com/Chia-Network/chia-blockchain/wiki)
-and [FAQ](https://github.com/Chia-Network/chia-blockchain/wiki/FAQ) for
-information on this project.
+aba-blockchain-gui is a fork of chia-blockchain-gui, developed by Chia Networks Inc. and other contributors. Aba is not affiliated with Chia Networks Inc. This file has been modified.
