@@ -122,7 +122,7 @@ async function postToDexie(offerData: string, testnet: boolean): Promise<{ viewL
   const requestOptions = {
     method: 'POST',
     protocol: 'https:',
-    hostname: testnet ? 'testnet.dexie.space' : 'dexie.space',
+    hostname: testnet ? 'testnet.aba.dexie.space' : 'aba.dexie.space',
     port: 443,
     path: '/v1/offers',
   };
@@ -152,8 +152,8 @@ async function postToDexie(offerData: string, testnet: boolean): Promise<{ viewL
 
   log('Dexie upload completed');
 
-  const viewLink = `https://${testnet ? 'testnet.' : ''}dexie.space/offers/${id}`;
-  const offerLink = `https://${testnet ? 'raw-testnet.' : 'raw.'}dexie.space/${id}`;
+  const viewLink = `https://${testnet ? 'testnet.' : ''}aba.dexie.space/offers/${id}`;
+  const offerLink = `https://${testnet ? 'raw-testnet.' : 'raw.'}aba.dexie.space/${id}`;
 
   return { viewLink, offerLink };
 }
@@ -163,7 +163,7 @@ async function postToMintGarden(offerData: string, testnet: boolean): Promise<st
   const requestOptions = {
     method: 'POST',
     protocol: 'https:',
-    hostname: testnet ? 'api.testnet.mintgarden.io' : 'api.mintgarden.io',
+    hostname: testnet ? 'api.testnet.aba.mintgarden.io' : 'api.aba.mintgarden.io',
     port: 443,
     path: '/offer',
   };
@@ -191,7 +191,7 @@ async function postToMintGarden(offerData: string, testnet: boolean): Promise<st
     offer: { id },
   } = JSON.parse(responseBody);
 
-  return `https://${testnet ? 'testnet.' : ''}mintgarden.io/offers/${id}`;
+  return `https://${testnet ? 'testnet.' : ''}aba.mintgarden.io/offers/${id}`;
 }
 
 enum HashgreenErrorCodes {
@@ -206,7 +206,7 @@ async function postToHashgreen(offerData: string, testnet: boolean): Promise<str
   const requestOptions = {
     method: 'POST',
     protocol: 'https:',
-    hostname: testnet ? testnetDummyHost : 'hash.green',
+    hostname: testnet ? testnetDummyHost : 'aba.hash.green',
     port: 443,
     path: testnet ? '/hashgreen' : '/api/v1/orders',
   };
@@ -282,7 +282,7 @@ async function postToSpacescan(offerData: string, testnet: boolean): Promise<{ v
   const requestOptions = {
     method: 'POST',
     protocol: 'https:',
-    hostname: 'api2.spacescan.io',
+    hostname: 'api2.aba.spacescan.io',
     port: 443,
     path: `/api/offer/upload?coin=${testnet ? 'txch' : 'xch'}&version=1`,
   };
@@ -324,7 +324,7 @@ async function postToOfferpool(offerData: string, testnet: boolean): Promise<Pos
   const requestOptions = {
     method: 'POST',
     protocol: 'https:',
-    hostname: testnet ? testnetDummyHost : 'offerpool.io',
+    hostname: testnet ? testnetDummyHost : 'aba.offerpool.io',
     port: 443,
     path: testnet ? '/offerpool' : '/api/v1/offers',
   };

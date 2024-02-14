@@ -22,12 +22,17 @@ msgstr ""
 msgid "-"
 msgstr "-"
 
-#: src/components/WalletSend.tsx:390
+#: src/components/WalletSend.tsx:394
 msgid "- Memo helps the receiver side to identify the payment.<0/>- Anything you enter will be publicly accessible on the blockchain."
 msgstr ""
 
-#: src/components/WalletSend.tsx:317
+#: src/components/WalletSend.tsx:321
 msgid "- Set a time frame which allows you claw back (revoke) the transaction.<0/>- Recipient of the transaction can only claim the funds once that time frame expires."
+msgstr ""
+
+#: src/components/cat/WalletCATSend.tsx:160
+#: src/components/WalletSend.tsx:185
+msgid "{error}This Namesdao .aba name is not yet registered. You can register a name at www.namesdao.org"
 msgstr ""
 
 #: src/components/WalletHistory.tsx:118
@@ -42,7 +47,7 @@ msgstr "Akcie"
 msgid "Add"
 msgstr "Pridať"
 
-#: src/components/WalletSend.tsx:311
+#: src/components/WalletSend.tsx:315
 msgid "Add option to claw back transaction"
 msgstr ""
 
@@ -52,7 +57,7 @@ msgstr ""
 msgid "Add Token"
 msgstr "Pridať token"
 
-#: src/components/WalletSend.tsx:385
+#: src/components/WalletSend.tsx:389
 msgid "Add transaction memo"
 msgstr ""
 
@@ -69,7 +74,7 @@ msgstr "Adresa"
 #~ msgid "Address / Puzzle hash"
 #~ msgstr "Address / Puzzle hash"
 
-#: src/components/AddressBookAutocomplete.tsx:65
+#: src/components/AddressBookAutocomplete.tsx:66
 msgid "Address or .aba Name or Contact"
 msgstr ""
 
@@ -77,8 +82,8 @@ msgstr ""
 #~ msgid "Address or Contact"
 #~ msgstr "Adresa alebo kontakt"
 
-#: src/components/cat/WalletCATSend.tsx:237
-#: src/components/WalletSend.tsx:264
+#: src/components/cat/WalletCATSend.tsx:241
+#: src/components/WalletSend.tsx:268
 msgid "Amount"
 msgstr "Suma"
 
@@ -124,7 +129,7 @@ msgstr ""
 msgid "Auto-claim transactions with this fee from now on."
 msgstr ""
 
-#: src/components/WalletSend.tsx:359
+#: src/components/WalletSend.tsx:363
 msgid "Before sending this transaction, you should ensure that the recipient has a wallet that can claim it manually after the timer has expired."
 msgstr ""
 
@@ -137,8 +142,8 @@ msgstr ""
 msgid "Cancel"
 msgstr "Zrušiť"
 
-#: src/components/cat/WalletCATSend.tsx:117
-#: src/components/WalletSend.tsx:153
+#: src/components/cat/WalletCATSend.tsx:118
+#: src/components/WalletSend.tsx:154
 msgid "Cannot send chia to coloured address. Please enter a chia address."
 msgstr "Chia nie je možné odoslať na farebnú adresu. Zadajte prosím Chia adresu."
 
@@ -195,11 +200,11 @@ msgstr ""
 msgid "Clawback payment clawed back"
 msgstr ""
 
-#: src/components/WalletSend.tsx:357
+#: src/components/WalletSend.tsx:361
 msgid "Clawback will be applied."
 msgstr ""
 
-#: src/components/WalletSend.tsx:367
+#: src/components/WalletSend.tsx:371
 msgid "Clawback will not be applied."
 msgstr ""
 
@@ -241,7 +246,7 @@ msgstr "Skopírované"
 msgid "Copy wallet address"
 msgstr "Skopírovať adresu peňaženky"
 
-#: src/components/cat/WalletCATSelect.tsx:32
+#: src/components/cat/WalletCATSelect.tsx:33
 msgid "Create New Wallet"
 msgstr "Vytvoriť novú peňaženku"
 
@@ -250,8 +255,8 @@ msgstr "Vytvoriť novú peňaženku"
 msgid "Create Offer"
 msgstr "Vytvoriť ponuku"
 
-#: src/components/cat/WalletCATSend.tsx:201
-#: src/components/WalletSend.tsx:236
+#: src/components/cat/WalletCATSend.tsx:205
+#: src/components/WalletSend.tsx:240
 msgid "Create Transaction"
 msgstr "Vytvoriť transakciu"
 
@@ -259,8 +264,8 @@ msgstr "Vytvoriť transakciu"
 msgid "Creation Date"
 msgstr "Dátum vytvorenia"
 
-#: src/components/cat/WalletCATSelect.tsx:25
-#: src/components/create/WalletCreateList.tsx:32
+#: src/components/cat/WalletCATSelect.tsx:26
+#: src/components/create/WalletCreateList.tsx:33
 msgid "Crypto Asset Token"
 msgstr ""
 
@@ -296,15 +301,15 @@ msgstr "Derivačný index: {0}"
 msgid "DID Wallet"
 msgstr "DID peňaženka"
 
-#: src/components/WalletSend.tsx:350
+#: src/components/WalletSend.tsx:354
 msgid "Disable"
 msgstr "Deaktivovať"
 
-#: src/components/create/WalletCreateList.tsx:39
+#: src/components/create/WalletCreateList.tsx:40
 msgid "Distributed Identity"
 msgstr "Distribuovaná identita"
 
-#: src/components/WalletImport.tsx:157
+#: src/components/WalletImport.tsx:158
 msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Aba wallet."
 msgstr ""
 
@@ -312,18 +317,18 @@ msgstr ""
 #~ msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Chia wallet."
 #~ msgstr ""
 
-#: src/components/cat/WalletCATSend.tsx:127
+#: src/components/cat/WalletCATSend.tsx:128
 msgid "Error the entered address appears to be for a different colour."
 msgstr "Chyba Zdá sa, že zadaná adresa je pre inú farbu."
 
-#: src/components/cat/WalletCATSend.tsx:275
-#: src/components/WalletSend.tsx:413
+#: src/components/cat/WalletCATSend.tsx:279
+#: src/components/WalletSend.tsx:417
 msgid "Farm"
 msgstr "Farma"
 
-#: src/components/cat/WalletCATSend.tsx:251
+#: src/components/cat/WalletCATSend.tsx:255
 #: src/components/WalletHistory.tsx:237
-#: src/components/WalletSend.tsx:277
+#: src/components/WalletSend.tsx:281
 msgid "Fee"
 msgstr "Poplatok"
 
@@ -349,11 +354,11 @@ msgstr ""
 msgid "Import"
 msgstr "Importovať"
 
-#: src/components/WalletImport.tsx:225
+#: src/components/WalletImport.tsx:226
 msgid "Import from {alternativeWordCount} word mnemonic"
 msgstr ""
 
-#: src/components/WalletImport.tsx:140
+#: src/components/WalletImport.tsx:141
 msgid "Import Wallet from Mnemonics"
 msgstr "Obnoviť peňaženku pomocou mnemotechnickej pomôcky"
 
@@ -373,8 +378,8 @@ msgstr "Zoznam pripojení je prázdny"
 msgid "Manage token list"
 msgstr "Spravovať zoznam tokenov"
 
-#: src/components/cat/WalletCATSend.tsx:265
-#: src/components/WalletSend.tsx:402
+#: src/components/cat/WalletCATSend.tsx:269
+#: src/components/WalletSend.tsx:406
 msgid "Memo"
 msgstr "Poznámka"
 
@@ -415,7 +420,7 @@ msgid "New Wallet"
 msgstr "Nová peňaženka"
 
 #: src/components/WalletAdd.tsx:122
-#: src/components/WalletImport.tsx:195
+#: src/components/WalletImport.tsx:196
 msgid "Next"
 msgstr "Ďalej"
 
@@ -452,11 +457,11 @@ msgstr "Ponuka prijatá"
 msgid "OK"
 msgstr "OK"
 
-#: src/components/WalletSend.tsx:239
+#: src/components/WalletSend.tsx:243
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr "Priemerný čas medzi jednotlivými blokmi transakcií je jedna minúta. Ak nedôjde k preťaženiu, môžete očakávať, že vaša transakcia bude zahrnutá za menej ako minútu."
 
-#: src/components/cat/WalletCATSend.tsx:204
+#: src/components/cat/WalletCATSend.tsx:208
 msgid "On average there is one minute between each transaction block. Unless there is congestion, you can expect your transaction to be included in less than a minute."
 msgstr ""
 
@@ -464,7 +469,7 @@ msgstr ""
 #~ msgid "Outgoing"
 #~ msgstr "Outgoing"
 
-#: src/components/WalletImport.tsx:233
+#: src/components/WalletImport.tsx:234
 msgid "Paste Mnemonic"
 msgstr "Vložiť mnemotechnické slová"
 
@@ -520,13 +525,13 @@ msgstr ""
 msgid "Please enter a valid asset id"
 msgstr "Prosím zadajte platné ID aktíva"
 
-#: src/components/cat/WalletCATSend.tsx:103
-#: src/components/WalletSend.tsx:143
+#: src/components/cat/WalletCATSend.tsx:104
+#: src/components/WalletSend.tsx:144
 msgid "Please enter a valid numeric amount"
 msgstr "Prosím zadajte platnú číselnú sumu"
 
-#: src/components/cat/WalletCATSend.tsx:108
-#: src/components/WalletSend.tsx:148
+#: src/components/cat/WalletCATSend.tsx:109
+#: src/components/WalletSend.tsx:149
 msgid "Please enter a valid numeric fee"
 msgstr "Prosím zadajte platný číselný poplatok"
 
@@ -538,8 +543,8 @@ msgstr "Prosím zadajte platný názov tokenu"
 msgid "Please enter valid wallet name"
 msgstr "Prosím zadajte platný názov peňaženky"
 
-#: src/components/cat/WalletCATSend.tsx:94
-#: src/components/WalletSend.tsx:138
+#: src/components/cat/WalletCATSend.tsx:95
+#: src/components/WalletSend.tsx:139
 msgid "Please finish syncing before making a transaction"
 msgstr "Pred uskutočnením transakcie dokončite synchronizáciu"
 
@@ -564,7 +569,7 @@ msgstr "ID poskytovateľa"
 msgid "Provider's website"
 msgstr "Webstránka poskytovateľa"
 
-#: src/components/create/WalletCreateList.tsx:45
+#: src/components/create/WalletCreateList.tsx:46
 msgid "Rate Limited"
 msgstr "S obmedzenou sadzbou"
 
@@ -580,7 +585,7 @@ msgstr "Prijať"
 msgid "Receive Address"
 msgstr "Adresa príjemcu"
 
-#: src/components/cat/WalletCATSend.tsx:121
+#: src/components/cat/WalletCATSend.tsx:122
 msgid "Recipient address is not a coloured wallet address. Please enter a coloured wallet address"
 msgstr "Adresa príjemcu nie je adresa farebnej peňaženky. Prosím zadajte adresu farebnej peňaženky"
 
@@ -588,7 +593,7 @@ msgstr "Adresa príjemcu nie je adresa farebnej peňaženky. Prosím zadajte adr
 msgid "Recoverable Wallet"
 msgstr "Obnoviteľná peněženka"
 
-#: src/components/cat/WalletCATSelect.tsx:39
+#: src/components/cat/WalletCATSelect.tsx:40
 msgid "Recovery Wallet"
 msgstr "Obnoviteľná peněženka"
 
@@ -618,13 +623,13 @@ msgstr "Uložiť"
 msgid "Search on Tail Database"
 msgstr "Hľadať v Tail databáze"
 
-#: src/components/create/WalletCreateList.tsx:25
+#: src/components/create/WalletCreateList.tsx:26
 msgid "Select Wallet Type"
 msgstr "Vyberte typ peňaženky"
 
-#: src/components/cat/WalletCATSend.tsx:286
+#: src/components/cat/WalletCATSend.tsx:290
 #: src/components/WalletHeader.tsx:47
-#: src/components/WalletSend.tsx:424
+#: src/components/WalletSend.tsx:428
 msgid "Send"
 msgstr "Odoslať"
 
@@ -664,7 +669,7 @@ msgstr "Synchronizácia"
 msgid "The derivation index sets the range of wallet addresses that the wallet scans the blockchain for. This number is generally higher if you have a lot of transactions or canceled offers for XCH, CATs, or NFTs. If you believe your balance is incorrect because it’s missing coins, then increasing the derivation index could help the wallet include the missing coins in the balance total."
 msgstr "Derivačný index nastavuje rozsah adries peňaženky, ktoré peňaženka vyhľadáva v blockchaine. Toto číslo je vo všeobecnosti vyššie, ak máte veľa transakcií alebo zrušených ponúk pre XCH, CAT alebo NFT. Ak sa domnievate, že váš zostatok je nesprávny, pretože v ňom chýbajú mince, potom zvýšenie derivačného indexu môže pomôcť peňaženke zahrnúť chýbajúce mince do celkového zostatku."
 
-#: src/components/cat/WalletCATSend.tsx:223
+#: src/components/cat/WalletCATSend.tsx:227
 msgid "The recipient of this transaction will need to have valid credentials in order to claim the sent assets. See the CR CAT restrictions above."
 msgstr ""
 
@@ -694,7 +699,7 @@ msgstr "Tento prístupový token je overený"
 msgid "This is not a valid address for sending funds to"
 msgstr "Toto nie je platná adresa na posielanie prostriedkov"
 
-#: src/components/standard/WalletStandardCards.tsx:23
+#: src/components/standard/WalletStandardCards.tsx:24
 msgid "This is the amount of Aba that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Aba that you have just spent but is not yet in the blockchain."
 msgstr ""
 
@@ -710,7 +715,7 @@ msgstr "Toto je nespracovaná zmena. Sú to mince, ktoré ste si poslali, ale za
 msgid "This is the sum of the incoming and outgoing pending transactions (not yet included into the blockchain). This does not include farming rewards."
 msgstr "Toto je súčet prichádzajúcich a odchádzajúcich nespracovaných transakcií (ešte nezahrnutých do blockchainu). To nezahŕňa odmeny za ťažbu."
 
-#: src/components/standard/WalletStandardCards.tsx:17
+#: src/components/standard/WalletStandardCards.tsx:18
 msgid "This is the total amount of Aba in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr ""
 
@@ -724,8 +729,8 @@ msgstr "Toto je celkový zostatok + nespracovaný zostatok alebo to, aký bude v
 
 #: src/components/cat/WalletCATSend.tsx:157
 #: src/components/WalletSend.tsx:182
-msgid "This Namesdao .aba name is not yet registered. You can register a name at www.namesdao.org"
-msgstr ""
+#~ msgid "This Namesdao .aba name is not yet registered. You can register a name at www.namesdao.org"
+#~ msgstr ""
 
 #: src/components/ClawbackClaimTransactionDialog.tsx:201
 msgid "This transaction will be automatically claimed with a fee:"
@@ -785,7 +790,7 @@ msgid "Wallet does not exists"
 msgstr "Peňaženka neexistuje"
 
 #: src/components/WalletAdd.tsx:99
-#: src/components/WalletImport.tsx:147
+#: src/components/WalletImport.tsx:148
 msgid "Wallet Name"
 msgstr "Názov peňaženky"
 
@@ -833,6 +838,6 @@ msgstr ""
 #~ msgid "Your CAT tokens have been upgraded!"
 #~ msgstr "Your CAT tokens have been upgraded!"
 
-#: src/components/WalletImport.tsx:73
+#: src/components/WalletImport.tsx:74
 msgid "Your pasted list does not include {mnemonicWordCount} valid mnemonic words."
 msgstr ""

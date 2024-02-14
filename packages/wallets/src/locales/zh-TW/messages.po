@@ -22,13 +22,18 @@ msgstr ""
 msgid "-"
 msgstr "－"
 
-#: src/components/WalletSend.tsx:390
+#: src/components/WalletSend.tsx:394
 msgid "- Memo helps the receiver side to identify the payment.<0/>- Anything you enter will be publicly accessible on the blockchain."
 msgstr "-Memo可以幫助接收方辨識付款。<0/>-你輸入的內容將會公開在區塊鏈上。"
 
-#: src/components/WalletSend.tsx:317
+#: src/components/WalletSend.tsx:321
 msgid "- Set a time frame which allows you claw back (revoke) the transaction.<0/>- Recipient of the transaction can only claim the funds once that time frame expires."
 msgstr "-設定一個可讓你撤回(撤銷) 交易的時間範圍<0/>-交易的接收者只能在該時間之後領取資金。"
+
+#: src/components/cat/WalletCATSend.tsx:160
+#: src/components/WalletSend.tsx:185
+msgid "{error}This Namesdao .aba name is not yet registered. You can register a name at www.namesdao.org"
+msgstr ""
 
 #: src/components/WalletHistory.tsx:118
 msgid "+"
@@ -42,7 +47,7 @@ msgstr "操作"
 msgid "Add"
 msgstr "新增"
 
-#: src/components/WalletSend.tsx:311
+#: src/components/WalletSend.tsx:315
 msgid "Add option to claw back transaction"
 msgstr "添加可撤回的的交易選項"
 
@@ -52,7 +57,7 @@ msgstr "添加可撤回的的交易選項"
 msgid "Add Token"
 msgstr "新增代幣"
 
-#: src/components/WalletSend.tsx:385
+#: src/components/WalletSend.tsx:389
 msgid "Add transaction memo"
 msgstr "添加交易Memo"
 
@@ -69,7 +74,7 @@ msgstr "位址"
 #~ msgid "Address / Puzzle hash"
 #~ msgstr "Address / Puzzle hash"
 
-#: src/components/AddressBookAutocomplete.tsx:65
+#: src/components/AddressBookAutocomplete.tsx:66
 msgid "Address or .aba Name or Contact"
 msgstr ""
 
@@ -77,8 +82,8 @@ msgstr ""
 #~ msgid "Address or Contact"
 #~ msgstr "地址或聯絡簿"
 
-#: src/components/cat/WalletCATSend.tsx:237
-#: src/components/WalletSend.tsx:264
+#: src/components/cat/WalletCATSend.tsx:241
+#: src/components/WalletSend.tsx:268
 msgid "Amount"
 msgstr "數量"
 
@@ -124,7 +129,7 @@ msgstr "授權提供商"
 msgid "Auto-claim transactions with this fee from now on."
 msgstr "從現在開始自動聲明具有此費用的交易。"
 
-#: src/components/WalletSend.tsx:359
+#: src/components/WalletSend.tsx:363
 msgid "Before sending this transaction, you should ensure that the recipient has a wallet that can claim it manually after the timer has expired."
 msgstr "再發起此交易之前，應確保接收方的錢包，在定時到期後可以手動確定這筆交易。"
 
@@ -137,8 +142,8 @@ msgstr "可以在 "
 msgid "Cancel"
 msgstr "取消"
 
-#: src/components/cat/WalletCATSend.tsx:117
-#: src/components/WalletSend.tsx:153
+#: src/components/cat/WalletCATSend.tsx:118
+#: src/components/WalletSend.tsx:154
 msgid "Cannot send chia to coloured address. Please enter a chia address."
 msgstr "不能寄送奇亞到有色地址。請輸入奇亞地址。"
 
@@ -195,11 +200,11 @@ msgstr "收回款項已聲明"
 msgid "Clawback payment clawed back"
 msgstr "收回款項已收回"
 
-#: src/components/WalletSend.tsx:357
+#: src/components/WalletSend.tsx:361
 msgid "Clawback will be applied."
 msgstr "將應用收回"
 
-#: src/components/WalletSend.tsx:367
+#: src/components/WalletSend.tsx:371
 msgid "Clawback will not be applied."
 msgstr "將不應用收回"
 
@@ -241,7 +246,7 @@ msgstr "已複製"
 msgid "Copy wallet address"
 msgstr "複製錢包地址"
 
-#: src/components/cat/WalletCATSelect.tsx:32
+#: src/components/cat/WalletCATSelect.tsx:33
 msgid "Create New Wallet"
 msgstr "建立新錢包"
 
@@ -250,8 +255,8 @@ msgstr "建立新錢包"
 msgid "Create Offer"
 msgstr "建立報價單"
 
-#: src/components/cat/WalletCATSend.tsx:201
-#: src/components/WalletSend.tsx:236
+#: src/components/cat/WalletCATSend.tsx:205
+#: src/components/WalletSend.tsx:240
 msgid "Create Transaction"
 msgstr "建立交易"
 
@@ -259,8 +264,8 @@ msgstr "建立交易"
 msgid "Creation Date"
 msgstr "建立日期"
 
-#: src/components/cat/WalletCATSelect.tsx:25
-#: src/components/create/WalletCreateList.tsx:32
+#: src/components/cat/WalletCATSelect.tsx:26
+#: src/components/create/WalletCreateList.tsx:33
 msgid "Crypto Asset Token"
 msgstr ""
 
@@ -296,15 +301,15 @@ msgstr "導出索引: {0}"
 msgid "DID Wallet"
 msgstr "DID 錢包"
 
-#: src/components/WalletSend.tsx:350
+#: src/components/WalletSend.tsx:354
 msgid "Disable"
 msgstr "禁用"
 
-#: src/components/create/WalletCreateList.tsx:39
+#: src/components/create/WalletCreateList.tsx:40
 msgid "Distributed Identity"
 msgstr "分散式識別"
 
-#: src/components/WalletImport.tsx:157
+#: src/components/WalletImport.tsx:158
 msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Aba wallet."
 msgstr ""
 
@@ -312,18 +317,18 @@ msgstr ""
 #~ msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Chia wallet."
 #~ msgstr "輸入您儲存的 {mnemonicWordCount} 字詞助記詞，以還原您的 Chia 錢包。"
 
-#: src/components/cat/WalletCATSend.tsx:127
+#: src/components/cat/WalletCATSend.tsx:128
 msgid "Error the entered address appears to be for a different colour."
 msgstr "錯誤：輸入的地址似乎是屬於不同的代幣類型。"
 
-#: src/components/cat/WalletCATSend.tsx:275
-#: src/components/WalletSend.tsx:413
+#: src/components/cat/WalletCATSend.tsx:279
+#: src/components/WalletSend.tsx:417
 msgid "Farm"
 msgstr "耕種"
 
-#: src/components/cat/WalletCATSend.tsx:251
+#: src/components/cat/WalletCATSend.tsx:255
 #: src/components/WalletHistory.tsx:237
-#: src/components/WalletSend.tsx:277
+#: src/components/WalletSend.tsx:281
 msgid "Fee"
 msgstr "費用"
 
@@ -351,11 +356,11 @@ msgstr ""
 msgid "Import"
 msgstr "匯入"
 
-#: src/components/WalletImport.tsx:225
+#: src/components/WalletImport.tsx:226
 msgid "Import from {alternativeWordCount} word mnemonic"
 msgstr "從 {alternativeWordCount} 個字的助記詞導入資料。"
 
-#: src/components/WalletImport.tsx:140
+#: src/components/WalletImport.tsx:141
 msgid "Import Wallet from Mnemonics"
 msgstr "以助記符號匯入錢包"
 
@@ -375,8 +380,8 @@ msgstr "連接列表是空的"
 msgid "Manage token list"
 msgstr "管理代幣列表"
 
-#: src/components/cat/WalletCATSend.tsx:265
-#: src/components/WalletSend.tsx:402
+#: src/components/cat/WalletCATSend.tsx:269
+#: src/components/WalletSend.tsx:406
 msgid "Memo"
 msgstr "備註（Memo）"
 
@@ -417,7 +422,7 @@ msgid "New Wallet"
 msgstr "新錢包"
 
 #: src/components/WalletAdd.tsx:122
-#: src/components/WalletImport.tsx:195
+#: src/components/WalletImport.tsx:196
 msgid "Next"
 msgstr "下一步"
 
@@ -454,11 +459,11 @@ msgstr "接受報價"
 msgid "OK"
 msgstr "好"
 
-#: src/components/WalletSend.tsx:239
+#: src/components/WalletSend.tsx:243
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr "平均每個交易區塊之間有 1 分鐘的時間。除非出現擁塞，否則你可以在不到 1 分鐘的時間內完成交易。"
 
-#: src/components/cat/WalletCATSend.tsx:204
+#: src/components/cat/WalletCATSend.tsx:208
 msgid "On average there is one minute between each transaction block. Unless there is congestion, you can expect your transaction to be included in less than a minute."
 msgstr ""
 
@@ -466,7 +471,7 @@ msgstr ""
 #~ msgid "Outgoing"
 #~ msgstr "Outgoing"
 
-#: src/components/WalletImport.tsx:233
+#: src/components/WalletImport.tsx:234
 msgid "Paste Mnemonic"
 msgstr "貼上助記詞"
 
@@ -522,13 +527,13 @@ msgstr "請輸入用於撤回上述金額的交易費用："
 msgid "Please enter a valid asset id"
 msgstr "請輸入有效的資產ID"
 
-#: src/components/cat/WalletCATSend.tsx:103
-#: src/components/WalletSend.tsx:143
+#: src/components/cat/WalletCATSend.tsx:104
+#: src/components/WalletSend.tsx:144
 msgid "Please enter a valid numeric amount"
 msgstr "請輸入有效的數字金額"
 
-#: src/components/cat/WalletCATSend.tsx:108
-#: src/components/WalletSend.tsx:148
+#: src/components/cat/WalletCATSend.tsx:109
+#: src/components/WalletSend.tsx:149
 msgid "Please enter a valid numeric fee"
 msgstr "請輸入有效的數字手續費"
 
@@ -540,8 +545,8 @@ msgstr "請輸入有效的代幣名稱"
 msgid "Please enter valid wallet name"
 msgstr "請輸入有效的錢包名稱"
 
-#: src/components/cat/WalletCATSend.tsx:94
-#: src/components/WalletSend.tsx:138
+#: src/components/cat/WalletCATSend.tsx:95
+#: src/components/WalletSend.tsx:139
 msgid "Please finish syncing before making a transaction"
 msgstr "請在交易前先完成同步"
 
@@ -566,7 +571,7 @@ msgstr "提供商ID"
 msgid "Provider's website"
 msgstr "提供商網站"
 
-#: src/components/create/WalletCreateList.tsx:45
+#: src/components/create/WalletCreateList.tsx:46
 msgid "Rate Limited"
 msgstr "限速"
 
@@ -582,7 +587,7 @@ msgstr "接收"
 msgid "Receive Address"
 msgstr "接收位址"
 
-#: src/components/cat/WalletCATSend.tsx:121
+#: src/components/cat/WalletCATSend.tsx:122
 msgid "Recipient address is not a coloured wallet address. Please enter a coloured wallet address"
 msgstr "接收方位址不是一個有色錢包位址。請輸入有色錢包位址"
 
@@ -590,7 +595,7 @@ msgstr "接收方位址不是一個有色錢包位址。請輸入有色錢包位
 msgid "Recoverable Wallet"
 msgstr "可恢復錢包"
 
-#: src/components/cat/WalletCATSelect.tsx:39
+#: src/components/cat/WalletCATSelect.tsx:40
 msgid "Recovery Wallet"
 msgstr "復原錢包"
 
@@ -620,13 +625,13 @@ msgstr "儲存"
 msgid "Search on Tail Database"
 msgstr "在 Tail 資料庫中進行搜尋。"
 
-#: src/components/create/WalletCreateList.tsx:25
+#: src/components/create/WalletCreateList.tsx:26
 msgid "Select Wallet Type"
 msgstr "選擇錢包類型"
 
-#: src/components/cat/WalletCATSend.tsx:286
+#: src/components/cat/WalletCATSend.tsx:290
 #: src/components/WalletHeader.tsx:47
-#: src/components/WalletSend.tsx:424
+#: src/components/WalletSend.tsx:428
 msgid "Send"
 msgstr "發送"
 
@@ -666,7 +671,7 @@ msgstr "同步中"
 msgid "The derivation index sets the range of wallet addresses that the wallet scans the blockchain for. This number is generally higher if you have a lot of transactions or canceled offers for XCH, CATs, or NFTs. If you believe your balance is incorrect because it’s missing coins, then increasing the derivation index could help the wallet include the missing coins in the balance total."
 msgstr "衍生索引設置錢包掃描區塊鏈的地址範圍。如果您有大量的交易或取消的 XCH、CATs 或 NFTs 的報價，則這個數字通常會較高。如果您認為您的餘額不正確，因為缺少硬幣，則增加衍生索引可能有助於將缺少的硬幣納入餘額總計。"
 
-#: src/components/cat/WalletCATSend.tsx:223
+#: src/components/cat/WalletCATSend.tsx:227
 msgid "The recipient of this transaction will need to have valid credentials in order to claim the sent assets. See the CR CAT restrictions above."
 msgstr "交易的接收方將需要有效的憑證才能領取發送的資產。請參閱上面的CR CAT限制。"
 
@@ -696,7 +701,7 @@ msgstr "此訪問令牌已驗證"
 msgid "This is not a valid address for sending funds to"
 msgstr "這不是一個有效的地址用於匯款"
 
-#: src/components/standard/WalletStandardCards.tsx:23
+#: src/components/standard/WalletStandardCards.tsx:24
 msgid "This is the amount of Aba that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Aba that you have just spent but is not yet in the blockchain."
 msgstr ""
 
@@ -712,7 +717,7 @@ msgstr "這是待處理的改變，是你發送給自己的但還沒確認的改
 msgid "This is the sum of the incoming and outgoing pending transactions (not yet included into the blockchain). This does not include farming rewards."
 msgstr "這是匯入和匯出的未結交易的總和（還沒包含在區塊鏈中）。這不包括耕種獎勵。"
 
-#: src/components/standard/WalletStandardCards.tsx:17
+#: src/components/standard/WalletStandardCards.tsx:18
 msgid "This is the total amount of Aba in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr ""
 
@@ -726,8 +731,8 @@ msgstr "這是總餘額 + 未結餘額：這是在全部未結交易結清後你
 
 #: src/components/cat/WalletCATSend.tsx:157
 #: src/components/WalletSend.tsx:182
-msgid "This Namesdao .aba name is not yet registered. You can register a name at www.namesdao.org"
-msgstr ""
+#~ msgid "This Namesdao .aba name is not yet registered. You can register a name at www.namesdao.org"
+#~ msgstr ""
 
 #: src/components/ClawbackClaimTransactionDialog.tsx:201
 msgid "This transaction will be automatically claimed with a fee:"
@@ -787,7 +792,7 @@ msgid "Wallet does not exists"
 msgstr "錢包不存在"
 
 #: src/components/WalletAdd.tsx:99
-#: src/components/WalletImport.tsx:147
+#: src/components/WalletImport.tsx:148
 msgid "Wallet Name"
 msgstr "錢包名稱"
 
@@ -835,6 +840,6 @@ msgstr "你擁有來自正確的授權提供者的這個可驗證證件"
 #~ msgid "Your CAT tokens have been upgraded!"
 #~ msgstr "Your CAT tokens have been upgraded!"
 
-#: src/components/WalletImport.tsx:73
+#: src/components/WalletImport.tsx:74
 msgid "Your pasted list does not include {mnemonicWordCount} valid mnemonic words."
 msgstr "您貼上的列表中不包含 {mnemonicWordCount} 個有效的助記詞詞語。"

@@ -163,7 +163,7 @@ msgstr "パスフレーズで保護しない"
 msgid "Discard"
 msgstr "破棄する"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:149
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:150
 msgid "Download"
 msgstr "ダウンロードする"
 
@@ -308,7 +308,7 @@ msgstr "これらの値は絶対に誰とも共有しないでください！"
 msgid "New passphrase is the same as your current passphrase"
 msgstr "新しいパスフレーズが現在のパスフレーズと同じです"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:134
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:135
 msgid "New version {latestVersion} available"
 msgstr "新しいバージョン {latestVersion} が利用可能です"
 
@@ -443,7 +443,7 @@ msgstr "詳細設定を表示"
 #~ msgid "Sign In"
 #~ msgstr "Sign In"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:137
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:138
 #: src/hooks/useValidateChangePassphraseParams.tsx:51
 msgid "Skip"
 msgstr "スキップする"
@@ -529,7 +529,7 @@ msgstr "鍵の保護には、パスフレーズの使用を強く推奨します
 msgid "Value seems high"
 msgstr "値が通常の範囲より高そうです"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:234
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:235
 #: src/components/Settings/SettingsApp.tsx:87
 msgid "Wallet"
 msgstr "ウォレット"
@@ -551,7 +551,7 @@ msgstr "ウォレットの鍵一覧"
 #~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
 #~ msgstr "Welcome to Chia. Please log in with an existing key, or create a new key."
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:143
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:144
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:66
 msgid "What's New"
 msgstr "更新情報"

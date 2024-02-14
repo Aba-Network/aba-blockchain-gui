@@ -1,3 +1,4 @@
+// Aba has modified this file
 import type { NFTInfo } from '@chia-network/api';
 import { useCurrencyCode } from '@chia-network/core';
 
@@ -6,12 +7,12 @@ import useOpenExternal from './useOpenExternal';
 /* ========================================================================== */
 
 function getMintGardenURL(nft: NFTInfo, testnet: boolean) {
-  const url = `https://${testnet ? 'testnet.' : ''}mintgarden.io/nfts/${nft.$nftId}`;
+  const url = `https://${testnet ? 'testnet.' : ''}aba.mintgarden.io/nfts/${nft.$nftId}`;
   return url;
 }
 
 function getSpacescanURL(nft: NFTInfo, testnet: boolean) {
-  const url = `https://spacescan.io/${testnet ? 'txch10' : 'xch'}/nft/${nft.$nftId}`;
+  const url = `https://aba.spacescan.io/${testnet ? 'txch10' : 'aba'}/nft/${nft.$nftId}`;
   return url;
 }
 
@@ -29,7 +30,7 @@ const UrlBuilderMapping = {
 
 export default function useViewNFTOnExplorer() {
   const openExternal = useOpenExternal();
-  const testnet = useCurrencyCode() === 'TXCH';
+  const testnet = useCurrencyCode() === 'TABA';
 
   function handleViewNFTOnExplorer(nft: NFTInfo, explorer: NFTExplorer) {
     const urlBuilder = UrlBuilderMapping[explorer];

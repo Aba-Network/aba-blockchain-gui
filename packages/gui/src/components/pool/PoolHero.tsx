@@ -1,3 +1,4 @@
+// Aba modified this file.
 import { Button, CardHero } from '@chia-network/core';
 import { Pooling } from '@chia-network/icons';
 import { Trans } from '@lingui/macro';
@@ -18,7 +19,7 @@ export default function PoolHero() {
         <CardHero>
           <Pooling color="primary" fontSize="extraLarge" />
           <Typography variant="body1">
-            <Trans>Smooth out your XCH farming rewards by joining a pool.</Trans>
+            <Trans>Smooth out your ABA farming rewards by joining a pool.</Trans>
           </Typography>
           <Button onClick={handleJoinPool} variant="contained" color="primary">
             <Trans>Join a Pool</Trans>

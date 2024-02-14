@@ -1,22 +1,18 @@
 export default [
   {
     label: 'Dexie',
-    domains: ['dexie.space'],
-  },
-  {
-    label: 'Hashgreen',
-    domains: ['hash.green'],
+    domains: ['aba.dexie.space'],
   },
   {
     label: 'Mint Garden',
-    domains: ['mintgarden.io'],
+    domains: ['aba.mintgarden.io'],
   },
   {
     label: 'Spacescan',
-    domains: ['spacescan.io'],
+    domains: ['aba.spacescan.io'],
   },
   {
     label: 'Offerpool',
-    domains: ['offerpool.io'],
+    domains: ['aba.offerpool.io'],
   },
 ];

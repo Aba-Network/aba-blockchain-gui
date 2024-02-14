@@ -22,12 +22,17 @@ msgstr ""
 msgid "-"
 msgstr "-"
 
-#: src/components/WalletSend.tsx:390
+#: src/components/WalletSend.tsx:394
 msgid "- Memo helps the receiver side to identify the payment.<0/>- Anything you enter will be publicly accessible on the blockchain."
 msgstr ""
 
-#: src/components/WalletSend.tsx:317
+#: src/components/WalletSend.tsx:321
 msgid "- Set a time frame which allows you claw back (revoke) the transaction.<0/>- Recipient of the transaction can only claim the funds once that time frame expires."
+msgstr ""
+
+#: src/components/cat/WalletCATSend.tsx:160
+#: src/components/WalletSend.tsx:185
+msgid "{error}This Namesdao .aba name is not yet registered. You can register a name at www.namesdao.org"
 msgstr ""
 
 #: src/components/WalletHistory.tsx:118
@@ -42,7 +47,7 @@ msgstr "Actions"
 msgid "Add"
 msgstr "Ajouter"
 
-#: src/components/WalletSend.tsx:311
+#: src/components/WalletSend.tsx:315
 msgid "Add option to claw back transaction"
 msgstr ""
 
@@ -52,7 +57,7 @@ msgstr ""
 msgid "Add Token"
 msgstr "Ajouter un Type de Jeton"
 
-#: src/components/WalletSend.tsx:385
+#: src/components/WalletSend.tsx:389
 msgid "Add transaction memo"
 msgstr ""
 
@@ -69,7 +74,7 @@ msgstr "Adresse"
 #~ msgid "Address / Puzzle hash"
 #~ msgstr "Address / Puzzle hash"
 
-#: src/components/AddressBookAutocomplete.tsx:65
+#: src/components/AddressBookAutocomplete.tsx:66
 msgid "Address or .aba Name or Contact"
 msgstr ""
 
@@ -77,8 +82,8 @@ msgstr ""
 #~ msgid "Address or Contact"
 #~ msgstr ""
 
-#: src/components/cat/WalletCATSend.tsx:237
-#: src/components/WalletSend.tsx:264
+#: src/components/cat/WalletCATSend.tsx:241
+#: src/components/WalletSend.tsx:268
 msgid "Amount"
 msgstr "Montant"
 
@@ -124,7 +129,7 @@ msgstr ""
 msgid "Auto-claim transactions with this fee from now on."
 msgstr "Réclamer automatiquement les transactions avec ces frais."
 
-#: src/components/WalletSend.tsx:359
+#: src/components/WalletSend.tsx:363
 msgid "Before sending this transaction, you should ensure that the recipient has a wallet that can claim it manually after the timer has expired."
 msgstr ""
 
@@ -137,8 +142,8 @@ msgstr "Peut être réclamé dans "
 msgid "Cancel"
 msgstr "Annuler"
 
-#: src/components/cat/WalletCATSend.tsx:117
-#: src/components/WalletSend.tsx:153
+#: src/components/cat/WalletCATSend.tsx:118
+#: src/components/WalletSend.tsx:154
 msgid "Cannot send chia to coloured address. Please enter a chia address."
 msgstr "Impossible d'envoyer des chias à une adresse colorée. Merci d'entrer une adresse chia valide."
 
@@ -195,11 +200,11 @@ msgstr "Paiement réclamé"
 msgid "Clawback payment clawed back"
 msgstr "Paiement repris par l'émetteur"
 
-#: src/components/WalletSend.tsx:357
+#: src/components/WalletSend.tsx:361
 msgid "Clawback will be applied."
 msgstr "La transaction sera récupérable."
 
-#: src/components/WalletSend.tsx:367
+#: src/components/WalletSend.tsx:371
 msgid "Clawback will not be applied."
 msgstr "La transaction ne sera pas récupérable."
 
@@ -241,7 +246,7 @@ msgstr "Copié"
 msgid "Copy wallet address"
 msgstr "Copier l'adresse du portefeuille"
 
-#: src/components/cat/WalletCATSelect.tsx:32
+#: src/components/cat/WalletCATSelect.tsx:33
 msgid "Create New Wallet"
 msgstr "Créer un nouveau portefeuille"
 
@@ -250,8 +255,8 @@ msgstr "Créer un nouveau portefeuille"
 msgid "Create Offer"
 msgstr "Créer une offre"
 
-#: src/components/cat/WalletCATSend.tsx:201
-#: src/components/WalletSend.tsx:236
+#: src/components/cat/WalletCATSend.tsx:205
+#: src/components/WalletSend.tsx:240
 msgid "Create Transaction"
 msgstr "Créer une transaction"
 
@@ -259,8 +264,8 @@ msgstr "Créer une transaction"
 msgid "Creation Date"
 msgstr "Date de création"
 
-#: src/components/cat/WalletCATSelect.tsx:25
-#: src/components/create/WalletCreateList.tsx:32
+#: src/components/cat/WalletCATSelect.tsx:26
+#: src/components/create/WalletCreateList.tsx:33
 msgid "Crypto Asset Token"
 msgstr ""
 
@@ -296,15 +301,15 @@ msgstr "Indice de dérivation : {0}"
 msgid "DID Wallet"
 msgstr "Portefeuille DID"
 
-#: src/components/WalletSend.tsx:350
+#: src/components/WalletSend.tsx:354
 msgid "Disable"
 msgstr ""
 
-#: src/components/create/WalletCreateList.tsx:39
+#: src/components/create/WalletCreateList.tsx:40
 msgid "Distributed Identity"
 msgstr "Identité Décentralisée"
 
-#: src/components/WalletImport.tsx:157
+#: src/components/WalletImport.tsx:158
 msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Aba wallet."
 msgstr ""
 
@@ -312,18 +317,18 @@ msgstr ""
 #~ msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Chia wallet."
 #~ msgstr "Entrez le mot mnémonique {mnemonicWordCount} que vous avez enregistré afin de restaurer votre portefeuille Chia."
 
-#: src/components/cat/WalletCATSend.tsx:127
+#: src/components/cat/WalletCATSend.tsx:128
 msgid "Error the entered address appears to be for a different colour."
 msgstr "Erreur : l'adresse saisie semble avoir une couleur différente."
 
-#: src/components/cat/WalletCATSend.tsx:275
-#: src/components/WalletSend.tsx:413
+#: src/components/cat/WalletCATSend.tsx:279
+#: src/components/WalletSend.tsx:417
 msgid "Farm"
 msgstr "Ferme"
 
-#: src/components/cat/WalletCATSend.tsx:251
+#: src/components/cat/WalletCATSend.tsx:255
 #: src/components/WalletHistory.tsx:237
-#: src/components/WalletSend.tsx:277
+#: src/components/WalletSend.tsx:281
 msgid "Fee"
 msgstr "Frais"
 
@@ -349,11 +354,11 @@ msgstr ""
 msgid "Import"
 msgstr "Importer"
 
-#: src/components/WalletImport.tsx:225
+#: src/components/WalletImport.tsx:226
 msgid "Import from {alternativeWordCount} word mnemonic"
 msgstr "Importer depuis {alternativeWordCount} mots mnémoniques"
 
-#: src/components/WalletImport.tsx:140
+#: src/components/WalletImport.tsx:141
 msgid "Import Wallet from Mnemonics"
 msgstr "Importer un portefeuille depuis une phrase mnémonique"
 
@@ -373,8 +378,8 @@ msgstr "La liste des connexions est vide"
 msgid "Manage token list"
 msgstr "Gérer les types de jetons"
 
-#: src/components/cat/WalletCATSend.tsx:265
-#: src/components/WalletSend.tsx:402
+#: src/components/cat/WalletCATSend.tsx:269
+#: src/components/WalletSend.tsx:406
 msgid "Memo"
 msgstr "Note"
 
@@ -415,7 +420,7 @@ msgid "New Wallet"
 msgstr "Nouveau portefeuille"
 
 #: src/components/WalletAdd.tsx:122
-#: src/components/WalletImport.tsx:195
+#: src/components/WalletImport.tsx:196
 msgid "Next"
 msgstr "Suivant"
 
@@ -452,11 +457,11 @@ msgstr "Offre Acceptée"
 msgid "OK"
 msgstr "D'accord"
 
-#: src/components/WalletSend.tsx:239
+#: src/components/WalletSend.tsx:243
 msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
 msgstr "En moyenne, il y a une minute entre chaque bloc de transaction. À moins qu'il n'y ait de congestion, vous pouvez vous attendre à ce que votre transaction soit incluse dans moins d'une minute."
 
-#: src/components/cat/WalletCATSend.tsx:204
+#: src/components/cat/WalletCATSend.tsx:208
 msgid "On average there is one minute between each transaction block. Unless there is congestion, you can expect your transaction to be included in less than a minute."
 msgstr ""
 
@@ -464,7 +469,7 @@ msgstr ""
 #~ msgid "Outgoing"
 #~ msgstr "Outgoing"
 
-#: src/components/WalletImport.tsx:233
+#: src/components/WalletImport.tsx:234
 msgid "Paste Mnemonic"
 msgstr "Coller la phrase mnémonique"
 
@@ -520,13 +525,13 @@ msgstr "Veuillez entrer les frais de transaction pour récupérer le montant ci-
 msgid "Please enter a valid asset id"
 msgstr "Veuillez entrer un identifiant (Asset ID) valide"
 
-#: src/components/cat/WalletCATSend.tsx:103
-#: src/components/WalletSend.tsx:143
+#: src/components/cat/WalletCATSend.tsx:104
+#: src/components/WalletSend.tsx:144
 msgid "Please enter a valid numeric amount"
 msgstr "Veuillez entrer une valeur numérique valide dans le montant"
 
-#: src/components/cat/WalletCATSend.tsx:108
-#: src/components/WalletSend.tsx:148
+#: src/components/cat/WalletCATSend.tsx:109
+#: src/components/WalletSend.tsx:149
 msgid "Please enter a valid numeric fee"
 msgstr "Veuillez entrer une valeur numérique valide dans les frais"
 
@@ -538,8 +543,8 @@ msgstr "Veuillez saisir un nom de jeton valide"
 msgid "Please enter valid wallet name"
 msgstr "Veuillez saisir un nom de portefeuille valide"
 
-#: src/components/cat/WalletCATSend.tsx:94
-#: src/components/WalletSend.tsx:138
+#: src/components/cat/WalletCATSend.tsx:95
+#: src/components/WalletSend.tsx:139
 msgid "Please finish syncing before making a transaction"
 msgstr "Merci de terminer la synchronisation avant de faire une transaction"
 
@@ -564,7 +569,7 @@ msgstr ""
 msgid "Provider's website"
 msgstr ""
 
-#: src/components/create/WalletCreateList.tsx:45
+#: src/components/create/WalletCreateList.tsx:46
 msgid "Rate Limited"
 msgstr "Débit limité"
 
@@ -580,7 +585,7 @@ msgstr "Recevoir"
 msgid "Receive Address"
 msgstr "Adresse de réception"
 
-#: src/components/cat/WalletCATSend.tsx:121
+#: src/components/cat/WalletCATSend.tsx:122
 msgid "Recipient address is not a coloured wallet address. Please enter a coloured wallet address"
 msgstr "L'adresse du destinataire n'est pas une adresse de portefeuille colorée. Veuillez entrer une adresse de portefeuille colorée"
 
@@ -588,7 +593,7 @@ msgstr "L'adresse du destinataire n'est pas une adresse de portefeuille colorée
 msgid "Recoverable Wallet"
 msgstr "Portefeuille récupérable"
 
-#: src/components/cat/WalletCATSelect.tsx:39
+#: src/components/cat/WalletCATSelect.tsx:40
 msgid "Recovery Wallet"
 msgstr "Portefeuille de récupération"
 
@@ -618,13 +623,13 @@ msgstr "Définir"
 msgid "Search on Tail Database"
 msgstr "Rechercher sur Tail Database"
 
-#: src/components/create/WalletCreateList.tsx:25
+#: src/components/create/WalletCreateList.tsx:26
 msgid "Select Wallet Type"
 msgstr "Sélectionner un type de portefeuille"
 
-#: src/components/cat/WalletCATSend.tsx:286
+#: src/components/cat/WalletCATSend.tsx:290
 #: src/components/WalletHeader.tsx:47
-#: src/components/WalletSend.tsx:424
+#: src/components/WalletSend.tsx:428
 msgid "Send"
 msgstr "Envoyer"
 
@@ -664,7 +669,7 @@ msgstr "Synchronisation"
 msgid "The derivation index sets the range of wallet addresses that the wallet scans the blockchain for. This number is generally higher if you have a lot of transactions or canceled offers for XCH, CATs, or NFTs. If you believe your balance is incorrect because it’s missing coins, then increasing the derivation index could help the wallet include the missing coins in the balance total."
 msgstr "L'indice de dérivation définit le nombre d'adresses que le portefeuille va scanner sur la blockchain. Ce nombre est généralement plus élevé si vous avez beaucoup de transactions ou d'offres annulées pour XCH, CATs ou NFTs. Si vous pensez que votre solde est incorrect car il manque des pièces, alors augmenter l'indice de dérivation pourrait aider le portefeuille à inclure les pièces manquantes dans le total du solde."
 
-#: src/components/cat/WalletCATSend.tsx:223
+#: src/components/cat/WalletCATSend.tsx:227
 msgid "The recipient of this transaction will need to have valid credentials in order to claim the sent assets. See the CR CAT restrictions above."
 msgstr ""
 
@@ -694,7 +699,7 @@ msgstr "Ce jeton est vérifié"
 msgid "This is not a valid address for sending funds to"
 msgstr "Cette adresse de destination n'est pas valide"
 
-#: src/components/standard/WalletStandardCards.tsx:23
+#: src/components/standard/WalletStandardCards.tsx:24
 msgid "This is the amount of Aba that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Aba that you have just spent but is not yet in the blockchain."
 msgstr ""
 
@@ -710,7 +715,7 @@ msgstr "Il s'agit des échanges en attente, ce sont des pièces de monnaies d'é
 msgid "This is the sum of the incoming and outgoing pending transactions (not yet included into the blockchain). This does not include farming rewards."
 msgstr "Il s'agit de la somme des transactions entrantes et sortantes en attente (pas encore incluses dans la blockchain). Cela n'inclut pas les récompenses de culture."
 
-#: src/components/standard/WalletStandardCards.tsx:17
+#: src/components/standard/WalletStandardCards.tsx:18
 msgid "This is the total amount of Aba in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr ""
 
@@ -724,8 +729,8 @@ msgstr "Ceci est le solde total + solde en attente : c'est ce que votre solde se
 
 #: src/components/cat/WalletCATSend.tsx:157
 #: src/components/WalletSend.tsx:182
-msgid "This Namesdao .aba name is not yet registered. You can register a name at www.namesdao.org"
-msgstr ""
+#~ msgid "This Namesdao .aba name is not yet registered. You can register a name at www.namesdao.org"
+#~ msgstr ""
 
 #: src/components/ClawbackClaimTransactionDialog.tsx:201
 msgid "This transaction will be automatically claimed with a fee:"
@@ -785,7 +790,7 @@ msgid "Wallet does not exists"
 msgstr "Le portefeuille n’existe pas"
 
 #: src/components/WalletAdd.tsx:99
-#: src/components/WalletImport.tsx:147
+#: src/components/WalletImport.tsx:148
 msgid "Wallet Name"
 msgstr "Nom du portefeuille"
 
@@ -833,6 +838,6 @@ msgstr ""
 #~ msgid "Your CAT tokens have been upgraded!"
 #~ msgstr "Your CAT tokens have been upgraded!"
 
-#: src/components/WalletImport.tsx:73
+#: src/components/WalletImport.tsx:74
 msgid "Your pasted list does not include {mnemonicWordCount} valid mnemonic words."
 msgstr "Votre liste collée ne contient pas {mnemonicWordCount} mots mnémoniques valides."

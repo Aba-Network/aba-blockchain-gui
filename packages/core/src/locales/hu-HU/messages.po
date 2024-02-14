@@ -163,7 +163,7 @@ msgstr "Jelszavas védelem kikapcsolása"
 msgid "Discard"
 msgstr "Elvetés"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:149
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:150
 msgid "Download"
 msgstr ""
 
@@ -308,7 +308,7 @@ msgstr ""
 msgid "New passphrase is the same as your current passphrase"
 msgstr "Az új jelszó megegyezik a jelenlegi jelszóval"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:134
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:135
 msgid "New version {latestVersion} available"
 msgstr ""
 
@@ -443,7 +443,7 @@ msgstr "Speciális beállítások megjelenítése"
 #~ msgid "Sign In"
 #~ msgstr "Sign In"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:137
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:138
 #: src/hooks/useValidateChangePassphraseParams.tsx:51
 msgid "Skip"
 msgstr "Kihagyás"
@@ -529,7 +529,7 @@ msgstr "Erősen javasolt a jelszó beállítása, hogy a kulcsok védve legyenek
 msgid "Value seems high"
 msgstr "Az érték túl magasnak tűnik"
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:234
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:235
 #: src/components/Settings/SettingsApp.tsx:87
 msgid "Wallet"
 msgstr "Tárca"
@@ -551,7 +551,7 @@ msgstr ""
 #~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
 #~ msgstr "Welcome to Chia. Please log in with an existing key, or create a new key."
 
-#: src/components/LayoutDashboard/LayoutDashboard.tsx:143
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:144
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:66
 msgid "What's New"
 msgstr ""

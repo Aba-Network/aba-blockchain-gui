@@ -39,7 +39,7 @@ msgid "Would you like to move {count} NFTs to a profile?"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: src/components/nfts/NFTTransferAction.tsx:250
+#: src/components/nfts/NFTTransferAction.tsx:251
 msgid "Would you like to transfer {count} NFTs to a new owner?"
 msgstr ""
 
@@ -342,7 +342,7 @@ msgstr ""
 msgid "A value of {0} is recommended"
 msgstr "{0} の値を推奨します"
 
-#: src/components/offers2/OfferBuilderXCHSection.tsx:77
+#: src/components/offers2/OfferBuilderXCHSection.tsx:78
 msgid "Aba ({currencyCode}) is a digital currency"
 msgstr ""
 
@@ -480,11 +480,11 @@ msgstr ""
 msgid "All Profiles"
 msgstr ""
 
-#: src/components/settings/SettingsIntegration.tsx:174
+#: src/components/settings/SettingsIntegration.tsx:175
 msgid "Allow external Apps and websites to connect to your wallet through WalletConnect."
 msgstr ""
 
-#: src/components/settings/SettingsIntegration.tsx:199
+#: src/components/settings/SettingsIntegration.tsx:200
 msgid "Allow requests that require switching to a different wallet key."
 msgstr ""
 
@@ -504,16 +504,16 @@ msgstr ""
 msgid "Alternate tmpdir/tmpdir2"
 msgstr "代替のtmpdir/tmpdir2"
 
-#: src/components/settings/SettingsIntegration.tsx:308
+#: src/components/settings/SettingsIntegration.tsx:309
 msgid "Always Allow"
 msgstr "常に許可"
 
-#: src/components/settings/SettingsIntegration.tsx:311
+#: src/components/settings/SettingsIntegration.tsx:312
 msgid "Always Reject"
 msgstr "常に拒否"
 
-#: src/components/offers/NFTOfferEditor.tsx:233
-#: src/components/offers/OfferEditorConditionsPanel.tsx:129
+#: src/components/offers/NFTOfferEditor.tsx:234
+#: src/components/offers/OfferEditorConditionsPanel.tsx:130
 #: src/components/offers2/OfferBuilderNFTRoyalties.tsx:121
 #: src/components/offers2/OfferBuilderWalletAmount.tsx:36
 #: src/constants/WalletConnectCommands.tsx:114
@@ -526,7 +526,7 @@ msgstr "金額"
 msgid "Amount before adding royalties"
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:593
+#: src/components/offers/NFTOfferEditor.tsx:594
 #: src/components/offers/OfferEditor.tsx:109
 msgid "Amount exceeds spendable balance"
 msgstr ""
@@ -560,7 +560,7 @@ msgstr ""
 msgid "Announcement"
 msgstr ""
 
-#: src/components/settings/SettingsIntegration.tsx:212
+#: src/components/settings/SettingsIntegration.tsx:213
 msgid "App Permissions"
 msgstr ""
 
@@ -642,11 +642,11 @@ msgstr ""
 msgid "Asset Type"
 msgstr ""
 
-#: src/components/offers/OfferShareDialog.tsx:903
+#: src/components/offers/OfferShareDialog.tsx:904
 msgid "Assets I am offering:"
 msgstr ""
 
-#: src/components/offers/OfferShareDialog.tsx:908
+#: src/components/offers/OfferShareDialog.tsx:909
 msgid "Assets I will receive:"
 msgstr ""
 
@@ -790,7 +790,7 @@ msgstr "焼却するNFTの確認"
 msgid "Burning a non-fungible token means removing it from circulation by sending it to a verifiably un-spendable address. However, transactions leading up to the burn will remain on the blockchain ledger."
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:309
+#: src/components/offers/NFTOfferEditor.tsx:310
 msgid "Buy an NFT"
 msgstr "NFTを購入する"
 
@@ -819,9 +819,9 @@ msgstr "キャッシュサイズ (GB)"
 #: src/components/offers/OfferAcceptConfirmationDialog.tsx:24
 #: src/components/offers/OfferDataEntryDialog.tsx:58
 #: src/components/offers/OfferEditorConfirmationDialog.tsx:18
-#: src/components/offers/OfferShareDialog.tsx:920
+#: src/components/offers/OfferShareDialog.tsx:921
 #: src/components/offers2/CancelOfferList.tsx:146
-#: src/components/offers2/OfferEditorCancelConflictingOffersDialog.tsx:362
+#: src/components/offers2/OfferEditorCancelConflictingOffersDialog.tsx:363
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:110
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:78
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:34
@@ -839,7 +839,7 @@ msgstr "キャンセル"
 
 #: src/components/offers/ConfirmOfferCancellation.tsx:62
 #: src/components/offers/ConfirmOfferCancellation.tsx:129
-#: src/components/offers/OfferManager.tsx:323
+#: src/components/offers/OfferManager.tsx:324
 #: src/constants/WalletConnectCommands.tsx:381
 msgid "Cancel Offer"
 msgstr ""
@@ -852,7 +852,7 @@ msgstr ""
 msgid "Cancel Unconfirmed Transaction"
 msgstr ""
 
-#: src/components/offers/utils.ts:122
+#: src/components/offers/utils.ts:123
 msgid "Cancelled"
 msgstr ""
 
@@ -994,16 +994,16 @@ msgstr ""
 #: src/components/app/AppVersionWarning.tsx:57
 #: src/components/nfts/MultipleDownloadDialog.tsx:116
 #: src/components/nfts/NFTMoveToProfileDialog.tsx:328
-#: src/components/nfts/NFTTransferAction.tsx:191
+#: src/components/nfts/NFTTransferAction.tsx:192
 #: src/components/notification/NotificationAnnouncementDialog.tsx:75
 #: src/components/notification/NotificationSendDialog.tsx:308
 #: src/components/offers/ConfirmOfferCancellation.tsx:126
-#: src/components/offers/OfferShareDialog.tsx:451
-#: src/components/offers/OfferShareDialog.tsx:526
-#: src/components/offers/OfferShareDialog.tsx:599
-#: src/components/offers/OfferShareDialog.tsx:709
-#: src/components/offers/OfferShareDialog.tsx:831
-#: src/components/offers/OfferShareDialog.tsx:1107
+#: src/components/offers/OfferShareDialog.tsx:452
+#: src/components/offers/OfferShareDialog.tsx:527
+#: src/components/offers/OfferShareDialog.tsx:600
+#: src/components/offers/OfferShareDialog.tsx:710
+#: src/components/offers/OfferShareDialog.tsx:832
+#: src/components/offers/OfferShareDialog.tsx:1108
 #: src/components/offers2/OfferBuilderViewerDialog.tsx:76
 #: src/components/plot/PlotAddDirectoryDialog.tsx:132
 #: src/components/plot/queue/PlotQueueLogDialog.tsx:66
@@ -1086,7 +1086,7 @@ msgstr "確認"
 msgid "Confirmation Request"
 msgstr ""
 
-#: src/components/offers/utils.ts:124
+#: src/components/offers/utils.ts:125
 msgid "Confirmed"
 msgstr ""
 
@@ -1210,7 +1210,7 @@ msgstr "作成"
 msgid "Create & Manage plots"
 msgstr "プロットの作成・管理"
 
-#: src/components/offers/OfferManager.tsx:416
+#: src/components/offers/OfferManager.tsx:417
 msgid "Create a file that you can use to trade ABA, Crypto Asset Tokens, or NFTs with no counter-party risk."
 msgstr ""
 
@@ -1226,12 +1226,12 @@ msgstr ""
 msgid "Create a Plot NFT"
 msgstr "NFTプロットを作成"
 
-#: src/components/offers/NFTOfferEditor.tsx:725
+#: src/components/offers/NFTOfferEditor.tsx:726
 msgid "Create an NFT Offer"
 msgstr ""
 
 #: src/components/offers/OfferEditor.tsx:193
-#: src/components/offers/OfferManager.tsx:425
+#: src/components/offers/OfferManager.tsx:426
 msgid "Create an Offer"
 msgstr "取引依頼を作成"
 
@@ -1252,10 +1252,10 @@ msgid "Create new DID Wallet"
 msgstr ""
 
 #: src/components/nfts/NFTContextualActions.tsx:149
-#: src/components/offers/NFTOfferEditor.tsx:439
+#: src/components/offers/NFTOfferEditor.tsx:440
 #: src/components/offers/OfferEditor.tsx:175
 #: src/components/offers/OfferEditorConfirmationDialog.tsx:15
-#: src/components/offers/OfferManager.tsx:407
+#: src/components/offers/OfferManager.tsx:408
 #: src/components/offers2/CreateOfferBuilder.tsx:200
 msgid "Create Offer"
 msgstr "取引依頼を作成"
@@ -1296,7 +1296,7 @@ msgstr "NFTプロットの作成とプールへの参加"
 msgid "Creating Plot NFT for Self Pooling"
 msgstr "セルフプールのためのNFTプロットを作成"
 
-#: src/components/offers/OfferManager.tsx:250
+#: src/components/offers/OfferManager.tsx:251
 #: src/components/offers2/CancelOfferList.tsx:127
 #: src/components/offers2/OfferIncomingTable.tsx:72
 msgid "Creation Date"
@@ -1306,11 +1306,11 @@ msgstr "作成日時"
 msgid "Creator Fee ({0}%)"
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:331
+#: src/components/offers/NFTOfferEditor.tsx:332
 msgid "Creator Fee ({royaltyPercentage}%)"
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:334
+#: src/components/offers/NFTOfferEditor.tsx:335
 #: src/components/offers/NFTOfferViewer.tsx:521
 msgid "Creator royalty percentage seems high"
 msgstr ""
@@ -1319,7 +1319,7 @@ msgstr ""
 msgid "Credentials"
 msgstr "認証情報"
 
-#: src/components/offers2/OfferBuilderTokensSection.tsx:115
+#: src/components/offers2/OfferBuilderTokensSection.tsx:116
 msgid "Crypto Asset Tokens (CATs) are tokens built on top of ABA"
 msgstr ""
 
@@ -1490,7 +1490,7 @@ msgstr ""
 #~ msgid "Developer Tools"
 #~ msgstr "Developer Tools"
 
-#: src/components/offers/OfferShareDialog.tsx:416
+#: src/components/offers/OfferShareDialog.tsx:417
 msgid "Dexie URL"
 msgstr ""
 
@@ -1561,14 +1561,14 @@ msgid "Disable NUMA"
 msgstr "NUMA を無効"
 
 #: src/components/fullNode/FullNodeCloseConnection.tsx:20
-#: src/components/settings/SettingsIntegration.tsx:271
+#: src/components/settings/SettingsIntegration.tsx:272
 #: src/components/walletConnect/WalletConnectConnectedDialog.tsx:122
 #: src/components/walletConnect/WalletConnectConnections.tsx:91
 #: src/components/walletConnect/WalletConnectPairInfoDialog.tsx:135
 msgid "Disconnect"
 msgstr "解除"
 
-#: src/components/offers/OfferManager.tsx:303
+#: src/components/offers/OfferManager.tsx:304
 msgid "Display Offer Data"
 msgstr ""
 
@@ -1576,7 +1576,7 @@ msgstr ""
 msgid "Display sharing options after creating a new offer"
 msgstr ""
 
-#: src/components/offers/OfferShareDialog.tsx:1100
+#: src/components/offers/OfferShareDialog.tsx:1101
 #: src/hooks/useOpenUnsafeLink.tsx:64
 msgid "Do not show this dialog again"
 msgstr ""
@@ -1762,7 +1762,7 @@ msgstr ""
 msgid "Enable Verifiable Credentials"
 msgstr ""
 
-#: src/components/settings/SettingsIntegration.tsx:157
+#: src/components/settings/SettingsIntegration.tsx:158
 #: src/components/walletConnect/WalletConnectConnections.tsx:110
 msgid "Enable WalletConnect"
 msgstr ""
@@ -1825,7 +1825,7 @@ msgstr ""
 #~ msgid "Error parsing json"
 #~ msgstr ""
 
-#: src/components/offers/OfferShareDialog.tsx:812
+#: src/components/offers/OfferShareDialog.tsx:813
 msgid "Error posting offer: {0}"
 msgstr ""
 
@@ -1885,7 +1885,7 @@ msgstr ""
 #~ msgid "Expiration time will be {0}"
 #~ msgstr ""
 
-#: src/components/offers/OfferManager.tsx:183
+#: src/components/offers/OfferManager.tsx:184
 #: src/components/vcs/VCCard.tsx:166
 msgid "Expired"
 msgstr ""
@@ -1894,7 +1894,7 @@ msgstr ""
 msgid "Explore the Chia ecosystem; discover and trade great NFTs"
 msgstr ""
 
-#: src/components/offers/utils.ts:126
+#: src/components/offers/utils.ts:127
 #: src/components/plot/PlotHarvester.tsx:122
 msgid "Failed"
 msgstr "失敗"
@@ -1907,7 +1907,7 @@ msgstr ""
 msgid "Failed partials"
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:584
+#: src/components/offers/NFTOfferEditor.tsx:585
 msgid "Failed to decode NFT identifier"
 msgstr ""
 
@@ -2025,7 +2025,7 @@ msgstr ""
 
 #: src/components/nfts/NFTBurnDialog.tsx:167
 #: src/components/nfts/NFTMoveToProfileDialog.tsx:320
-#: src/components/nfts/NFTTransferAction.tsx:183
+#: src/components/nfts/NFTTransferAction.tsx:184
 #: src/components/offers/ConfirmOfferCancellation.tsx:109
 #: src/components/offers/NFTOfferViewer.tsx:615
 #: src/components/plotNFT/PlotNFTAbsorbRewards.tsx:158
@@ -2047,8 +2047,8 @@ msgstr ""
 msgid "Fee"
 msgstr "手数料"
 
-#: src/components/offers/NFTOfferEditor.tsx:83
-#: src/components/offers/OfferEditorConditionsPanel.tsx:387
+#: src/components/offers/NFTOfferEditor.tsx:84
+#: src/components/offers/OfferEditorConditionsPanel.tsx:388
 msgid "Fee (Optional)"
 msgstr ""
 
@@ -2304,7 +2304,7 @@ msgstr ""
 #~ msgid "Hash mismatch."
 #~ msgstr ""
 
-#: src/components/offers/OfferShareDialog.tsx:577
+#: src/components/offers/OfferShareDialog.tsx:578
 msgid "Hashgreen DEX URL"
 msgstr ""
 
@@ -2429,7 +2429,7 @@ msgid "Import"
 msgstr ""
 
 #: src/components/offers/NFTOfferViewer.tsx:483
-#: src/components/offers/OfferEditorConditionsPanel.tsx:291
+#: src/components/offers/OfferEditorConditionsPanel.tsx:292
 #: src/components/offers2/OfferBuilderTradeColumn.tsx:28
 msgid "In exchange for"
 msgstr ""
@@ -2450,8 +2450,8 @@ msgstr ""
 msgid "Include Wallet Metadata"
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:88
-#: src/components/offers/OfferEditorConditionsPanel.tsx:393
+#: src/components/offers/NFTOfferEditor.tsx:89
+#: src/components/offers/OfferEditorConditionsPanel.tsx:394
 msgid "Including a fee in the offer can help expedite the transaction when the offer is accepted. The recommended minimum fee is 0.000005 ABA (5,000,000 mojos)"
 msgstr ""
 
@@ -2515,7 +2515,7 @@ msgstr ""
 #~ msgid "Invalid metadata url"
 #~ msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:582
+#: src/components/offers/NFTOfferEditor.tsx:583
 msgid "Invalid NFT identifier"
 msgstr ""
 
@@ -2602,7 +2602,7 @@ msgstr "鍵"
 #~ msgid "Key switching"
 #~ msgstr ""
 
-#: src/components/settings/SettingsIntegration.tsx:182
+#: src/components/settings/SettingsIntegration.tsx:183
 msgid "Key Switching"
 msgstr ""
 
@@ -2728,7 +2728,7 @@ msgstr ""
 msgid "Loading configuration"
 msgstr ""
 
-#: src/components/offers/OfferManager.tsx:236
+#: src/components/offers/OfferManager.tsx:237
 #: src/components/offers2/OfferBuilderExpirationSection.tsx:107
 msgid "Loading expiration time..."
 msgstr ""
@@ -2761,7 +2761,7 @@ msgstr ""
 #: src/components/helpers/HeightToTimestamp.tsx:16
 #: src/components/nfts/NFTMetadata.tsx:21
 #: src/components/offers/NFTOfferTokenSelector.tsx:97
-#: src/components/offers/OfferManager.tsx:185
+#: src/components/offers/OfferManager.tsx:186
 #: src/components/offers2/OfferBuilderTokenSelector.tsx:79
 #: src/components/offers2/OfferDetails.tsx:38
 #: src/components/plot/queue/PlotQueueLogDialog.tsx:27
@@ -2804,7 +2804,7 @@ msgstr "耕作報酬の管理"
 msgid "Manage how and where files are stored on this computer."
 msgstr ""
 
-#: src/components/settings/SettingsIntegration.tsx:218
+#: src/components/settings/SettingsIntegration.tsx:219
 msgid "Manage permissions for your WalletConnect apps."
 msgstr ""
 
@@ -2912,7 +2912,7 @@ msgstr ""
 msgid "Minter:"
 msgstr ""
 
-#: src/components/offers/OfferShareDialog.tsx:504
+#: src/components/offers/OfferShareDialog.tsx:505
 msgid "MintGarden URL"
 msgstr ""
 
@@ -3047,7 +3047,7 @@ msgstr ""
 msgid "Next"
 msgstr "次へ"
 
-#: src/components/offers/NFTOfferEditor.tsx:213
+#: src/components/offers/NFTOfferEditor.tsx:214
 #: src/components/offers2/OfferBuilderNFTSection.tsx:44
 #: src/components/settings/SettingsNFT.tsx:81
 #: src/components/signVerify/SignMessage.tsx:154
@@ -3072,7 +3072,7 @@ msgstr ""
 msgid "NFT Coin Ids"
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:619
+#: src/components/offers/NFTOfferEditor.tsx:620
 msgid "NFT details not available"
 msgstr ""
 
@@ -3090,7 +3090,7 @@ msgstr ""
 msgid "NFT ID"
 msgstr "NFT ID"
 
-#: src/components/offers/NFTOfferEditor.tsx:215
+#: src/components/offers/NFTOfferEditor.tsx:216
 msgid "NFT Identifier"
 msgstr "NFT 識別子"
 
@@ -3161,7 +3161,7 @@ msgstr ""
 msgid "No CAT wallet found for {assetId} token"
 msgstr ""
 
-#: src/components/settings/SettingsIntegration.tsx:258
+#: src/components/settings/SettingsIntegration.tsx:259
 msgid "No connected applications"
 msgstr ""
 
@@ -3173,11 +3173,11 @@ msgstr ""
 msgid "No CPU Affinity"
 msgstr ""
 
-#: src/components/offers/OfferManager.tsx:370
+#: src/components/offers/OfferManager.tsx:371
 msgid "No current offers"
 msgstr "現在取引依頼はありません"
 
-#: src/components/settings/SettingsIntegration.tsx:331
+#: src/components/settings/SettingsIntegration.tsx:332
 msgid "No Custom Permissions"
 msgstr ""
 
@@ -3276,7 +3276,7 @@ msgstr ""
 msgid "Not Synced"
 msgstr "同期されていません"
 
-#: src/components/settings/SettingsIntegration.tsx:142
+#: src/components/settings/SettingsIntegration.tsx:143
 msgid "NOT YET AVAILABLE, stay tuned... WalletConnect enables a decentralized app on the Aba blockchain to communicate and make requests directly to an Aba wallet."
 msgstr ""
 
@@ -3304,9 +3304,9 @@ msgstr ""
 msgid "Notifications"
 msgstr "通知"
 
-#: src/components/offers/OfferShareDialog.tsx:444
-#: src/components/offers/OfferShareDialog.tsx:702
-#: src/components/offers/OfferShareDialog.tsx:824
+#: src/components/offers/OfferShareDialog.tsx:445
+#: src/components/offers/OfferShareDialog.tsx:703
+#: src/components/offers/OfferShareDialog.tsx:825
 msgid "Notify Current Owner"
 msgstr ""
 
@@ -3376,7 +3376,7 @@ msgstr ""
 msgid "Offer"
 msgstr ""
 
-#: src/components/offers/OfferManager.tsx:413
+#: src/components/offers/OfferManager.tsx:414
 #: src/components/offers2/OfferNavigationHeader.tsx:16
 msgid "Offer Builder"
 msgstr "取引依頼ビルダー"
@@ -3432,15 +3432,15 @@ msgstr ""
 msgid "Offer Id"
 msgstr ""
 
-#: src/components/offers/OfferManager.tsx:394
+#: src/components/offers/OfferManager.tsx:395
 msgid "Offer Management"
 msgstr "取引依頼管理"
 
-#: src/components/offers/OfferShareDialog.tsx:411
-#: src/components/offers/OfferShareDialog.tsx:499
-#: src/components/offers/OfferShareDialog.tsx:572
-#: src/components/offers/OfferShareDialog.tsx:669
-#: src/components/offers/OfferShareDialog.tsx:785
+#: src/components/offers/OfferShareDialog.tsx:412
+#: src/components/offers/OfferShareDialog.tsx:500
+#: src/components/offers/OfferShareDialog.tsx:573
+#: src/components/offers/OfferShareDialog.tsx:670
+#: src/components/offers/OfferShareDialog.tsx:786
 msgid "Offer Shared"
 msgstr ""
 
@@ -3454,7 +3454,7 @@ msgstr ""
 #~ msgid "OfferBin URL"
 #~ msgstr "OfferBin URL"
 
-#: src/components/offers/OfferManager.tsx:215
+#: src/components/offers/OfferManager.tsx:216
 #: src/components/offers2/CancelOfferList.tsx:80
 msgid "Offered"
 msgstr "差し出し内容"
@@ -3468,7 +3468,7 @@ msgstr "提示内容"
 #~ msgid "Offering: [{makerString}], Requesting: [{takerString}]"
 #~ msgstr "Offering: [{makerString}], Requesting: [{takerString}]"
 
-#: src/components/offers/OfferShareDialog.tsx:792
+#: src/components/offers/OfferShareDialog.tsx:793
 msgid "Offerpool URL"
 msgstr ""
 
@@ -3481,15 +3481,15 @@ msgstr "取引依頼"
 msgid "Offers are a way to trade assets in a genuinely peer-to-peer way that eliminates counterparty risk."
 msgstr "取引依頼（オファー）を使えばカウンターパーティーリスクに晒されることなく、完全に個人間のみの資産売買を行うことができます。"
 
-#: src/components/offers/OfferManager.tsx:397
+#: src/components/offers/OfferManager.tsx:398
 msgid "Offers are a way to trade assets in a genuinely peer-to-peer way to eliminate counterparty risk."
 msgstr "取引依頼（オファー）を使えばカウンターパーティーリスクに晒されることなく、完全に個人間のみの資産売買を行うことができます。"
 
-#: src/components/offers/OfferManager.tsx:446
+#: src/components/offers/OfferManager.tsx:447
 msgid "Offers you accepted"
 msgstr "あなたが受け入れた取引依頼"
 
-#: src/components/offers/OfferManager.tsx:445
+#: src/components/offers/OfferManager.tsx:446
 msgid "Offers you created"
 msgstr "あなたが作成した取引依頼"
 
@@ -3503,7 +3503,7 @@ msgstr "OK"
 msgid "Once you accept this offer, you will not be able to cancel the transaction. Are you sure you want to accept this offer?"
 msgstr ""
 
-#: src/components/nfts/NFTTransferAction.tsx:85
+#: src/components/nfts/NFTTransferAction.tsx:84
 msgid "Once you initiate this transfer, you will not be able to cancel the transaction. Are you sure you want to transfer {0} NFTs?"
 msgstr ""
 
@@ -3531,11 +3531,11 @@ msgstr ""
 msgid "Open Link"
 msgstr ""
 
-#: src/components/offers2/OfferEditorCancelConflictingOffersDialog.tsx:312
+#: src/components/offers2/OfferEditorCancelConflictingOffersDialog.tsx:313
 msgid "Open offers required to be canceled to refill spendable amount"
 msgstr ""
 
-#: src/components/offers2/OfferEditorCancelConflictingOffersDialog.tsx:334
+#: src/components/offers2/OfferEditorCancelConflictingOffersDialog.tsx:335
 msgid "Open offers which lock the same assets as the new offer"
 msgstr ""
 
@@ -3702,15 +3702,15 @@ msgstr "先端の高さ"
 msgid "Pending"
 msgstr "保留中"
 
-#: src/components/offers/utils.ts:116
+#: src/components/offers/utils.ts:117
 msgid "Pending Accept"
 msgstr ""
 
-#: src/components/offers/utils.ts:120
+#: src/components/offers/utils.ts:121
 msgid "Pending Cancel"
 msgstr ""
 
-#: src/components/offers/utils.ts:118
+#: src/components/offers/utils.ts:119
 msgid "Pending Confirm"
 msgstr ""
 
@@ -3740,7 +3740,7 @@ msgstr ""
 msgid "Please enter a valid numeric fee"
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:588
+#: src/components/offers/NFTOfferEditor.tsx:589
 msgid "Please enter an amount"
 msgstr ""
 
@@ -3756,7 +3756,7 @@ msgstr ""
 msgid "Please enter an amount for each row"
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:580
+#: src/components/offers/NFTOfferEditor.tsx:581
 msgid "Please enter an NFT identifier"
 msgstr ""
 
@@ -3796,7 +3796,7 @@ msgstr ""
 msgid "Please select an asset for each token"
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:586
+#: src/components/offers/NFTOfferEditor.tsx:587
 msgid "Please select an asset type"
 msgstr ""
 
@@ -4089,7 +4089,7 @@ msgstr "前へ"
 msgid "Previous Header Hash"
 msgstr "前ヘッダーハッシュ値"
 
-#: src/components/offers2/OfferEditorCancelConflictingOffersDialog.tsx:360
+#: src/components/offers2/OfferEditorCancelConflictingOffersDialog.tsx:361
 msgid "Proceed"
 msgstr ""
 
@@ -4222,7 +4222,7 @@ msgstr "相対ロックの高さ"
 #~ msgid "Release Notes"
 #~ msgstr "Release Notes"
 
-#: src/components/offers/OfferManager.tsx:292
+#: src/components/offers/OfferManager.tsx:293
 msgid "Relist Offer"
 msgstr ""
 
@@ -4234,7 +4234,7 @@ msgstr "リモート"
 msgid "Remote Harvester"
 msgstr ""
 
-#: src/components/offers2/OfferEditorCancelConflictingOffersDialog.tsx:359
+#: src/components/offers2/OfferEditorCancelConflictingOffersDialog.tsx:360
 msgid "Remove Conflicting Offer"
 msgstr ""
 
@@ -4265,7 +4265,7 @@ msgstr "削除中"
 #~ msgid "Report an Issue..."
 #~ msgstr "Report an Issue..."
 
-#: src/components/offers/OfferManager.tsx:225
+#: src/components/offers/OfferManager.tsx:226
 #: src/components/offers2/CancelOfferList.tsx:95
 msgid "Requested"
 msgstr "要求内容"
@@ -4351,20 +4351,20 @@ msgstr ""
 msgid "Requests the verification status for a digital signature"
 msgstr ""
 
-#: src/components/settings/SettingsIntegration.tsx:314
+#: src/components/settings/SettingsIntegration.tsx:315
 msgid "Require Confirmation"
 msgstr ""
 
 #: src/components/farm/FarmHealth.tsx:286
 #: src/components/farm/FarmHealth.tsx:348
-#: src/components/offers/NFTOfferEditor.tsx:436
+#: src/components/offers/NFTOfferEditor.tsx:437
 #: src/components/offers/OfferEditor.tsx:172
-#: src/components/settings/SettingsIntegration.tsx:391
+#: src/components/settings/SettingsIntegration.tsx:392
 #: src/components/signVerify/VerifyMessage.tsx:266
 msgid "Reset"
 msgstr ""
 
-#: src/components/settings/SettingsIntegration.tsx:379
+#: src/components/settings/SettingsIntegration.tsx:380
 msgid "Reset WalletConnect Permissions"
 msgstr ""
 
@@ -4376,11 +4376,11 @@ msgstr ""
 msgid "Restart Local Harvester to apply changes"
 msgstr ""
 
-#: src/components/settings/SettingsIntegration.tsx:352
+#: src/components/settings/SettingsIntegration.tsx:353
 msgid "Restore"
 msgstr ""
 
-#: src/components/settings/SettingsIntegration.tsx:343
+#: src/components/settings/SettingsIntegration.tsx:344
 msgid "Restore Default Dapp Permissions"
 msgstr ""
 
@@ -4444,7 +4444,7 @@ msgstr "フルノードの実行"
 msgid "Save"
 msgstr "保存"
 
-#: src/components/offers/OfferManager.tsx:313
+#: src/components/offers/OfferManager.tsx:314
 msgid "Save Offer File"
 msgstr ""
 
@@ -4498,7 +4498,7 @@ msgstr "2つ目の一時ファイルのディレクトリを選択"
 msgid "Select all"
 msgstr ""
 
-#: src/components/settings/SettingsIntegration.tsx:256
+#: src/components/settings/SettingsIntegration.tsx:257
 msgid "Select an application"
 msgstr ""
 
@@ -4576,7 +4576,7 @@ msgstr ""
 msgid "Self Pooling"
 msgstr "セルフプーリング"
 
-#: src/components/offers/NFTOfferEditor.tsx:310
+#: src/components/offers/NFTOfferEditor.tsx:311
 msgid "Sell an NFT"
 msgstr ""
 
@@ -4584,9 +4584,9 @@ msgstr ""
 msgid "Send Message"
 msgstr ""
 
-#: src/components/offers/OfferShareDialog.tsx:446
-#: src/components/offers/OfferShareDialog.tsx:704
-#: src/components/offers/OfferShareDialog.tsx:826
+#: src/components/offers/OfferShareDialog.tsx:447
+#: src/components/offers/OfferShareDialog.tsx:705
+#: src/components/offers/OfferShareDialog.tsx:827
 msgid "Send Notification"
 msgstr ""
 
@@ -4637,20 +4637,20 @@ msgstr ""
 msgid "Settings"
 msgstr "設定"
 
-#: src/components/offers/OfferManager.tsx:269
-#: src/components/offers/OfferShareDialog.tsx:923
+#: src/components/offers/OfferManager.tsx:270
+#: src/components/offers/OfferShareDialog.tsx:924
 msgid "Share"
 msgstr ""
 
-#: src/components/offers/OfferShareDialog.tsx:1071
+#: src/components/offers/OfferShareDialog.tsx:1072
 msgid "Share Offer"
 msgstr ""
 
-#: src/components/offers/OfferShareDialog.tsx:465
+#: src/components/offers/OfferShareDialog.tsx:466
 msgid "Share on Dexie"
 msgstr ""
 
-#: src/components/offers/OfferShareDialog.tsx:611
+#: src/components/offers/OfferShareDialog.tsx:612
 msgid "Share on Hashgreen DEX"
 msgstr ""
 
@@ -4658,7 +4658,7 @@ msgstr ""
 #~ msgid "Share on Keybase"
 #~ msgstr "Share on Keybase"
 
-#: src/components/offers/OfferShareDialog.tsx:538
+#: src/components/offers/OfferShareDialog.tsx:539
 msgid "Share on MintGarden"
 msgstr ""
 
@@ -4666,11 +4666,11 @@ msgstr ""
 #~ msgid "Share on OfferBin"
 #~ msgstr "Share on OfferBin"
 
-#: src/components/offers/OfferShareDialog.tsx:845
+#: src/components/offers/OfferShareDialog.tsx:846
 msgid "Share on offerpool"
 msgstr ""
 
-#: src/components/offers/OfferShareDialog.tsx:723
+#: src/components/offers/OfferShareDialog.tsx:724
 msgid "Share on Spacescan.io"
 msgstr ""
 
@@ -4682,7 +4682,7 @@ msgstr ""
 msgid "Show"
 msgstr "表示"
 
-#: src/components/offers/OfferManager.tsx:283
+#: src/components/offers/OfferManager.tsx:284
 msgid "Show Details"
 msgstr ""
 
@@ -4773,7 +4773,7 @@ msgstr ""
 msgid "Size of cache to reserve for I/O"
 msgstr ""
 
-#: src/components/settings/SettingsIntegration.tsx:286
+#: src/components/settings/SettingsIntegration.tsx:287
 msgid "Skip Confirmation for Commands"
 msgstr ""
 
@@ -4802,7 +4802,7 @@ msgstr ""
 msgid "Space"
 msgstr ""
 
-#: src/components/offers/OfferShareDialog.tsx:674
+#: src/components/offers/OfferShareDialog.tsx:675
 msgid "Spacescan.io URL"
 msgstr ""
 
@@ -4880,7 +4880,7 @@ msgstr "状態"
 
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:69
 #: src/components/fullNode/card/FullNodeCardStatus.tsx:74
-#: src/components/offers/OfferManager.tsx:205
+#: src/components/offers/OfferManager.tsx:206
 #: src/components/plot/PlotHarvesterPlots.tsx:74
 #: src/components/plot/PlotPlotting.tsx:26
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:101
@@ -5069,11 +5069,11 @@ msgstr ""
 msgid "The total amount offered includes the offered purchase price, plus the optional offer creation fee.<0/>If the NFT has royalty payments enabled, those creator fees will be paid from the offered purchase price."
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:397
+#: src/components/offers/NFTOfferEditor.tsx:398
 msgid "The total amount offered includes the price you're willing to pay for the NFT, plus the optional offer creation fee. One or more coins totalling at least the amount shown below will be deducted from your spendable balance upon offer creation.<0/>If the NFT has royalty payments enabled, those creator fees will be paid by the party that accepts the offer."
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:388
+#: src/components/offers/NFTOfferEditor.tsx:389
 msgid "The total amount requested includes the asking price, plus the associated creator fees (if the NFT has royalty payments enabled). Creator fees will be paid by the party that accepts the offer.<0/>The optional offer creation fee is not included in this total, and will be deducted from your spendable balance upon offer creation."
 msgstr ""
 
@@ -5109,7 +5109,7 @@ msgstr ""
 msgid "These plots are invalid, you might want to delete them."
 msgstr "これらの耕地には問題があるため、削除をご検討ください。"
 
-#: src/components/offers/NFTOfferEditor.tsx:362
+#: src/components/offers/NFTOfferEditor.tsx:363
 msgid "They will receive"
 msgstr ""
 
@@ -5212,11 +5212,11 @@ msgstr ""
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "この表には、最後にあなたの畑がブロックチャレンジに勝とうと試みた詳細が記録されています。 <0>詳しく</0>"
 
-#: src/components/settings/SettingsIntegration.tsx:398
+#: src/components/settings/SettingsIntegration.tsx:399
 msgid "This will reset all previously granted permissions across all Dapps that have been connected to. After resetting you will be asked to grant permission again."
 msgstr ""
 
-#: src/components/settings/SettingsIntegration.tsx:359
+#: src/components/settings/SettingsIntegration.tsx:360
 msgid "This will restore the selected Dapp's permissions back to their default values. By default, every command issued by the Dapp will require confirmation in the Aba Core wallet."
 msgstr ""
 
@@ -5253,7 +5253,7 @@ msgid "Token Standard"
 msgstr ""
 
 #: src/components/dashboard/DashboardSideBar.tsx:47
-#: src/components/offers2/OfferBuilderTokensSection.tsx:114
+#: src/components/offers2/OfferBuilderTokensSection.tsx:115
 msgid "Tokens"
 msgstr "トークン"
 
@@ -5269,12 +5269,12 @@ msgstr ""
 msgid "Total amount including royalties"
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:382
+#: src/components/offers/NFTOfferEditor.tsx:383
 #: src/components/offers/NFTOfferViewer.tsx:545
 msgid "Total Amount Offered"
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:380
+#: src/components/offers/NFTOfferEditor.tsx:381
 #: src/components/offers/NFTOfferViewer.tsx:541
 msgid "Total Amount Requested"
 msgstr ""
@@ -5408,13 +5408,13 @@ msgstr "取引フィルターハッシュ値"
 msgid "Transactions less than the fee will not be auto claimed."
 msgstr ""
 
-#: src/components/nfts/NFTTransferAction.tsx:194
+#: src/components/nfts/NFTTransferAction.tsx:195
 #: src/components/nfts/NFTTransferConfirmationDialog.tsx:45
 msgid "Transfer"
 msgstr ""
 
 #: src/components/nfts/NFTContextualActions.tsx:197
-#: src/components/nfts/NFTTransferAction.tsx:242
+#: src/components/nfts/NFTTransferAction.tsx:243
 #: src/constants/WalletConnectCommands.tsx:695
 msgid "Transfer NFT"
 msgstr ""
@@ -5460,15 +5460,15 @@ msgstr ""
 msgid "Types{0}"
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:635
+#: src/components/offers/NFTOfferEditor.tsx:636
 msgid "Unable to create an offer for an NFT that you do not own."
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:644
+#: src/components/offers/NFTOfferEditor.tsx:645
 msgid "Unable to create an offer for an NFT with a creator royalty percentage greater than 100%"
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:371
+#: src/components/offers/NFTOfferEditor.tsx:372
 msgid "Unable to create an offer where the net amount is negative"
 msgstr ""
 
@@ -5507,12 +5507,12 @@ msgstr ""
 msgid "Unfinished"
 msgstr "未完成"
 
-#: src/components/offers/utils.ts:128
+#: src/components/offers/utils.ts:129
 #: src/components/offers2/OfferBuilderTokenSelector.tsx:66
 msgid "Unknown"
 msgstr ""
 
-#: src/components/settings/SettingsIntegration.tsx:248
+#: src/components/settings/SettingsIntegration.tsx:249
 msgid "Unknown App - {0}"
 msgstr ""
 
@@ -5689,20 +5689,20 @@ msgstr ""
 msgid "View Log"
 msgstr "ログを表示"
 
-#: src/components/offers/OfferManager.tsx:436
+#: src/components/offers/OfferManager.tsx:437
 msgid "View Offer"
 msgstr ""
 
-#: src/components/offers/OfferShareDialog.tsx:431
+#: src/components/offers/OfferShareDialog.tsx:432
 msgid "View on Dexie"
 msgstr ""
 
-#: src/components/offers/OfferShareDialog.tsx:592
+#: src/components/offers/OfferShareDialog.tsx:593
 msgid "View on Hashgreen DEX"
 msgstr ""
 
 #: src/components/nfts/NFTContextualActions.tsx:646
-#: src/components/offers/OfferShareDialog.tsx:519
+#: src/components/offers/OfferShareDialog.tsx:520
 msgid "View on MintGarden"
 msgstr ""
 
@@ -5710,12 +5710,12 @@ msgstr ""
 #~ msgid "View on OfferBin"
 #~ msgstr "View on OfferBin"
 
-#: src/components/offers/OfferShareDialog.tsx:807
+#: src/components/offers/OfferShareDialog.tsx:808
 msgid "View on Offerpool"
 msgstr ""
 
 #: src/components/nfts/NFTContextualActions.tsx:654
-#: src/components/offers/OfferShareDialog.tsx:689
+#: src/components/offers/OfferShareDialog.tsx:690
 msgid "View on Spacescan.io"
 msgstr ""
 
@@ -5816,7 +5816,7 @@ msgstr ""
 msgid "Wallet must be synced before creating an offer with an expiration time"
 msgstr ""
 
-#: src/components/settings/SettingsIntegration.tsx:139
+#: src/components/settings/SettingsIntegration.tsx:140
 #: src/components/walletConnect/WalletConnectAddConnectionDialog.tsx:218
 #: src/components/walletConnect/WalletConnectConnectedDialog.tsx:67
 #: src/components/walletConnect/WalletConnectDropdown.tsx:26
@@ -5910,7 +5910,7 @@ msgstr ""
 #~ msgid "Would you like to transfer the specified NFT to a new owner"
 #~ msgstr ""
 
-#: src/components/nfts/NFTTransferAction.tsx:252
+#: src/components/nfts/NFTTransferAction.tsx:253
 msgid "Would you like to transfer the specified NFT to a new owner?"
 msgstr ""
 
@@ -5981,11 +5981,11 @@ msgstr ""
 msgid "You have a new offer"
 msgstr ""
 
-#: src/components/offers2/OfferEditorCancelConflictingOffersDialog.tsx:305
+#: src/components/offers2/OfferEditorCancelConflictingOffersDialog.tsx:306
 msgid "You have coins/assets locked for your open offers thus the spendable balance is not sufficient for the amounts you are offering. You need to cancel open offers to unlock coins/asset for the new offer."
 msgstr ""
 
-#: src/components/offers2/OfferEditorCancelConflictingOffersDialog.tsx:327
+#: src/components/offers2/OfferEditorCancelConflictingOffersDialog.tsx:328
 msgid "You have open offers which lock the same assets as your new offer. You may want to cancel those offers if they are no longer needed."
 msgstr ""
 
@@ -6009,11 +6009,11 @@ msgstr ""
 msgid "You will give"
 msgstr ""
 
-#: src/components/offers/OfferEditorConditionsPanel.tsx:290
+#: src/components/offers/OfferEditorConditionsPanel.tsx:291
 msgid "You will offer"
 msgstr ""
 
-#: src/components/offers/NFTOfferEditor.tsx:360
+#: src/components/offers/NFTOfferEditor.tsx:361
 #: src/components/offers/NFTOfferViewer.tsx:478
 msgid "You will receive"
 msgstr ""
