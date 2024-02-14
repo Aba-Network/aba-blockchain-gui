@@ -2558,7 +2558,7 @@ msgstr ""
 #: src/components/plot/add/PlotAddNFT.tsx:145
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:142
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:156
-#: src/components/pool/PoolHero.tsx:24
+#: src/components/pool/PoolHero.tsx:25
 msgid "Join a Pool"
 msgstr ""
 
@@ -4778,9 +4778,13 @@ msgstr ""
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "Пропуска добавянето на финална директория на Фармера за фармене"
 
-#: src/components/pool/PoolHero.tsx:21
-msgid "Smooth out your XCH farming rewards by joining a pool."
+#: src/components/pool/PoolHero.tsx:22
+msgid "Smooth out your ABA farming rewards by joining a pool."
 msgstr ""
+
+#: src/components/pool/PoolHero.tsx:21
+#~ msgid "Smooth out your XCH farming rewards by joining a pool."
+#~ msgstr ""
 
 #: src/components/plot/add/PlotAddChooseKeys.tsx:179
 msgid "Solo Farming"

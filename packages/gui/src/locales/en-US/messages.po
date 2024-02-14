@@ -2562,7 +2562,7 @@ msgstr "It is a one-time login link that can be used to log in to a pool's websi
 #: src/components/plot/add/PlotAddNFT.tsx:145
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:142
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:156
-#: src/components/pool/PoolHero.tsx:24
+#: src/components/pool/PoolHero.tsx:25
 msgid "Join a Pool"
 msgstr "Join a Pool"
 
@@ -4782,9 +4782,13 @@ msgstr ""
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "Skips adding a final directory to harvester for farming"
 
+#: src/components/pool/PoolHero.tsx:22
+msgid "Smooth out your ABA farming rewards by joining a pool."
+msgstr "Smooth out your ABA farming rewards by joining a pool."
+
 #: src/components/pool/PoolHero.tsx:21
-msgid "Smooth out your XCH farming rewards by joining a pool."
-msgstr "Smooth out your XCH farming rewards by joining a pool."
+#~ msgid "Smooth out your XCH farming rewards by joining a pool."
+#~ msgstr "Smooth out your XCH farming rewards by joining a pool."
 
 #: src/components/plot/add/PlotAddChooseKeys.tsx:179
 msgid "Solo Farming"

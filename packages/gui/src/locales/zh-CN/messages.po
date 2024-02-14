@@ -2562,7 +2562,7 @@ msgstr "这是一个用于登录联合耕种池的一次性链接。此链接包
 #: src/components/plot/add/PlotAddNFT.tsx:145
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:142
 #: src/components/plotNFT/select/PlotNFTSelectPool.tsx:156
-#: src/components/pool/PoolHero.tsx:24
+#: src/components/pool/PoolHero.tsx:25
 msgid "Join a Pool"
 msgstr "加入联合耕种池"
 
@@ -4782,9 +4782,13 @@ msgstr "跳过命令的确认步骤"
 msgid "Skips adding a final directory to harvester for farming"
 msgstr "勾选此项，将不会自动把最终目录添加到收割机进行耕种"
 
+#: src/components/pool/PoolHero.tsx:22
+msgid "Smooth out your ABA farming rewards by joining a pool."
+msgstr ""
+
 #: src/components/pool/PoolHero.tsx:21
-msgid "Smooth out your XCH farming rewards by joining a pool."
-msgstr "加入联合耕种获取稳定的XCH收益。"
+#~ msgid "Smooth out your XCH farming rewards by joining a pool."
+#~ msgstr "加入联合耕种获取稳定的XCH收益。"
 
 #: src/components/plot/add/PlotAddChooseKeys.tsx:179
 msgid "Solo Farming"
