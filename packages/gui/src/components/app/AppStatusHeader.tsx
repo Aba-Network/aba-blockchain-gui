@@ -171,7 +171,7 @@ export default function AppStatusHeader() {
           </StyledPopover>
         </ButtonGroup>
         <Flex gap={0.5} alignItems="center">
-          <WalletConnectDropdown />
+          {/*<WalletConnectDropdown />*/}
           <NotificationsDropdown />
           <LogoutButton />
         </Flex>
