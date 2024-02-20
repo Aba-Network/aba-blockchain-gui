@@ -1,3 +1,4 @@
+//# Aba has modified this file
 import { WalletType } from '@chia-network/api';
 import _ from 'lodash';
 
@@ -6,7 +7,7 @@ import type OfferBuilderData from '../../../@types/OfferBuilderData';
 import { emptyDefaultValues } from './defaultValues';
 
 type CreateDefaultValuesParams = {
-  walletType?: WalletType; // CAT or STANDARD_WALLET (XCH), indicates whether a token or CAT has a default entry
+  walletType?: WalletType; // CAT or STANDARD_WALLET (ABA), indicates whether a token or CAT has a default entry
   assetId?: string; // Asset ID of the CAT
   nftId?: string; // NFT to include in the offer by default
   nftIds?: string[]; // multiple NFT selection
@@ -15,7 +16,7 @@ type CreateDefaultValuesParams = {
 
 /**
  * Creates default values for OfferBuilder's form data. OfferBuilder can be instantiated with default values
- * for creating an XCH offer, a CAT offer, or an NFT offer. XCH and CAT offers will have a default entry in
+ * for creating an ABA offer, a CAT offer, or an NFT offer. ABA and CAT offers will have a default entry in
  * the offered section. NFT offers can have default entries in either the offered or requested sections
  * depending on whether the NFTs and an NFT wallet id are provided.
  */

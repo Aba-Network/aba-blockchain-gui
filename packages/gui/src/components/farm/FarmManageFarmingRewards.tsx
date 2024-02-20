@@ -1,3 +1,4 @@
+//# Aba has modified this file
 import { fromBech32m } from '@chia-network/api';
 import { useSetRewardTargetsMutation, useGetRewardTargetsQuery } from '@chia-network/api-react';
 import { Button, Flex, Form, TextField, Loading } from '@chia-network/core';
@@ -151,7 +152,7 @@ export default function FarmManageFarmingRewards(props: Props) {
                 <Typography variant="body2" color="textSecondary">
                   <Trans>
                     Note that this does not change your pooling payout addresses. This only affects old format plots,
-                    and the 0.25XCH reward for pooling plots.
+                    and the ABA reward for pooling plots.
                   </Trans>
                 </Typography>
               </>

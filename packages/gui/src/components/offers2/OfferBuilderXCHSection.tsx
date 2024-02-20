@@ -27,10 +27,10 @@ export default function OfferBuilderXCHSection(props: OfferBuilderXCHSectionProp
   const amount =
     useWatch({
       name,
-    })?.[0]?.amount ?? 0; // Assume there's only 1 XCH field per trade side
+    })?.[0]?.amount ?? 0; // Assume there's only 1 ABA field per trade side
   const { requestedRoyalties, offeredRoyalties, isCalculatingRoyalties } = useOfferBuilderContext();
 
-  // Yes, this is correct. Fungible (XCH) assets used to pay royalties are from the opposite side of the trade.
+  // Yes, this is correct. Fungible (ABA) assets used to pay royalties are from the opposite side of the trade.
   const allRoyalties = offering ? requestedRoyalties : offeredRoyalties;
 
   const loading = isLoadingWallet || isCalculatingRoyalties;

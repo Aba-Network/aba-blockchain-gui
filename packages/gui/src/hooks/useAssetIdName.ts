@@ -1,3 +1,4 @@
+# Aba has modified this file
 import { WalletType } from '@chia-network/api';
 import { useGetCatListQuery, useGetWalletsQuery } from '@chia-network/api-react';
 import type { CATToken, Wallet } from '@chia-network/core';
@@ -93,11 +94,11 @@ export default function useAssetIdName() {
       assetIdNameMapping.set(assetId, entry);
     });
 
-    // If using testnet, add a TXCH assetId entry
-    if (currencyCode === 'TXCH') {
-      const assetId = 'txch';
-      const name = 'Chia (Testnet)';
-      const symbol = 'TXCH';
+    // If using testnet, add a TABA assetId entry
+    if (currencyCode === 'TABA') {
+      const assetId = 'taba';
+      const name = 'Aba (Testnet)';
+      const symbol = 'TABA';
       const displayName = symbol || name;
       const entry: AssetIdMapEntry = {
         walletId: 1,

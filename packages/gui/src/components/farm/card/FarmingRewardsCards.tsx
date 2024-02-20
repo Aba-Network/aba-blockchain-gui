@@ -1,3 +1,4 @@
+//# Aba has modified this file
 import { useGetBlockchainStateQuery, useGetTotalHarvestersSummaryQuery } from '@chia-network/api-react';
 import { State, CardSimple, useCurrencyCode, mojoToChiaLocaleString, useLocale } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
@@ -102,7 +103,7 @@ function FarmingRewardsCards() {
     if (fullNodeState !== FullNodeState.SYNCED || !expectedTimeToWinSeconds || !data) {
       const state = fullNodeState === FullNodeState.SYNCHING ? State.WARNING : undefined;
 
-      return <FarmCardNotAvailable title={<Trans>Estimated daily XCH</Trans>} state={state} />;
+      return <FarmCardNotAvailable title={<Trans>Estimated daily ABA</Trans>} state={state} />;
     }
 
     const estimatedDailyXCH = new BigNumber(86_400)
@@ -112,7 +113,7 @@ function FarmingRewardsCards() {
 
     return (
       <CardSimple
-        title={<Trans>Estimated daily XCH</Trans>}
+        title={<Trans>Estimated daily ABA</Trans>}
         value={
           <>
             {mojoToChiaLocaleString(estimatedDailyXCH, locale)}
@@ -130,7 +131,7 @@ function FarmingRewardsCards() {
     if (fullNodeState !== FullNodeState.SYNCED || !expectedTimeToWinSeconds || !data) {
       const state = fullNodeState === FullNodeState.SYNCHING ? State.WARNING : undefined;
 
-      return <FarmCardNotAvailable title={<Trans>Estimated monthly XCH</Trans>} state={state} />;
+      return <FarmCardNotAvailable title={<Trans>Estimated monthly ABA</Trans>} state={state} />;
     }
 
     const estimatedMonthlyXCH = new BigNumber(86_400 * 31)
@@ -140,7 +141,7 @@ function FarmingRewardsCards() {
 
     return (
       <CardSimple
-        title={<Trans>Estimated monthly XCH</Trans>}
+        title={<Trans>Estimated monthly ABA</Trans>}
         value={
           <>
             {mojoToChiaLocaleString(estimatedMonthlyXCH, locale)}

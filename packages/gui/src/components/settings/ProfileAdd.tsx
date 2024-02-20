@@ -1,3 +1,4 @@
+//# Aba has modified this file
 import {
   useCreateNewWalletMutation,
   useGetCurrentAddressQuery,
@@ -53,8 +54,8 @@ export default function ProfileAdd() {
     },
   });
 
-  const currencyCode = (useCurrencyCode() ?? 'XCH').toUpperCase();
-  const isTestnet = currencyCode === 'TXCH';
+  const currencyCode = (useCurrencyCode() ?? 'ABA').toUpperCase();
+  const isTestnet = currencyCode === 'TABA';
   const { data: currentAddress } = useGetCurrentAddressQuery({
     walletId: 1,
   });

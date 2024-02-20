@@ -1,3 +1,4 @@
+//# Aba has modified this file
 import { Trans, Plural } from '@lingui/macro';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { Box, IconButton, InputAdornment, FormControl, FormHelperText } from '@mui/material';
@@ -48,7 +49,7 @@ export default function Amount(props: AmountProps) {
   const correctedValue = value && value[0] === '.' ? `0${value}` : value;
 
   const currencyCode = symbol === undefined ? defaultCurrencyCode : symbol;
-  const isChiaCurrency = ['XCH', 'TXCH'].includes(currencyCode);
+  const isChiaCurrency = ['ABA', 'TABA'].includes(currencyCode);
   const mojo = isChiaCurrency ? chiaToMojo(correctedValue) : catToMojo(correctedValue);
 
   return (

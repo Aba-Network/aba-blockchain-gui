@@ -1,3 +1,4 @@
+//# Aba has modified this file
 import { Button, Color, Flex, Logo, Card, useMode, Mode } from '@chia-network/core';
 import { Farming as FarmingIcon } from '@chia-network/icons';
 import { Trans } from '@lingui/macro';
@@ -75,7 +76,7 @@ export default function AppSelectMode() {
                     <Flex gap={1} alignItems="center">
                       <StyledCheckIcon color="primary" />
                       <Typography variant="body2">
-                        <Trans>Store and Send XCH</Trans>
+                        <Trans>Store and Send ABA</Trans>
                       </Typography>
                     </Flex>
                     <Flex gap={1} alignItems="center">

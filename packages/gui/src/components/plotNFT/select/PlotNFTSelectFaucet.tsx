@@ -1,3 +1,4 @@
+//# Aba has modified this file
 import { Button, Flex, CardStep, useCurrencyCode } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
@@ -16,7 +17,7 @@ export default function PlotNFTSelectFaucet(props: Props) {
   const openExternal = useOpenExternal();
 
   const handleClick = React.useCallback(() => {
-    if (currencyCode === 'TXCH') {
+    if (currencyCode === 'TABA') {
       openExternal('https://testnet10-faucet.chia.net/');
     } else {
       openExternal('https://faucet.chia.net/');

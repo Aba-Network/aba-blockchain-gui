@@ -1,3 +1,4 @@
+# Aba has modified this file
 name: Bug Report
 description: File a bug report
 title: '[Bug] '
@@ -19,7 +20,7 @@ body:
     id: version
     attributes:
       label: Version
-      description: What version of Chia are you running?
+      description: What version of Aba are you running?
     validations:
       required: true
   - type: dropdown

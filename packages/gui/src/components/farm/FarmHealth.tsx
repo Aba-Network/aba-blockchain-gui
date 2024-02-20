@@ -1,3 +1,4 @@
+//# Aba has modified this file
 import {
   useGetFilterChallengeStatQuery,
   useGetMissingSignagePointsQuery,
@@ -99,7 +100,7 @@ function FarmHealth() {
   const { data: missingSpsData, isLoading: isLoadingMissingSps } = useGetMissingSignagePointsQuery();
   const [resetMissingSps] = useResetMissingSignagePointsMutation();
   const { data: poolStateData, isLoading: isLoadingPoolStateData } = useGetPoolStateQuery();
-  const isTestnet = (useCurrencyCode() ?? 'XCH').toUpperCase() === 'TXCH';
+  const isTestnet = (useCurrencyCode() ?? 'ABA').toUpperCase() === 'TABA';
   const { data: filterChallengeStat, isLoading: isLoadingFilterChallengeStat } = useGetFilterChallengeStatQuery({
     height: blockchainState?.peak?.height || 0,
     isTestnet,

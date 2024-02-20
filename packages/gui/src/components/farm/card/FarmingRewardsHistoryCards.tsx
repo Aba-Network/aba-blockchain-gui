@@ -1,3 +1,4 @@
+//# Aba has modified this file
 import { useGetFarmedAmountQuery } from '@chia-network/api-react';
 import {
   useCurrencyCode,
@@ -28,7 +29,7 @@ function FarmingRewardsHistoryCards() {
 
   const totalChiaFarmedCard = useMemo(() => {
     if (!data || isLoading) {
-      return <CardSimple title={<Trans>Total XCH Farmed</Trans>} value="-" loading={isLoading} error={error} />;
+      return <CardSimple title={<Trans>Total ABA Farmed</Trans>} value="-" loading={isLoading} error={error} />;
     }
 
     let cardValue: React.ReactElement | string = '-';
@@ -79,7 +80,7 @@ function FarmingRewardsHistoryCards() {
       );
     }
 
-    return <CardSimple title={<Trans>Total XCH Farmed</Trans>} value={cardValue} loading={isLoading} error={error} />;
+    return <CardSimple title={<Trans>Total ABA Farmed</Trans>} value={cardValue} loading={isLoading} error={error} />;
   }, [data, locale, currencyCode, isLoading, error]);
 
   const blocksWonCard = useMemo(() => {

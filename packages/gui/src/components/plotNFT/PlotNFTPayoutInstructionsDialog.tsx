@@ -1,3 +1,4 @@
+# Aba has modified this file
 import { Button, CopyToClipboard, Flex, Link, Loading, TextField, Form } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Alert, Dialog, DialogActions, DialogTitle, DialogContent, Typography, InputAdornment } from '@mui/material';
@@ -89,7 +90,7 @@ export default function PlotNFTPayoutInstructionsDialog(props: Props) {
 
                 <Typography variant="body2" color="textSecondary">
                   <Trans>
-                    These are the instructions for how the farmer wants to get paid. By default this will be an XCH
+                    These are the instructions for how the farmer wants to get paid. By default this will be an ABA
                     address, but it can be set to any string with a size of less than 1024 characters, so it can
                     represent another blockchain or payment system identifier.
                   </Trans>{' '}

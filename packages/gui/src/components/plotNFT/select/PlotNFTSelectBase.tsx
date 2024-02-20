@@ -1,3 +1,4 @@
+//# Aba has modified this file
 import { Button, Flex, Loading, CardStep, RadioGroup, EstimatedFee, FeeTxType, TextField } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Alert, Grid, FormControl, FormControlLabel, Typography, Radio, Collapse } from '@mui/material';
@@ -90,7 +91,7 @@ export default function PlotNFTSelectBase(props: Props) {
                 <Flex gap={1} flexDirection="column">
                   <FormControlLabel
                     control={<Radio />}
-                    label={<Trans>Self pool. When you win a block you will earn XCH rewards.</Trans>}
+                    label={<Trans>Self pool. When you win a block you will earn ABA rewards.</Trans>}
                     value
                   />
                   <Flex gap={2}>

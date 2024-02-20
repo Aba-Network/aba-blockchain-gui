@@ -1,3 +1,4 @@
+// Aba has modified this file
 import { useGetKeysQuery, useGetLoggedInFingerprintQuery, usePrefs } from '@chia-network/api-react';
 import {
   ButtonLoading,
@@ -56,7 +57,7 @@ export default function WalletConnectAddConnectionDialog(props: WalletConnectAdd
   const [sortedWallets] = usePrefs('sortedWallets', []);
 
   const { data: fingerprint, isLoading: isLoadingLoggedInFingerprint } = useGetLoggedInFingerprintQuery();
-  const mainnet = useCurrencyCode() === 'XCH';
+  const mainnet = useCurrencyCode() === 'ABA';
   const methods = useForm<FormData>({
     defaultValues: {
       uri: '',

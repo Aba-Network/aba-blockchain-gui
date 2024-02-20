@@ -1,3 +1,4 @@
+//# Aba has modified this file
 import { useGetBlockchainStateQuery, useGetTotalHarvestersSummaryQuery } from '@chia-network/api-react';
 import { State, CardSimple } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
@@ -62,7 +63,7 @@ function EstimatedEarning(props: EstimatedEarningProps) {
 
   return (
     <CardSimple
-      title={period === 'daily' ? <Trans>Estimated daily XCH</Trans> : <Trans>Estimated monthly XCH</Trans>}
+      title={period === 'daily' ? <Trans>Estimated daily ABA</Trans> : <Trans>Estimated monthly ABA</Trans>}
       value={`${expectedTimeToWin}`}
       tooltip={
         <Trans>
