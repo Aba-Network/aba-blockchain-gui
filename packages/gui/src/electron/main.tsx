@@ -774,13 +774,13 @@ function getMenuTemplate() {
         {
           label: i18n._(/* i18n */ { id: 'Chat on Discord' }),
           click: () => {
-            openExternal('https://discord.gg/chia');
+            openExternal('https://discord.gg/Cz3gpRpV');
           },
         },
         {
           label: i18n._(/* i18n */ { id: 'Follow on Twitter' }),
           click: () => {
-            openExternal('https://twitter.com/chia_project');
+            openExternal('https://twitter.com/aba_project');
           },
         },
       ],
@@ -790,10 +790,10 @@ function getMenuTemplate() {
   if (process.platform === 'darwin') {
     // Chia Blockchain menu (Mac)
     template.unshift({
-      label: i18n._(/* i18n */ { id: 'Chia' }),
+      label: i18n._(/* i18n */ { id: 'Aba' }),
       submenu: [
         {
-          label: i18n._(/* i18n */ { id: 'About Chia Blockchain' }),
+          label: i18n._(/* i18n */ { id: 'About Aba Blockchain' }),
           click: () => {
             openAbout();
           },
@@ -886,7 +886,7 @@ function getMenuTemplate() {
         type: 'separator',
       },
       {
-        label: i18n._(/* i18n */ { id: 'About Chia Blockchain' }),
+        label: i18n._(/* i18n */ { id: 'About Aba Blockchain' }),
         click() {
           openAbout();
         },
