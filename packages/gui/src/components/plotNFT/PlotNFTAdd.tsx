@@ -1,4 +1,4 @@
-# Aba has modified this file
+// Aba has modified this file
 import { useCreateNewPoolWalletMutation } from '@chia-network/api-react';
 import { Flex, Loading } from '@chia-network/core';
 import { Trans } from '@lingui/macro';

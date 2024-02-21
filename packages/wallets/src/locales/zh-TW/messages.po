@@ -621,9 +621,14 @@ msgid "Save"
 msgstr "儲存"
 
 #: src/components/cat/WalletCATTAILDialog.tsx:59
+#: src/components/WalletTokenCard.tsx:178
+msgid "Search on Spacescan"
+msgstr ""
+
+#: src/components/cat/WalletCATTAILDialog.tsx:59
 #: src/components/WalletTokenCard.tsx:177
-msgid "Search on Tail Database"
-msgstr "在 Tail 資料庫中進行搜尋。"
+#~ msgid "Search on Tail Database"
+#~ msgstr "在 Tail 資料庫中進行搜尋。"
 
 #: src/components/create/WalletCreateList.tsx:26
 msgid "Select Wallet Type"

@@ -619,9 +619,14 @@ msgid "Save"
 msgstr "Uložit"
 
 #: src/components/cat/WalletCATTAILDialog.tsx:59
+#: src/components/WalletTokenCard.tsx:178
+msgid "Search on Spacescan"
+msgstr ""
+
+#: src/components/cat/WalletCATTAILDialog.tsx:59
 #: src/components/WalletTokenCard.tsx:177
-msgid "Search on Tail Database"
-msgstr "Hledat v Tail databázi"
+#~ msgid "Search on Tail Database"
+#~ msgstr "Hledat v Tail databázi"
 
 #: src/components/create/WalletCreateList.tsx:26
 msgid "Select Wallet Type"

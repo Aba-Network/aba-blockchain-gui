@@ -1,4 +1,4 @@
-//# Aba modified this file
+// Aba modified this file
 import { WalletType } from '@chia-network/api';
 import {
   Color,
@@ -177,7 +177,10 @@ export function OfferSummaryTokenRow(props: OfferSummaryTokenRowProps): React.Re
                 <StyledTitle>Name</StyledTitle>
               </Box>
               {(!assetIdInfo || [WalletType.CAT, WalletType.CRCAT].includes(assetIdInfo?.walletType)) && (
-                <Link href={`https://api-fin.spacescan.io/cat/info/{$assetId.toLowerCase()}?version=0.1.0&network=aba`} target="_blank">
+                <Link
+                  href="https://api-fin.spacescan.io/cat/info/{$assetId.toLowerCase()}?version=0.1.0&network=aba"
+                  target="_blank"
+                >
                   <Trans>Search on Spacescan</Trans>
                 </Link>
               )}

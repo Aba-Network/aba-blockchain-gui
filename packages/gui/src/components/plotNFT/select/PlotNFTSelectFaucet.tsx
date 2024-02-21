@@ -1,4 +1,4 @@
-//# Aba has modified this file
+// # Aba has modified this file
 import { Button, Flex, CardStep, useCurrencyCode } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';

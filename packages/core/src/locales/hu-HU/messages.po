@@ -26,7 +26,7 @@ msgstr ""
 msgid "(~{selectedTime} min)"
 msgstr ""
 
-#: src/components/Amount/Amount.tsx:87
+#: src/components/Amount/Amount.tsx:88
 msgid "{0, plural, one {mojo} other {mojos}}"
 msgstr "{0, plural, one {mojo} other {mojok}}"
 
@@ -34,8 +34,20 @@ msgstr "{0, plural, one {mojo} other {mojok}}"
 msgid "{minPassphraseLength, plural, one {Passphrases must be at least # character in length} other {Passphrases must be at least # characters in length}}"
 msgstr "{minPassphraseLength, plural, one {A jelszavaknak legalább # karakter hosszúságúnak kell lennie} other {A jelszavaknak legalább # karakter hosszúságúnak kell lennie}}"
 
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:96
+msgid "A new version of Aba is available!"
+msgstr ""
+
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:95
-msgid "A new version of Chia is available!"
+#~ msgid "A new version of Chia is available!"
+#~ msgstr ""
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:83
+msgid "Aba {latestVersion} is currently the latest version available."
+msgstr ""
+
+#: src/components/Settings/SettingsApp.tsx:127
+msgid "Aba Application Version:"
 msgstr ""
 
 #: src/screens/SelectKey/EmojiAndColorPicker.tsx:270
@@ -46,11 +58,11 @@ msgstr ""
 msgid "Add wallet"
 msgstr ""
 
-#: src/components/Amount/Amount.tsx:37
+#: src/components/Amount/Amount.tsx:38
 msgid "Amount"
 msgstr "Összeg "
 
-#: src/components/Settings/SettingsApp.tsx:94
+#: src/components/Settings/SettingsApp.tsx:95
 msgid "Appearance"
 msgstr "Megjelenés"
 
@@ -70,23 +82,23 @@ msgstr "Vissza"
 msgid "Cancel"
 msgstr "Mégsem"
 
-#: src/components/Settings/SettingsApp.tsx:140
+#: src/components/Settings/SettingsApp.tsx:141
 msgid "Check for updates"
 msgstr ""
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:93
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:94
 msgid "Checking for updates..."
 msgstr ""
 
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:82
-msgid "Chia {latestVersion} is currently the latest version available."
-msgstr ""
+#~ msgid "Chia {latestVersion} is currently the latest version available."
+#~ msgstr ""
 
 #: src/components/Settings/SettingsApp.tsx:126
-msgid "Chia Application Version:"
-msgstr ""
+#~ msgid "Chia Application Version:"
+#~ msgstr ""
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:110
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:111
 #: src/screens/SelectKey/SelectKeyDetailDialog.tsx:47
 #: src/screens/SelectKey/SelectKeyDetailDialog.tsx:70
 msgid "Close"
@@ -120,7 +132,7 @@ msgstr ""
 msgid "Create New"
 msgstr ""
 
-#: src/components/Settings/SettingsApp.tsx:111
+#: src/components/Settings/SettingsApp.tsx:112
 msgid "Dark"
 msgstr "Sötét"
 
@@ -192,7 +204,7 @@ msgstr ""
 msgid "Farmer public key:"
 msgstr "Farmer nyilvános kulcsa:"
 
-#: src/components/Settings/SettingsApp.tsx:79
+#: src/components/Settings/SettingsApp.tsx:80
 msgid "Farming"
 msgstr "Farmolás"
 
@@ -206,15 +218,15 @@ msgstr "Díj"
 msgid "Fingerprint does not match"
 msgstr ""
 
-#: src/components/Settings/SettingsApp.tsx:152
+#: src/components/Settings/SettingsApp.tsx:153
 msgid "Frequently Asked Questions"
 msgstr "Gyakran Ismételt Kérdések"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:121
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:122
 msgid "Go To Download Page"
 msgstr ""
 
-#: src/components/Settings/SettingsApp.tsx:148
+#: src/components/Settings/SettingsApp.tsx:149
 msgid "Help"
 msgstr "Súgó"
 
@@ -243,15 +255,15 @@ msgstr ""
 msgid "Incorrect value"
 msgstr "Érvénytelen érték"
 
-#: src/components/Settings/SettingsApp.tsx:118
+#: src/components/Settings/SettingsApp.tsx:119
 msgid "Language"
 msgstr "Nyelv"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:57
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:58
 msgid "Latest Version:"
 msgstr ""
 
-#: src/components/Settings/SettingsApp.tsx:103
+#: src/components/Settings/SettingsApp.tsx:104
 msgid "Light"
 msgstr "Világos"
 
@@ -296,7 +308,7 @@ msgstr "Áttelepítés"
 msgid "Migration required"
 msgstr "Migráció szükséges"
 
-#: src/components/Settings/SettingsApp.tsx:70
+#: src/components/Settings/SettingsApp.tsx:71
 msgid "Mode"
 msgstr "Mód"
 
@@ -367,7 +379,7 @@ msgstr ""
 msgid "Recommended value: 0.000005"
 msgstr ""
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:71
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:72
 msgid "Release Notes"
 msgstr ""
 
@@ -422,7 +434,7 @@ msgid "Select..."
 msgstr "Kiválasztás..."
 
 #: src/components/LayoutMain/LayoutFooter.tsx:52
-#: src/components/Settings/SettingsApp.tsx:155
+#: src/components/Settings/SettingsApp.tsx:156
 msgid "Send Feedback"
 msgstr "Visszajelzés küldése"
 
@@ -530,7 +542,7 @@ msgid "Value seems high"
 msgstr "Az érték túl magasnak tűnik"
 
 #: src/components/LayoutDashboard/LayoutDashboard.tsx:235
-#: src/components/Settings/SettingsApp.tsx:87
+#: src/components/Settings/SettingsApp.tsx:88
 msgid "Wallet"
 msgstr "Tárca"
 
@@ -552,7 +564,7 @@ msgstr ""
 #~ msgstr "Welcome to Chia. Please log in with an existing key, or create a new key."
 
 #: src/components/LayoutDashboard/LayoutDashboard.tsx:144
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:66
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:67
 msgid "What's New"
 msgstr ""
 
@@ -561,11 +573,11 @@ msgstr ""
 msgid "You have made changes. Do you want to discard them?"
 msgstr "Változtatásokat hajtott végre. El akarja vetni őket?"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:97
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:98
 msgid "You're up to date"
 msgstr ""
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:49
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:50
 msgid "Your Current Version:"
 msgstr ""
 

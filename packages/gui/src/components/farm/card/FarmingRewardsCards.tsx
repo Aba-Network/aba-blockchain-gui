@@ -1,4 +1,4 @@
-//# Aba has modified this file
+// # Aba has modified this file
 import { useGetBlockchainStateQuery, useGetTotalHarvestersSummaryQuery } from '@chia-network/api-react';
 import { State, CardSimple, useCurrencyCode, mojoToChiaLocaleString, useLocale } from '@chia-network/core';
 import { Trans } from '@lingui/macro';

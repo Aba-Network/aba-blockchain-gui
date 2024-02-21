@@ -26,7 +26,7 @@ msgstr "(>5分)"
 msgid "(~{selectedTime} min)"
 msgstr "(~{selectedTime}分)"
 
-#: src/components/Amount/Amount.tsx:87
+#: src/components/Amount/Amount.tsx:88
 msgid "{0, plural, one {mojo} other {mojos}}"
 msgstr "{0, plural, other {モージョー}}"
 
@@ -34,9 +34,21 @@ msgstr "{0, plural, other {モージョー}}"
 msgid "{minPassphraseLength, plural, one {Passphrases must be at least # character in length} other {Passphrases must be at least # characters in length}}"
 msgstr "{minPassphraseLength, plural, other {パスフレーズの長さは少なくとも # 文字必要です}}"
 
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:96
+msgid "A new version of Aba is available!"
+msgstr ""
+
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:95
-msgid "A new version of Chia is available!"
-msgstr "チアの新しいバージョンが利用可能です！"
+#~ msgid "A new version of Chia is available!"
+#~ msgstr "チアの新しいバージョンが利用可能です！"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:83
+msgid "Aba {latestVersion} is currently the latest version available."
+msgstr ""
+
+#: src/components/Settings/SettingsApp.tsx:127
+msgid "Aba Application Version:"
+msgstr ""
 
 #: src/screens/SelectKey/EmojiAndColorPicker.tsx:270
 msgid "Add Icon"
@@ -46,11 +58,11 @@ msgstr "アイコンを追加"
 msgid "Add wallet"
 msgstr "ウォレットを追加"
 
-#: src/components/Amount/Amount.tsx:37
+#: src/components/Amount/Amount.tsx:38
 msgid "Amount"
 msgstr "金額"
 
-#: src/components/Settings/SettingsApp.tsx:94
+#: src/components/Settings/SettingsApp.tsx:95
 msgid "Appearance"
 msgstr "外観の設定"
 
@@ -70,23 +82,23 @@ msgstr "戻る"
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: src/components/Settings/SettingsApp.tsx:140
+#: src/components/Settings/SettingsApp.tsx:141
 msgid "Check for updates"
 msgstr "更新の確認"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:93
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:94
 msgid "Checking for updates..."
 msgstr "更新を確認中…"
 
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:82
-msgid "Chia {latestVersion} is currently the latest version available."
-msgstr "チア {latestVersion} は最新バージョンです。"
+#~ msgid "Chia {latestVersion} is currently the latest version available."
+#~ msgstr "チア {latestVersion} は最新バージョンです。"
 
 #: src/components/Settings/SettingsApp.tsx:126
-msgid "Chia Application Version:"
-msgstr "このチアアプリケーションのバージョン:"
+#~ msgid "Chia Application Version:"
+#~ msgstr "このチアアプリケーションのバージョン:"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:110
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:111
 #: src/screens/SelectKey/SelectKeyDetailDialog.tsx:47
 #: src/screens/SelectKey/SelectKeyDetailDialog.tsx:70
 msgid "Close"
@@ -120,7 +132,7 @@ msgstr "チアを使い始めるには新しいウォレット鍵を作成して
 msgid "Create New"
 msgstr "新規作成"
 
-#: src/components/Settings/SettingsApp.tsx:111
+#: src/components/Settings/SettingsApp.tsx:112
 msgid "Dark"
 msgstr "暗め"
 
@@ -192,7 +204,7 @@ msgstr "農家公開鍵"
 msgid "Farmer public key:"
 msgstr "農家公開鍵:"
 
-#: src/components/Settings/SettingsApp.tsx:79
+#: src/components/Settings/SettingsApp.tsx:80
 msgid "Farming"
 msgstr "耕作"
 
@@ -206,15 +218,15 @@ msgstr "手数料"
 msgid "Fingerprint does not match"
 msgstr "指紋が一致しません"
 
-#: src/components/Settings/SettingsApp.tsx:152
+#: src/components/Settings/SettingsApp.tsx:153
 msgid "Frequently Asked Questions"
 msgstr "よくある質問"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:121
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:122
 msgid "Go To Download Page"
 msgstr "ダウンロードページに移動"
 
-#: src/components/Settings/SettingsApp.tsx:148
+#: src/components/Settings/SettingsApp.tsx:149
 msgid "Help"
 msgstr "ヘルプ"
 
@@ -243,15 +255,15 @@ msgstr "既存のを読み込む"
 msgid "Incorrect value"
 msgstr "不正な値"
 
-#: src/components/Settings/SettingsApp.tsx:118
+#: src/components/Settings/SettingsApp.tsx:119
 msgid "Language"
 msgstr "言語"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:57
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:58
 msgid "Latest Version:"
 msgstr "最新バージョン:"
 
-#: src/components/Settings/SettingsApp.tsx:103
+#: src/components/Settings/SettingsApp.tsx:104
 msgid "Light"
 msgstr "明るめ"
 
@@ -296,7 +308,7 @@ msgstr "移行する"
 msgid "Migration required"
 msgstr "移行必須"
 
-#: src/components/Settings/SettingsApp.tsx:70
+#: src/components/Settings/SettingsApp.tsx:71
 msgid "Mode"
 msgstr "モード"
 
@@ -367,7 +379,7 @@ msgstr "ランダム"
 msgid "Recommended value: 0.000005"
 msgstr "推奨値: 0.000005"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:71
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:72
 msgid "Release Notes"
 msgstr "リリースノート"
 
@@ -422,7 +434,7 @@ msgid "Select..."
 msgstr "選択してください..."
 
 #: src/components/LayoutMain/LayoutFooter.tsx:52
-#: src/components/Settings/SettingsApp.tsx:155
+#: src/components/Settings/SettingsApp.tsx:156
 msgid "Send Feedback"
 msgstr "フィードバックの送信"
 
@@ -530,7 +542,7 @@ msgid "Value seems high"
 msgstr "値が通常の範囲より高そうです"
 
 #: src/components/LayoutDashboard/LayoutDashboard.tsx:235
-#: src/components/Settings/SettingsApp.tsx:87
+#: src/components/Settings/SettingsApp.tsx:88
 msgid "Wallet"
 msgstr "ウォレット"
 
@@ -552,7 +564,7 @@ msgstr "ウォレットの鍵一覧"
 #~ msgstr "Welcome to Chia. Please log in with an existing key, or create a new key."
 
 #: src/components/LayoutDashboard/LayoutDashboard.tsx:144
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:66
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:67
 msgid "What's New"
 msgstr "更新情報"
 
@@ -561,11 +573,11 @@ msgstr "更新情報"
 msgid "You have made changes. Do you want to discard them?"
 msgstr "未保存の変更があります。本当に破棄しますか？"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:97
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:98
 msgid "You're up to date"
 msgstr "最新バージョンです"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:49
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:50
 msgid "Your Current Version:"
 msgstr "現在のバージョン："
 

@@ -1,4 +1,4 @@
-# Aba has modified this file
+// Aba has modified this file
 import { WalletType } from '@chia-network/api';
 import { useGetCatListQuery, useGetWalletsQuery } from '@chia-network/api-react';
 import type { CATToken, Wallet } from '@chia-network/core';

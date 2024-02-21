@@ -1,4 +1,4 @@
-//# Aba has modified this file
+// # Aba has modified this file
 import { AlertDialog, Flex, Tooltip, useCurrencyCode, useOpenDialog } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Button, Typography } from '@mui/material';

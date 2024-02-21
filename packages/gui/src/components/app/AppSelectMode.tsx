@@ -1,4 +1,4 @@
-//# Aba has modified this file
+// # Aba has modified this file
 import { Button, Color, Flex, Logo, Card, useMode, Mode } from '@chia-network/core';
 import { Farming as FarmingIcon } from '@chia-network/icons';
 import { Trans } from '@lingui/macro';

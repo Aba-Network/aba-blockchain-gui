@@ -1,4 +1,4 @@
-# Aba has modified this file
+// Aba has modified this file
 import { NewFarmingInfo } from '@chia-network/api';
 import { useGetBlockchainStateQuery, useGetHarvestersQuery, useGetNewFarmingInfoQuery } from '@chia-network/api-react';
 import { Flex, FormatBytes, FormatLargeNumber, CardSimple, useCurrencyCode } from '@chia-network/core';

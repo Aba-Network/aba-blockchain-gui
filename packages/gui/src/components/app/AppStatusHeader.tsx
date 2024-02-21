@@ -9,7 +9,7 @@ import React, { useState } from 'react';
 import Connections from '../fullNode/FullNodeConnections';
 import FullNodeStateIndicator from '../fullNode/FullNodeStateIndicator';
 import NotificationsDropdown from '../notification/NotificationsDropdown';
-import WalletConnectDropdown from '../walletConnect/WalletConnectDropdown';
+// import WalletConnectDropdown from '../walletConnect/WalletConnectDropdown';
 
 import AppTestnetIndicator from './AppTestnetIndicator';
 import LogoutButton from './LogoutButton';
@@ -172,7 +172,7 @@ export default function AppStatusHeader() {
           </StyledPopover>
         </ButtonGroup>
         <Flex gap={0.5} alignItems="center">
-          {/*<WalletConnectDropdown />*/}
+          {/* <WalletConnectDropdown /> */}
           <NotificationsDropdown />
           <LogoutButton />
         </Flex>

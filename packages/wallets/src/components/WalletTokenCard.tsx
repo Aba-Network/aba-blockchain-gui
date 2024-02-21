@@ -1,4 +1,4 @@
-//# Aba modified this file
+// Aba modified this file
 import { WalletType } from '@chia-network/api';
 import { useSetCATNameMutation, useGetLocalCatName } from '@chia-network/api-react';
 import { Tooltip, CardListItem, Flex, Link, useShowError, Form, TextField } from '@chia-network/core';
@@ -174,7 +174,11 @@ export default function WalletTokenCard(props: WalletTokenCardProps) {
                 </Tooltip>
               )}
               {assetId && (
-                <Link href={`https://api-fin.spacescan.io/cat/info/{$assetId.toLowerCase()}?version=0.1.0&network=aba`} target="_blank" variant="caption">
+                <Link
+                  href="https://api-fin.spacescan.io/cat/info/{$assetId.toLowerCase()}?version=0.1.0&network=aba"
+                  target="_blank"
+                  variant="caption"
+                >
                   <Trans>Search on Spacescan</Trans>
                 </Link>
               )}

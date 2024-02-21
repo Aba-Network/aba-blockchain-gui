@@ -26,7 +26,7 @@ msgstr "(>5分钟)"
 msgid "(~{selectedTime} min)"
 msgstr "(~{selectedTime} 分钟)"
 
-#: src/components/Amount/Amount.tsx:87
+#: src/components/Amount/Amount.tsx:88
 msgid "{0, plural, one {mojo} other {mojos}}"
 msgstr "{0, plural, other {mojos}}"
 
@@ -34,9 +34,21 @@ msgstr "{0, plural, other {mojos}}"
 msgid "{minPassphraseLength, plural, one {Passphrases must be at least # character in length} other {Passphrases must be at least # characters in length}}"
 msgstr "{minPassphraseLength, plural, other {密码长度必须至少为 # 个字符}}"
 
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:96
+msgid "A new version of Aba is available!"
+msgstr ""
+
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:95
-msgid "A new version of Chia is available!"
-msgstr "新版Chia可用！"
+#~ msgid "A new version of Chia is available!"
+#~ msgstr "新版Chia可用！"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:83
+msgid "Aba {latestVersion} is currently the latest version available."
+msgstr ""
+
+#: src/components/Settings/SettingsApp.tsx:127
+msgid "Aba Application Version:"
+msgstr ""
 
 #: src/screens/SelectKey/EmojiAndColorPicker.tsx:270
 msgid "Add Icon"
@@ -46,11 +58,11 @@ msgstr "添加图标"
 msgid "Add wallet"
 msgstr "添加钱包"
 
-#: src/components/Amount/Amount.tsx:37
+#: src/components/Amount/Amount.tsx:38
 msgid "Amount"
 msgstr "数量"
 
-#: src/components/Settings/SettingsApp.tsx:94
+#: src/components/Settings/SettingsApp.tsx:95
 msgid "Appearance"
 msgstr "界面"
 
@@ -70,23 +82,23 @@ msgstr "后退"
 msgid "Cancel"
 msgstr "取消"
 
-#: src/components/Settings/SettingsApp.tsx:140
+#: src/components/Settings/SettingsApp.tsx:141
 msgid "Check for updates"
 msgstr "检查更新"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:93
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:94
 msgid "Checking for updates..."
 msgstr "正在检查更新..."
 
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:82
-msgid "Chia {latestVersion} is currently the latest version available."
-msgstr "Chia {latestVersion} 已经是最新版本。"
+#~ msgid "Chia {latestVersion} is currently the latest version available."
+#~ msgstr "Chia {latestVersion} 已经是最新版本。"
 
 #: src/components/Settings/SettingsApp.tsx:126
-msgid "Chia Application Version:"
-msgstr "Chia程序版本："
+#~ msgid "Chia Application Version:"
+#~ msgstr "Chia程序版本："
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:110
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:111
 #: src/screens/SelectKey/SelectKeyDetailDialog.tsx:47
 #: src/screens/SelectKey/SelectKeyDetailDialog.tsx:70
 msgid "Close"
@@ -120,7 +132,7 @@ msgstr "使用Chia，从新建一个钱包开始。"
 msgid "Create New"
 msgstr "新建"
 
-#: src/components/Settings/SettingsApp.tsx:111
+#: src/components/Settings/SettingsApp.tsx:112
 msgid "Dark"
 msgstr "深色"
 
@@ -192,7 +204,7 @@ msgstr "农民公钥："
 msgid "Farmer public key:"
 msgstr "农民公钥："
 
-#: src/components/Settings/SettingsApp.tsx:79
+#: src/components/Settings/SettingsApp.tsx:80
 msgid "Farming"
 msgstr "正在耕种"
 
@@ -206,15 +218,15 @@ msgstr "手续费"
 msgid "Fingerprint does not match"
 msgstr "指纹不匹配"
 
-#: src/components/Settings/SettingsApp.tsx:152
+#: src/components/Settings/SettingsApp.tsx:153
 msgid "Frequently Asked Questions"
 msgstr "常见问题解答"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:121
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:122
 msgid "Go To Download Page"
 msgstr "转到下载页面"
 
-#: src/components/Settings/SettingsApp.tsx:148
+#: src/components/Settings/SettingsApp.tsx:149
 msgid "Help"
 msgstr "帮助"
 
@@ -243,15 +255,15 @@ msgstr "导入"
 msgid "Incorrect value"
 msgstr "值不正确"
 
-#: src/components/Settings/SettingsApp.tsx:118
+#: src/components/Settings/SettingsApp.tsx:119
 msgid "Language"
 msgstr "语言"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:57
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:58
 msgid "Latest Version:"
 msgstr "最新版本："
 
-#: src/components/Settings/SettingsApp.tsx:103
+#: src/components/Settings/SettingsApp.tsx:104
 msgid "Light"
 msgstr "浅色"
 
@@ -296,7 +308,7 @@ msgstr "迁移"
 msgid "Migration required"
 msgstr "需要迁移"
 
-#: src/components/Settings/SettingsApp.tsx:70
+#: src/components/Settings/SettingsApp.tsx:71
 msgid "Mode"
 msgstr "工作模式"
 
@@ -367,7 +379,7 @@ msgstr "随机"
 msgid "Recommended value: 0.000005"
 msgstr "推荐值︰ 0.000005"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:71
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:72
 msgid "Release Notes"
 msgstr "更新日志"
 
@@ -422,7 +434,7 @@ msgid "Select..."
 msgstr "请选择..."
 
 #: src/components/LayoutMain/LayoutFooter.tsx:52
-#: src/components/Settings/SettingsApp.tsx:155
+#: src/components/Settings/SettingsApp.tsx:156
 msgid "Send Feedback"
 msgstr "发送反馈"
 
@@ -530,7 +542,7 @@ msgid "Value seems high"
 msgstr "手续费似乎太高"
 
 #: src/components/LayoutDashboard/LayoutDashboard.tsx:235
-#: src/components/Settings/SettingsApp.tsx:87
+#: src/components/Settings/SettingsApp.tsx:88
 msgid "Wallet"
 msgstr "轻钱包"
 
@@ -552,7 +564,7 @@ msgstr "钱包密钥"
 #~ msgstr "Welcome to Chia. Please log in with an existing key, or create a new key."
 
 #: src/components/LayoutDashboard/LayoutDashboard.tsx:144
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:66
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:67
 msgid "What's New"
 msgstr "更新日志"
 
@@ -561,11 +573,11 @@ msgstr "更新日志"
 msgid "You have made changes. Do you want to discard them?"
 msgstr "你已经做了一些更改。你确定要放弃这些修改吗？"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:97
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:98
 msgid "You're up to date"
 msgstr "已是最新版本"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:49
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:50
 msgid "Your Current Version:"
 msgstr "当前的版本："
 

@@ -1,4 +1,4 @@
-//# Aba has modified this file
+// # Aba has modified this file
 import { fromBech32m } from '@chia-network/api';
 import { useSetRewardTargetsMutation, useGetRewardTargetsQuery } from '@chia-network/api-react';
 import { Button, Flex, Form, TextField, Loading } from '@chia-network/core';

@@ -1,4 +1,4 @@
-# Aba has modified this file
+// Aba has modified this file
 import { Button, CopyToClipboard, Flex, Link, Loading, TextField, Form } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Alert, Dialog, DialogActions, DialogTitle, DialogContent, Typography, InputAdornment } from '@mui/material';

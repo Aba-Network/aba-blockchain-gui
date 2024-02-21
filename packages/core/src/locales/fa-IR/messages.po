@@ -26,7 +26,7 @@ msgstr "(> 5 دقیقه)"
 msgid "(~{selectedTime} min)"
 msgstr "(~{selectedTime} min)"
 
-#: src/components/Amount/Amount.tsx:87
+#: src/components/Amount/Amount.tsx:88
 msgid "{0, plural, one {mojo} other {mojos}}"
 msgstr "{0, plural, one {mojo} other {mojos}}"
 
@@ -34,9 +34,21 @@ msgstr "{0, plural, one {mojo} other {mojos}}"
 msgid "{minPassphraseLength, plural, one {Passphrases must be at least # character in length} other {Passphrases must be at least # characters in length}}"
 msgstr "{minPassphraseLength, plural,one {طول کارکتر رمز ورود باید حداقل # باشد} other {طول کارکترهای رمز ورود باید حداقل # باشند}}"
 
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:96
+msgid "A new version of Aba is available!"
+msgstr ""
+
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:95
-msgid "A new version of Chia is available!"
-msgstr "نسخه جدید چیا در دسترس است"
+#~ msgid "A new version of Chia is available!"
+#~ msgstr "نسخه جدید چیا در دسترس است"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:83
+msgid "Aba {latestVersion} is currently the latest version available."
+msgstr ""
+
+#: src/components/Settings/SettingsApp.tsx:127
+msgid "Aba Application Version:"
+msgstr ""
 
 #: src/screens/SelectKey/EmojiAndColorPicker.tsx:270
 msgid "Add Icon"
@@ -46,11 +58,11 @@ msgstr "اصافه نمودن نماد"
 msgid "Add wallet"
 msgstr "اضافه نمودن کیف پول"
 
-#: src/components/Amount/Amount.tsx:37
+#: src/components/Amount/Amount.tsx:38
 msgid "Amount"
 msgstr "مبلغ"
 
-#: src/components/Settings/SettingsApp.tsx:94
+#: src/components/Settings/SettingsApp.tsx:95
 msgid "Appearance"
 msgstr "ظاهر برنامه"
 
@@ -70,23 +82,23 @@ msgstr "بازگشت"
 msgid "Cancel"
 msgstr "لغو"
 
-#: src/components/Settings/SettingsApp.tsx:140
+#: src/components/Settings/SettingsApp.tsx:141
 msgid "Check for updates"
 msgstr "بروز رسانی را بررسی کنید"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:93
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:94
 msgid "Checking for updates..."
 msgstr "بروز رسانی را بررسی کنید..."
 
 #: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:82
-msgid "Chia {latestVersion} is currently the latest version available."
-msgstr ".در حال حاضر آخرین نسخه موجود است {latestVersion} چیا"
+#~ msgid "Chia {latestVersion} is currently the latest version available."
+#~ msgstr ".در حال حاضر آخرین نسخه موجود است {latestVersion} چیا"
 
 #: src/components/Settings/SettingsApp.tsx:126
-msgid "Chia Application Version:"
-msgstr "نسخه برنامه چیا:"
+#~ msgid "Chia Application Version:"
+#~ msgstr "نسخه برنامه چیا:"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:110
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:111
 #: src/screens/SelectKey/SelectKeyDetailDialog.tsx:47
 #: src/screens/SelectKey/SelectKeyDetailDialog.tsx:70
 msgid "Close"
@@ -120,7 +132,7 @@ msgstr "برای شروع کار با چیا یک کلید کیف پول جدی�
 msgid "Create New"
 msgstr "ایجاد جدید"
 
-#: src/components/Settings/SettingsApp.tsx:111
+#: src/components/Settings/SettingsApp.tsx:112
 msgid "Dark"
 msgstr "تاریک"
 
@@ -194,7 +206,7 @@ msgstr "کلید عمومی فارمر"
 msgid "Farmer public key:"
 msgstr "کلید عمومی فارم کننده:"
 
-#: src/components/Settings/SettingsApp.tsx:79
+#: src/components/Settings/SettingsApp.tsx:80
 msgid "Farming"
 msgstr "درحال فارم"
 
@@ -208,15 +220,15 @@ msgstr "کارمزد"
 msgid "Fingerprint does not match"
 msgstr "کدها هماهنگی ندارند"
 
-#: src/components/Settings/SettingsApp.tsx:152
+#: src/components/Settings/SettingsApp.tsx:153
 msgid "Frequently Asked Questions"
 msgstr "پرسش ها و پاسخ های متداول"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:121
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:122
 msgid "Go To Download Page"
 msgstr "به صفحه ذخیره بروید"
 
-#: src/components/Settings/SettingsApp.tsx:148
+#: src/components/Settings/SettingsApp.tsx:149
 msgid "Help"
 msgstr "راهنما"
 
@@ -245,15 +257,15 @@ msgstr "وارد کردن انچه موجود است"
 msgid "Incorrect value"
 msgstr "اطلاعات نادرست"
 
-#: src/components/Settings/SettingsApp.tsx:118
+#: src/components/Settings/SettingsApp.tsx:119
 msgid "Language"
 msgstr "زبان"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:57
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:58
 msgid "Latest Version:"
 msgstr "آخرین نسخه:"
 
-#: src/components/Settings/SettingsApp.tsx:103
+#: src/components/Settings/SettingsApp.tsx:104
 msgid "Light"
 msgstr "روشن"
 
@@ -298,7 +310,7 @@ msgstr "انتقال"
 msgid "Migration required"
 msgstr "نیاز به انتقال"
 
-#: src/components/Settings/SettingsApp.tsx:70
+#: src/components/Settings/SettingsApp.tsx:71
 msgid "Mode"
 msgstr "حالت"
 
@@ -369,7 +381,7 @@ msgstr "تصادفی"
 msgid "Recommended value: 0.000005"
 msgstr "مقدار پیشنهادی: 0.000005"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:71
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:72
 msgid "Release Notes"
 msgstr "یادداشت های انتشار"
 
@@ -424,7 +436,7 @@ msgid "Select..."
 msgstr "انتخاب..."
 
 #: src/components/LayoutMain/LayoutFooter.tsx:52
-#: src/components/Settings/SettingsApp.tsx:155
+#: src/components/Settings/SettingsApp.tsx:156
 msgid "Send Feedback"
 msgstr "ارسال پیشنهاد"
 
@@ -532,7 +544,7 @@ msgid "Value seems high"
 msgstr "ارزش بالا به نظر میرسد"
 
 #: src/components/LayoutDashboard/LayoutDashboard.tsx:235
-#: src/components/Settings/SettingsApp.tsx:87
+#: src/components/Settings/SettingsApp.tsx:88
 msgid "Wallet"
 msgstr "کیف پول"
 
@@ -554,7 +566,7 @@ msgstr "کلیدهای کیف پول"
 #~ msgstr "Welcome to Chia. Please log in with an existing key, or create a new key."
 
 #: src/components/LayoutDashboard/LayoutDashboard.tsx:144
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:66
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:67
 msgid "What's New"
 msgstr "اخبار جدید"
 
@@ -563,11 +575,11 @@ msgstr "اخبار جدید"
 msgid "You have made changes. Do you want to discard them?"
 msgstr "شما تغییراتی ایجاد کرده اید. آیا میخواهید آنها را فراموش کنید؟"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:97
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:98
 msgid "You're up to date"
 msgstr "شما بروز هستید"
 
-#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:49
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:50
 msgid "Your Current Version:"
 msgstr "نسخه فعلی شما:"
 

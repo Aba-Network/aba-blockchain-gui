@@ -1,4 +1,4 @@
-//# Aba has modified this file
+// # Aba has modified this file
 import { type Shell } from 'electron';
 
 import { Farming } from '@chia-network/icons';
