@@ -1,9 +1,10 @@
+//# Aba modified this file
 import { toBech32m, fromBech32m } from '@chia-network/api';
 
 import removeHexPrefix from './removeHexPrefix';
 
 export function didToDIDId(did: string): string {
-  return toBech32m(removeHexPrefix(did), 'did:chia:');
+  return toBech32m(removeHexPrefix(did), 'did:aba:');
 }
 
 export function didFromDIDId(didId: string): string | undefined {

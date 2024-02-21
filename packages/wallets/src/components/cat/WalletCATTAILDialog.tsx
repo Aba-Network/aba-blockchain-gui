@@ -55,8 +55,8 @@ export default function WalletCATTAILDialog(props: Props) {
                 multiline
               />
             </Box>
-            <Link href={`https://www.taildatabase.com/tail/${wallet.meta?.assetId}`} target="_blank" variant="body2">
-              <Trans>Search on Tail Database</Trans>
+            <Link href={`https://api-fin.spacescan.io/cat/info/${wallet.meta?.assetId}?version=0.1.0&network=aba`} target="_blank" variant="body2">
+              <Trans>Search on Spacescan</Trans>
             </Link>
           </Flex>
         )}

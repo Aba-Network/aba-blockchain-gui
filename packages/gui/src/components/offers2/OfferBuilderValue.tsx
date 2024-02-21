@@ -100,8 +100,8 @@ export default function OfferBuilderValue(props: OfferBuilderValueProps) {
                     <Flex flexDirection="column" gap={1} maxWidth={200}>
                       {displayValue}
                       {type === 'token' ? (
-                        <Link href={`https://www.taildatabase.com/tail/${value.toLowerCase()}`} target="_blank">
-                          <Trans>Search on Tail Database</Trans>
+                        <Link href={`https://api-fin.spacescan.io/cat/info/{$value.toLowerCase()}?version=0.1.0&network=aba`} target="_blank">
+                          <Trans>Search on Spacescan</Trans>
                         </Link>
                       ) : null}
                     </Flex>

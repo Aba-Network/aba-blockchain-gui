@@ -1,3 +1,4 @@
+//# Aba modified this file
 import { useMemo } from 'react';
 
 import { didToDIDId } from '../util/dids';
@@ -28,8 +29,8 @@ export default function useNFTMinterDID(nftId: string): UseNFTMinterDIDResult {
     const didIdLocal = didToDIDId(hexDIDIdLocal);
     let didNameLocal;
 
-    if (didIdLocal === 'did:chia:19qf3g9876t0rkq7tfdkc28cxfy424yzanea29rkzylq89kped9hq3q7wd2') {
-      didNameLocal = 'Chia Network';
+    if (didIdLocal === 'did:aba:19qf3g9876t0rkq7tfdkc28cxfy424yzanea29rkzylq89kped9hq3q7wd2') {
+      didNameLocal = 'Aba Blockchain TODO';
     }
 
     return [didIdLocal, hexDIDIdLocal, didNameLocal];

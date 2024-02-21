@@ -1,3 +1,4 @@
+//# Aba modified this file
 import { Typography, TypographyProps } from '@mui/material';
 import React from 'react';
 
@@ -19,7 +20,7 @@ export function truncateValue(children: string, opts: TruncateValueOptions): str
     leftLength = 4,
     rightLength = 4,
     splitSeparator = ':',
-    prefixes = ['nft1', 'txch1', 'xch1', 'did:chia:1', '0x'],
+    prefixes = ['nft1', 'txch1', 'xch1', 'did:aba:1', '0x'],
   } = opts;
 
   if (!children) {
@@ -28,8 +29,8 @@ export function truncateValue(children: string, opts: TruncateValueOptions): str
 
   const stringValue = children.toString();
 
-  if (stringValue === 'did:chia:19qf3g9876t0rkq7tfdkc28cxfy424yzanea29rkzylq89kped9hq3q7wd2') {
-    return 'Chia Network';
+  if (stringValue === 'did:aba:19qf3g9876t0rkq7tfdkc28cxfy424yzanea29rkzylq89kped9hq3q7wd2') {
+    return 'Aba Blockchain TODO';
   }
 
   const parts = stringValue.split(splitSeparator);

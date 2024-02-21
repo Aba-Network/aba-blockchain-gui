@@ -1,3 +1,4 @@
+//# Aba modified this file
 // import { useGetNFTInfoQuery } from '@chia-network/api-react';
 import { fromBech32m } from '@chia-network/api';
 import { AddressBookContext, Color, EmojiAndColorPicker, Flex, Form, TextField } from '@chia-network/core';
@@ -251,7 +252,7 @@ export default function ContactEdit() {
     });
     filteredProfiles.forEach((entry) => {
       try {
-        if (entry.did.slice(0, 9).toLowerCase() !== 'did:chia:') {
+        if (entry.did.slice(0, 9).toLowerCase() !== 'did:aba:') {
           throw new Error();
         } else if (fromBech32m(entry.did).length !== 64) {
           throw new Error();
