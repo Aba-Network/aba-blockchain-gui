@@ -19,17 +19,6 @@ msgstr ""
 "X-Crowdin-File-ID: 35\n"
 
 #. js-lingui-explicit-id
-#: src/electron/main.tsx:793
-msgid "Aba"
-msgstr ""
-
-#. js-lingui-explicit-id
-#: src/electron/main.tsx:796
-#: src/electron/main.tsx:889
-msgid "About Aba Blockchain"
-msgstr ""
-
-#. js-lingui-explicit-id
 #: src/components/nfts/NFTBurnDialog.tsx:133
 msgid "Do you want to burn {count} NFTs?"
 msgstr "你要燒毀 {count} 張 NFT 嗎？"
@@ -159,6 +148,17 @@ msgstr "在 Discord 上聊天"
 #: src/electron/main.tsx:781
 msgid "Follow on Twitter"
 msgstr "Twitter 上追隨"
+
+#. js-lingui-explicit-id
+#: src/electron/main.tsx:793
+msgid "Aba"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/electron/main.tsx:796
+#: src/electron/main.tsx:889
+msgid "About Aba Blockchain"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/electron/main.tsx:802
