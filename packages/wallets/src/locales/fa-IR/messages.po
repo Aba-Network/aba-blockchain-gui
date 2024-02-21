@@ -108,8 +108,8 @@ msgid "Asset"
 msgstr "دارایی"
 
 #: src/components/cat/WalletCATCreateExistingSimple.tsx:71
-#: src/components/cat/WalletCATTAILDialog.tsx:33
-#: src/components/cat/WalletCATTAILDialog.tsx:43
+#: src/components/cat/WalletCATTAILDialog.tsx:34
+#: src/components/cat/WalletCATTAILDialog.tsx:44
 msgid "Asset Id"
 msgstr "شناسه دارایی"
 
@@ -453,7 +453,7 @@ msgstr "سینک نشده"
 msgid "Offer Accepted"
 msgstr "پیشنهاد پذیرفته شد"
 
-#: src/components/cat/WalletCATTAILDialog.tsx:66
+#: src/components/cat/WalletCATTAILDialog.tsx:71
 msgid "OK"
 msgstr "تأیید"
 
@@ -618,8 +618,8 @@ msgstr "کیف پول RL"
 msgid "Save"
 msgstr "ذخیره"
 
-#: src/components/cat/WalletCATTAILDialog.tsx:59
-#: src/components/WalletTokenCard.tsx:178
+#: src/components/cat/WalletCATTAILDialog.tsx:64
+#: src/components/WalletTokenCard.tsx:182
 msgid "Search on Spacescan"
 msgstr ""
 
