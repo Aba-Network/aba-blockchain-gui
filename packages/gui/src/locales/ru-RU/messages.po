@@ -45,23 +45,23 @@ msgstr ""
 
 #. js-lingui-explicit-id
 #: src/electron/main.tsx:502
-msgid "No"
-msgstr "Нет"
+msgid "[[ No ]]"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/electron/main.tsx:502
-msgid "Yes"
-msgstr "Да"
+msgid "[[ Yes ]]"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/electron/main.tsx:503
-msgid "Confirm"
-msgstr "Подтвердить"
+msgid "Confirm Aba Quit"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/electron/main.tsx:505
-msgid "Are you sure you want to quit?"
-msgstr "Вы уверены, что хотите выйти?"
+msgid "Are you sure you want to quit Aba?"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/electron/main.tsx:510
@@ -348,6 +348,26 @@ msgid "Check for updates..."
 msgstr ""
 
 #. js-lingui-explicit-id
+#: src/electron/main.tsx:502
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#. js-lingui-explicit-id
+#: src/electron/main.tsx:502
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#. js-lingui-explicit-id
+#: src/electron/main.tsx:503
+#~ msgid "Confirm"
+#~ msgstr "Подтвердить"
+
+#. js-lingui-explicit-id
+#: src/electron/main.tsx:505
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "Вы уверены, что хотите выйти?"
+
+#. js-lingui-explicit-id
 #: src/electron/main.tsx:793
 #~ msgid "Chia"
 #~ msgstr "Чиа"
@@ -528,6 +548,10 @@ msgstr "Рекомендуется значение {0}"
 #: src/components/offers2/OfferBuilderXCHSection.tsx:78
 msgid "Aba ({currencyCode}) is a digital currency"
 msgstr ""
+
+#: src/components/dashboard/DashboardSideBar.tsx:44
+#~ msgid "Aba Core"
+#~ msgstr ""
 
 #: src/electron/main.tsx:1101
 #: src/electron/main.tsx:1188

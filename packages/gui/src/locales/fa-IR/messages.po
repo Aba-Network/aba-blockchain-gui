@@ -45,23 +45,23 @@ msgstr "از ان اف تی ها را به مالک جدیدی انتقال ده
 
 #. js-lingui-explicit-id
 #: src/electron/main.tsx:502
-msgid "No"
-msgstr "خیر"
+msgid "[[ No ]]"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/electron/main.tsx:502
-msgid "Yes"
-msgstr "بله"
+msgid "[[ Yes ]]"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/electron/main.tsx:503
-msgid "Confirm"
-msgstr "تایید"
+msgid "Confirm Aba Quit"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/electron/main.tsx:505
-msgid "Are you sure you want to quit?"
-msgstr "آیا مطمئن هستید که میخواهید خارج شوید؟"
+msgid "Are you sure you want to quit Aba?"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/electron/main.tsx:510
@@ -174,6 +174,26 @@ msgstr "سخن"
 #: src/electron/main.tsx:895
 msgid "Check for updates..."
 msgstr "بروز رسانی را بررسی کنید..."
+
+#. js-lingui-explicit-id
+#: src/electron/main.tsx:502
+#~ msgid "No"
+#~ msgstr "خیر"
+
+#. js-lingui-explicit-id
+#: src/electron/main.tsx:502
+#~ msgid "Yes"
+#~ msgstr "بله"
+
+#. js-lingui-explicit-id
+#: src/electron/main.tsx:503
+#~ msgid "Confirm"
+#~ msgstr "تایید"
+
+#. js-lingui-explicit-id
+#: src/electron/main.tsx:505
+#~ msgid "Are you sure you want to quit?"
+#~ msgstr "آیا مطمئن هستید که میخواهید خارج شوید؟"
 
 #. js-lingui-explicit-id
 #: src/electron/main.tsx:793
@@ -356,6 +376,10 @@ msgstr "مقدار {0} توصیه میشود"
 #: src/components/offers2/OfferBuilderXCHSection.tsx:78
 msgid "Aba ({currencyCode}) is a digital currency"
 msgstr ""
+
+#: src/components/dashboard/DashboardSideBar.tsx:44
+#~ msgid "Aba Core"
+#~ msgstr ""
 
 #: src/electron/main.tsx:1101
 #: src/electron/main.tsx:1188

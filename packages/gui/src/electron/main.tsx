@@ -499,11 +499,11 @@ if (ensureSingleInstance() && ensureCorrectEnvironment()) {
         if (promptOnQuit) {
           const choice = await dialog.showMessageBox({
             type: 'question',
-            buttons: [i18n._(/* i18n */ { id: 'No' }), i18n._(/* i18n */ { id: 'Yes' })],
-            title: i18n._(/* i18n */ { id: 'Confirm' }),
+            buttons: [i18n._(/* i18n */ { id: '[[ No ]]' }), i18n._(/* i18n */ { id: '[[ Yes ]]' })],
+            title: i18n._(/* i18n */ { id: 'Confirm Aba Quit' }),
             message: i18n._(
               /* i18n */ {
-                id: 'Are you sure you want to quit?',
+                id: 'Are you sure you want to quit Aba?',
               }
             ),
             checkboxChecked: keepBackgroundRunning ?? false,

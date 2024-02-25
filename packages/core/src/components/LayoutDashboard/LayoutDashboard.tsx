@@ -246,6 +246,9 @@ export default function LayoutDashboard(props: LayoutDashboardProps) {
                                   }}
                                 />
                               </IconButton>
+                              <Typography variant="h4" display="flex-inline" noWrap>
+                                Aba Core
+                              </Typography>
                             </Flex>
                             {fingerprint && (
                               <Flex flexDirection="row" alignItems="center" gap={0.5}>
