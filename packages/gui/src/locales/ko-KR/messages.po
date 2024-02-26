@@ -701,7 +701,7 @@ msgstr ""
 msgid "Assets you will receive"
 msgstr ""
 
-#: src/components/app/AppState.tsx:245
+#: src/components/app/AppState.tsx:246
 msgid "Attempt {attempt}"
 msgstr ""
 
@@ -1026,7 +1026,7 @@ msgstr ""
 msgid "Clicking a delete icon only removes a directory from this list and never deletes the directory itself"
 msgstr ""
 
-#: src/components/app/AppVersionWarning.tsx:57
+#: src/components/app/AppVersionWarning.tsx:58
 #: src/components/nfts/MultipleDownloadDialog.tsx:116
 #: src/components/nfts/NFTMoveToProfileDialog.tsx:328
 #: src/components/nfts/NFTTransferAction.tsx:192
@@ -1147,8 +1147,8 @@ msgstr "연결됨"
 msgid "Connected Applications"
 msgstr ""
 
-#: src/components/app/AppState.tsx:237
-#: src/components/app/AppState.tsx:242
+#: src/components/app/AppState.tsx:238
+#: src/components/app/AppState.tsx:243
 msgid "Connecting to daemon"
 msgstr ""
 
@@ -2797,7 +2797,7 @@ msgstr ""
 msgid "Loading fingerprint"
 msgstr ""
 
-#: src/components/app/AppState.tsx:208
+#: src/components/app/AppState.tsx:209
 msgid "Loading keyring status"
 msgstr ""
 
@@ -4939,7 +4939,7 @@ msgstr ""
 msgid "Start Key"
 msgstr ""
 
-#: src/components/app/AppState.tsx:266
+#: src/components/app/AppState.tsx:267
 msgid "Starting services"
 msgstr ""
 
@@ -5033,6 +5033,10 @@ msgstr ""
 msgid "Temporary folder location"
 msgstr "임시 폴더 경로"
 
+#: src/components/app/AppVersionWarning.tsx:36
+msgid "The Aba application and its services are using different versions. Some functionality may not be behave properly as a result.<0/><1/>Aba services version: {backV}<2/>Aba application version: {guiV}<3/><4/>It is recommended that you quit the Aba application and stop all Aba services."
+msgstr ""
+
 #: src/components/harvest/HarvesterOverview.tsx:64
 msgid "The average number of plots which passed filter over last 64 signage points"
 msgstr ""
@@ -5042,8 +5046,8 @@ msgid "The average number of plots which passed filter over the last 64 signage 
 msgstr ""
 
 #: src/components/app/AppVersionWarning.tsx:35
-msgid "The Chia application and its services are using different versions. Some functionality may not be behave properly as a result.<0/><1/>Chia services version: {backV}<2/>Chia application version: {guiV}<3/><4/>It is recommended that you quit the Chia application and stop all Chia services."
-msgstr ""
+#~ msgid "The Chia application and its services are using different versions. Some functionality may not be behave properly as a result.<0/><1/>Chia services version: {backV}<2/>Chia application version: {guiV}<3/><4/>It is recommended that you quit the Chia application and stop all Chia services."
+#~ msgstr ""
 
 #: src/components/settings/SettingsCustody.tsx:49
 msgid "The claw back time can be manually adjusted per transaction."
@@ -5943,7 +5947,7 @@ msgstr ""
 msgid "Warning Threshold"
 msgstr ""
 
-#: src/components/app/AppVersionWarning.tsx:30
+#: src/components/app/AppVersionWarning.tsx:31
 msgid "Warning: Mismatched Versions"
 msgstr ""
 

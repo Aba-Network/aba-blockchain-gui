@@ -1,3 +1,4 @@
+// Aba modified this file
 import { Button, Flex } from '@chia-network/core';
 import { Trans } from '@lingui/macro';
 import { Dialog, DialogTitle, DialogContent, DialogActions, Typography } from '@mui/material';
@@ -33,16 +34,16 @@ function WarningDialog(props: DialogProps) {
           <Flex flexDirection="column" gap={1}>
             <Typography variant="body2" color="textSecondary">
               <Trans>
-                The Chia application and its services are using different versions. Some functionality may not be behave
+                The Aba application and its services are using different versions. Some functionality may not be behave
                 properly as a result.
                 <br />
                 <br />
-                Chia services version: {backV}
+                Aba services version: {backV}
                 <br />
-                Chia application version: {guiV}
+                Aba application version: {guiV}
                 <br />
                 <br />
-                It is recommended that you quit the Chia application and stop all Chia services.
+                It is recommended that you quit the Aba application and stop all Aba services.
               </Trans>
             </Typography>
           </Flex>

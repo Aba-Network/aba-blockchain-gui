@@ -1,3 +1,4 @@
+// Aba modified this file
 import { useLocalStorage } from '@chia-network/api-react';
 import { useCallback, useState, useEffect } from 'react';
 
@@ -24,10 +25,7 @@ export default function useGetLatestVersionFromWebsite(): UseGetLatestVersionFro
   const [releaseNotesPath, setReleaseNotesPath] = useState<string | null>(null);
   const [blogPath, setBlogPath] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(true);
-  const [latestVersionURL] = useLocalStorage<string>(
-    'latestVersionURL',
-    'https://download.chia.net/latest/latest.json'
-  );
+  const [latestVersionURL] = useLocalStorage<string>('latestVersionURL', 'https://www.aba.ooo/latest/latest.json');
   const [skipVersions, setSkipVersions] = useLocalStorage<string[]>('skipVersions', []);
   const { version: appVersion } = useAppVersion();
   const versionComparisonResult = latestVersion ? compareAppVersions(appVersion, latestVersion) : 0;
@@ -55,14 +53,14 @@ export default function useGetLatestVersionFromWebsite(): UseGetLatestVersionFro
         }, 1000); /* we need the delay, otherwise dialog will close too fast */
       } catch (e) {
         /* we don't need to handle error here, if we are unable to fetch version number
-           from chia.net, we just ignore showing reminder dialog */
+           from aba.ooo, we just ignore showing reminder dialog */
       }
     });
   }, [latestVersionURL]);
 
-  const downloadUrl = downloadPath ? new URL(downloadPath, 'https://www.chia.net/').toString() : undefined;
-  const releaseNotesUrl = releaseNotesPath ? new URL(releaseNotesPath, 'https://www.chia.net/').toString() : undefined;
-  const blogUrl = blogPath ? new URL(blogPath, 'https://www.chia.net/').toString() : undefined;
+  const downloadUrl = downloadPath ? new URL(downloadPath, 'https://www.aba.ooo/').toString() : undefined;
+  const releaseNotesUrl = releaseNotesPath ? new URL(releaseNotesPath, 'https://www.aba.ooo/').toString() : undefined;
+  const blogUrl = blogPath ? new URL(blogPath, 'https://www.aba.ooo/').toString() : undefined;
 
   return {
     appVersion,

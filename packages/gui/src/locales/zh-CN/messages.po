@@ -701,7 +701,7 @@ msgstr "提供的资产"
 msgid "Assets you will receive"
 msgstr "将会收到的资产："
 
-#: src/components/app/AppState.tsx:245
+#: src/components/app/AppState.tsx:246
 msgid "Attempt {attempt}"
 msgstr "尝试 {attempt}"
 
@@ -1026,7 +1026,7 @@ msgstr "清除NFT缓存"
 msgid "Clicking a delete icon only removes a directory from this list and never deletes the directory itself"
 msgstr "单击删除图标只会从列表中移除文件夹，而不会删除文件夹本身"
 
-#: src/components/app/AppVersionWarning.tsx:57
+#: src/components/app/AppVersionWarning.tsx:58
 #: src/components/nfts/MultipleDownloadDialog.tsx:116
 #: src/components/nfts/NFTMoveToProfileDialog.tsx:328
 #: src/components/nfts/NFTTransferAction.tsx:192
@@ -1147,8 +1147,8 @@ msgstr "已连接"
 msgid "Connected Applications"
 msgstr "已连接的应用程序"
 
-#: src/components/app/AppState.tsx:237
-#: src/components/app/AppState.tsx:242
+#: src/components/app/AppState.tsx:238
+#: src/components/app/AppState.tsx:243
 msgid "Connecting to daemon"
 msgstr "正在连接到进程"
 
@@ -2801,7 +2801,7 @@ msgstr "正在加载耕种数据"
 msgid "Loading fingerprint"
 msgstr "加载指纹中"
 
-#: src/components/app/AppState.tsx:208
+#: src/components/app/AppState.tsx:209
 msgid "Loading keyring status"
 msgstr "正在载入密钥串状态"
 
@@ -4943,7 +4943,7 @@ msgstr "起始索引"
 msgid "Start Key"
 msgstr "选择密钥"
 
-#: src/components/app/AppState.tsx:266
+#: src/components/app/AppState.tsx:267
 msgid "Starting services"
 msgstr "正在启动服务..."
 
@@ -5037,6 +5037,10 @@ msgstr "使用16/128GB内存的混合磁盘模式生成图块时，需要指定�
 msgid "Temporary folder location"
 msgstr "临时文件夹位置"
 
+#: src/components/app/AppVersionWarning.tsx:36
+msgid "The Aba application and its services are using different versions. Some functionality may not be behave properly as a result.<0/><1/>Aba services version: {backV}<2/>Aba application version: {guiV}<3/><4/>It is recommended that you quit the Aba application and stop all Aba services."
+msgstr ""
+
 #: src/components/harvest/HarvesterOverview.tsx:64
 msgid "The average number of plots which passed filter over last 64 signage points"
 msgstr "过去64次提交中通过筛选的平均图块数量"
@@ -5046,8 +5050,8 @@ msgid "The average number of plots which passed filter over the last 64 signage 
 msgstr "过去64次提交中通过初筛的平均图块数量。预计总共有{latestTotalPlots} 个图块，预期平均通过初筛的图块数量为{expectedAvgPassedFilter}。(当前通过初筛图块：1 / {plotFilter})"
 
 #: src/components/app/AppVersionWarning.tsx:35
-msgid "The Chia application and its services are using different versions. Some functionality may not be behave properly as a result.<0/><1/>Chia services version: {backV}<2/>Chia application version: {guiV}<3/><4/>It is recommended that you quit the Chia application and stop all Chia services."
-msgstr "Chia应用程序与后台服务版本不一致。一些功能可能无法正常操作。 <0/><1/>Chia 后台服务版本： {backV}<2/>Chia 应用程序版本： {guiV}<3/><4/>建议退出Chia应用程序并停止所有Chia后台服务。"
+#~ msgid "The Chia application and its services are using different versions. Some functionality may not be behave properly as a result.<0/><1/>Chia services version: {backV}<2/>Chia application version: {guiV}<3/><4/>It is recommended that you quit the Chia application and stop all Chia services."
+#~ msgstr "Chia应用程序与后台服务版本不一致。一些功能可能无法正常操作。 <0/><1/>Chia 后台服务版本： {backV}<2/>Chia 应用程序版本： {guiV}<3/><4/>建议退出Chia应用程序并停止所有Chia后台服务。"
 
 #: src/components/settings/SettingsCustody.tsx:49
 msgid "The claw back time can be manually adjusted per transaction."
@@ -5947,7 +5951,7 @@ msgstr "警告"
 msgid "Warning Threshold"
 msgstr "警告阈值"
 
-#: src/components/app/AppVersionWarning.tsx:30
+#: src/components/app/AppVersionWarning.tsx:31
 msgid "Warning: Mismatched Versions"
 msgstr "警告：不匹配的版本"
 

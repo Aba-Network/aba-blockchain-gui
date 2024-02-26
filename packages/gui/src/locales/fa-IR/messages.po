@@ -701,7 +701,7 @@ msgstr "دارایی هایی که شما پرداخت میکنید"
 msgid "Assets you will receive"
 msgstr "دارایی هایی که شما دریافت میکنید"
 
-#: src/components/app/AppState.tsx:245
+#: src/components/app/AppState.tsx:246
 msgid "Attempt {attempt}"
 msgstr "کوشش {attempt}"
 
@@ -1026,7 +1026,7 @@ msgstr "حافظه پنهان ان اف تی را پاک کنید"
 msgid "Clicking a delete icon only removes a directory from this list and never deletes the directory itself"
 msgstr "با کلیک بر روی نماد حذف فقط یک پوشه از این لیست حذف میشود و هرگز خود پوشه حذف نمیشود"
 
-#: src/components/app/AppVersionWarning.tsx:57
+#: src/components/app/AppVersionWarning.tsx:58
 #: src/components/nfts/MultipleDownloadDialog.tsx:116
 #: src/components/nfts/NFTMoveToProfileDialog.tsx:328
 #: src/components/nfts/NFTTransferAction.tsx:192
@@ -1147,8 +1147,8 @@ msgstr "متصل شده"
 msgid "Connected Applications"
 msgstr "برنامه های کاربردی متصل"
 
-#: src/components/app/AppState.tsx:237
-#: src/components/app/AppState.tsx:242
+#: src/components/app/AppState.tsx:238
+#: src/components/app/AppState.tsx:243
 msgid "Connecting to daemon"
 msgstr "اتصال به دیمن یا برنامه پس زمینه"
 
@@ -2801,7 +2801,7 @@ msgstr "بارگداری اطلاعات فارم"
 msgid "Loading fingerprint"
 msgstr "بازکذاری کدهای شخصی"
 
-#: src/components/app/AppState.tsx:208
+#: src/components/app/AppState.tsx:209
 msgid "Loading keyring status"
 msgstr "بارکذاری وضعیت دسته کلید"
 
@@ -4943,7 +4943,7 @@ msgstr "فهرست شروع"
 msgid "Start Key"
 msgstr "کلید شروع"
 
-#: src/components/app/AppState.tsx:266
+#: src/components/app/AppState.tsx:267
 msgid "Starting services"
 msgstr "شروع خدمات"
 
@@ -5037,6 +5037,10 @@ msgstr "مکان پوشه موقت برای پلات سازی دیسک هیبر�
 msgid "Temporary folder location"
 msgstr "مکان پوشه موقت"
 
+#: src/components/app/AppVersionWarning.tsx:36
+msgid "The Aba application and its services are using different versions. Some functionality may not be behave properly as a result.<0/><1/>Aba services version: {backV}<2/>Aba application version: {guiV}<3/><4/>It is recommended that you quit the Aba application and stop all Aba services."
+msgstr ""
+
 #: src/components/harvest/HarvesterOverview.tsx:64
 msgid "The average number of plots which passed filter over last 64 signage points"
 msgstr "میانگین تعداد پلاتهایی که از 64 نقطه علامت گذاری گذشته فیلتر عبور کرده اند"
@@ -5046,8 +5050,8 @@ msgid "The average number of plots which passed filter over the last 64 signage 
 msgstr "میانگین تعداد پلاتهایی که از 64 نقطه علامت گذاری گذشته فیلتر عبور کرده اند. انتظار میرود برای کل نمودارهای {latestTotalPlots} {expectedAvgPassedFilter} باشد. (فیلتر نمودار فعلی: 1 / {plotFilter})"
 
 #: src/components/app/AppVersionWarning.tsx:35
-msgid "The Chia application and its services are using different versions. Some functionality may not be behave properly as a result.<0/><1/>Chia services version: {backV}<2/>Chia application version: {guiV}<3/><4/>It is recommended that you quit the Chia application and stop all Chia services."
-msgstr "برنامه چیا و سرویس های آن از نسخه های مختلفی استفاده میکنند. در نتیجه برخی از عملکردها ممکن است به درستی عمل نکنند.<0/><1/>نسخه خدمات Chia: {backV}<2/>نسخه برنامه Chia: {guiV}<3/><4/>توصیه میشود که از برنامه چیا خارج شوید و تمام خدمات چیا را متوقف کنید."
+#~ msgid "The Chia application and its services are using different versions. Some functionality may not be behave properly as a result.<0/><1/>Chia services version: {backV}<2/>Chia application version: {guiV}<3/><4/>It is recommended that you quit the Chia application and stop all Chia services."
+#~ msgstr "برنامه چیا و سرویس های آن از نسخه های مختلفی استفاده میکنند. در نتیجه برخی از عملکردها ممکن است به درستی عمل نکنند.<0/><1/>نسخه خدمات Chia: {backV}<2/>نسخه برنامه Chia: {guiV}<3/><4/>توصیه میشود که از برنامه چیا خارج شوید و تمام خدمات چیا را متوقف کنید."
 
 #: src/components/settings/SettingsCustody.tsx:49
 msgid "The claw back time can be manually adjusted per transaction."
@@ -5947,7 +5951,7 @@ msgstr "اخطار"
 msgid "Warning Threshold"
 msgstr "آستانه هشدار"
 
-#: src/components/app/AppVersionWarning.tsx:30
+#: src/components/app/AppVersionWarning.tsx:31
 msgid "Warning: Mismatched Versions"
 msgstr "هشدار: نسخه های نامتناسب"
 

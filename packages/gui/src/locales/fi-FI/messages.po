@@ -701,7 +701,7 @@ msgstr "Assetit jotka annat"
 msgid "Assets you will receive"
 msgstr "Assetit jotka saan"
 
-#: src/components/app/AppState.tsx:245
+#: src/components/app/AppState.tsx:246
 msgid "Attempt {attempt}"
 msgstr "Yritys {attempt}"
 
@@ -1026,7 +1026,7 @@ msgstr "Tyhjennä NFT-välimuisti"
 msgid "Clicking a delete icon only removes a directory from this list and never deletes the directory itself"
 msgstr ""
 
-#: src/components/app/AppVersionWarning.tsx:57
+#: src/components/app/AppVersionWarning.tsx:58
 #: src/components/nfts/MultipleDownloadDialog.tsx:116
 #: src/components/nfts/NFTMoveToProfileDialog.tsx:328
 #: src/components/nfts/NFTTransferAction.tsx:192
@@ -1147,8 +1147,8 @@ msgstr "Yhdistetty"
 msgid "Connected Applications"
 msgstr "Yhdistetyt Sovellukset"
 
-#: src/components/app/AppState.tsx:237
-#: src/components/app/AppState.tsx:242
+#: src/components/app/AppState.tsx:238
+#: src/components/app/AppState.tsx:243
 msgid "Connecting to daemon"
 msgstr "Yhdistetään daemoniin"
 
@@ -2801,7 +2801,7 @@ msgstr "Ladataan farmausdataa"
 msgid "Loading fingerprint"
 msgstr "Ladataan sormenjälkeä"
 
-#: src/components/app/AppState.tsx:208
+#: src/components/app/AppState.tsx:209
 msgid "Loading keyring status"
 msgstr "Ladataan avainlenkin tilaa"
 
@@ -4943,7 +4943,7 @@ msgstr "Aloitusindeksi"
 msgid "Start Key"
 msgstr "Aloitusavain"
 
-#: src/components/app/AppState.tsx:266
+#: src/components/app/AppState.tsx:267
 msgid "Starting services"
 msgstr "Käynnistetään palveluja"
 
@@ -5037,6 +5037,10 @@ msgstr ""
 msgid "Temporary folder location"
 msgstr "Väliaikaishakemiston sijainti"
 
+#: src/components/app/AppVersionWarning.tsx:36
+msgid "The Aba application and its services are using different versions. Some functionality may not be behave properly as a result.<0/><1/>Aba services version: {backV}<2/>Aba application version: {guiV}<3/><4/>It is recommended that you quit the Aba application and stop all Aba services."
+msgstr ""
+
 #: src/components/harvest/HarvesterOverview.tsx:64
 msgid "The average number of plots which passed filter over last 64 signage points"
 msgstr "Keskimääräinen määrä plotteja, jotka ovat läpäisseet suodattimen viimeisten 64 kirjauspisteen aikana"
@@ -5046,8 +5050,8 @@ msgid "The average number of plots which passed filter over the last 64 signage 
 msgstr "Keskimääräinen määrä plotteja, jotka ovat läpäisseet suodattimen viimeisten 64 kirjauspisteen aikana. Odotusarvo on {expectedAvgPassedFilter} yhteensä {latestTotalPlots} plotille. (Plottifiltteri: 1/{plotFilter})"
 
 #: src/components/app/AppVersionWarning.tsx:35
-msgid "The Chia application and its services are using different versions. Some functionality may not be behave properly as a result.<0/><1/>Chia services version: {backV}<2/>Chia application version: {guiV}<3/><4/>It is recommended that you quit the Chia application and stop all Chia services."
-msgstr "Chia-sovellus ja sen palvelut käyttävät eri versioita. Jotkin toiminnot eivät välttämättä toimi kunnolla sen seurauksena. <0/><1/>Chia-palvelujen versio: {backV}<2/>Chia-sovelluksen versio: {guiV}<3/><4/>On suositeltavaa, että sammutat Chia-sovelluksen ja pysäytät kaikki Chia-palvelut."
+#~ msgid "The Chia application and its services are using different versions. Some functionality may not be behave properly as a result.<0/><1/>Chia services version: {backV}<2/>Chia application version: {guiV}<3/><4/>It is recommended that you quit the Chia application and stop all Chia services."
+#~ msgstr "Chia-sovellus ja sen palvelut käyttävät eri versioita. Jotkin toiminnot eivät välttämättä toimi kunnolla sen seurauksena. <0/><1/>Chia-palvelujen versio: {backV}<2/>Chia-sovelluksen versio: {guiV}<3/><4/>On suositeltavaa, että sammutat Chia-sovelluksen ja pysäytät kaikki Chia-palvelut."
 
 #: src/components/settings/SettingsCustody.tsx:49
 msgid "The claw back time can be manually adjusted per transaction."
@@ -5947,7 +5951,7 @@ msgstr "Varoitus"
 msgid "Warning Threshold"
 msgstr ""
 
-#: src/components/app/AppVersionWarning.tsx:30
+#: src/components/app/AppVersionWarning.tsx:31
 msgid "Warning: Mismatched Versions"
 msgstr "Varoitus: Eri Versiot"
 

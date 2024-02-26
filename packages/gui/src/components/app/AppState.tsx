@@ -39,7 +39,7 @@ import AppAutoLogin from './AppAutoLogin';
 import AppKeyringMigrator from './AppKeyringMigrator';
 import AppPassPrompt from './AppPassPrompt';
 import AppSelectMode from './AppSelectMode';
-import AppVersionWarning from './AppVersionWarning';
+// import AppVersionWarning from './AppVersionWarning';
 
 const ALL_SERVICES = [
   ServiceName.WALLET,
@@ -68,7 +68,7 @@ export default function AppState(props: Props) {
   // NOTE: We only start the DL at launch time for now
   const [isDataLayerEnabled] = useState(enableDataLayerService);
   const [isFilePropagationServerEnabled] = useState(enableFilePropagationServer);
-  const [versionDialog, setVersionDialog] = useState<boolean>(true);
+  // const [versionDialog, setVersionDialog] = useState<boolean>(true); TODO
   const [updatedWindowTitle, setUpdatedWindowTitle] = useState<boolean>(false);
   const { data: backendVersion } = useGetVersionQuery();
   const { version } = useAppVersion();
@@ -193,11 +193,12 @@ export default function AppState(props: Props) {
     const guiVersionClean = version.replace(/[-+.]/g, '');
 
     if (backendVersionClean !== guiVersionClean && process.env.NODE_ENV !== 'development') {
-      return (
+      backendVersionClean += ' ';
+      /* return (
         <LayoutHero>
           <AppVersionWarning backV={backendVersion} guiV={version} setVersionDialog={setVersionDialog} />
         </LayoutHero>
-      );
+      ); */
     }
   }
 
