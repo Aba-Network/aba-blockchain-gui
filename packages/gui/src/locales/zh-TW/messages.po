@@ -701,7 +701,7 @@ msgstr "您將要給出的資產"
 msgid "Assets you will receive"
 msgstr "您將要收到的資產"
 
-#: src/components/app/AppState.tsx:246
+#: src/components/app/AppState.tsx:247
 msgid "Attempt {attempt}"
 msgstr "嘗試 {attempt}"
 
@@ -1048,7 +1048,7 @@ msgstr ""
 msgid "Close"
 msgstr "關閉"
 
-#: src/components/app/AppState.tsx:172
+#: src/components/app/AppState.tsx:173
 msgid "Closing down services"
 msgstr "正在關閉服務"
 
@@ -1147,8 +1147,8 @@ msgstr "已連線"
 msgid "Connected Applications"
 msgstr "已連接的應用程式"
 
-#: src/components/app/AppState.tsx:238
-#: src/components/app/AppState.tsx:243
+#: src/components/app/AppState.tsx:239
+#: src/components/app/AppState.tsx:244
 msgid "Connecting to daemon"
 msgstr "連接到daemon"
 
@@ -2797,7 +2797,7 @@ msgstr "正在加載耕種資料"
 msgid "Loading fingerprint"
 msgstr "正在載入指紋"
 
-#: src/components/app/AppState.tsx:209
+#: src/components/app/AppState.tsx:210
 msgid "Loading keyring status"
 msgstr "正在加載密鑰環狀態"
 
@@ -4939,7 +4939,7 @@ msgstr "開始索引"
 msgid "Start Key"
 msgstr "開始金鑰"
 
-#: src/components/app/AppState.tsx:267
+#: src/components/app/AppState.tsx:268
 msgid "Starting services"
 msgstr "正在啟動服務"
 

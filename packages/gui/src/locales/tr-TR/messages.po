@@ -701,7 +701,7 @@ msgstr ""
 msgid "Assets you will receive"
 msgstr ""
 
-#: src/components/app/AppState.tsx:246
+#: src/components/app/AppState.tsx:247
 msgid "Attempt {attempt}"
 msgstr ""
 
@@ -1048,7 +1048,7 @@ msgstr ""
 msgid "Close"
 msgstr "Kapat"
 
-#: src/components/app/AppState.tsx:172
+#: src/components/app/AppState.tsx:173
 msgid "Closing down services"
 msgstr ""
 
@@ -1147,8 +1147,8 @@ msgstr "Bağlandı"
 msgid "Connected Applications"
 msgstr ""
 
-#: src/components/app/AppState.tsx:238
-#: src/components/app/AppState.tsx:243
+#: src/components/app/AppState.tsx:239
+#: src/components/app/AppState.tsx:244
 msgid "Connecting to daemon"
 msgstr ""
 
@@ -2797,7 +2797,7 @@ msgstr ""
 msgid "Loading fingerprint"
 msgstr ""
 
-#: src/components/app/AppState.tsx:209
+#: src/components/app/AppState.tsx:210
 msgid "Loading keyring status"
 msgstr ""
 
@@ -4939,7 +4939,7 @@ msgstr ""
 msgid "Start Key"
 msgstr ""
 
-#: src/components/app/AppState.tsx:267
+#: src/components/app/AppState.tsx:268
 msgid "Starting services"
 msgstr ""
 

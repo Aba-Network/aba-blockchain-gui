@@ -701,7 +701,7 @@ msgstr "دارایی هایی که شما پرداخت میکنید"
 msgid "Assets you will receive"
 msgstr "دارایی هایی که شما دریافت میکنید"
 
-#: src/components/app/AppState.tsx:246
+#: src/components/app/AppState.tsx:247
 msgid "Attempt {attempt}"
 msgstr "کوشش {attempt}"
 
@@ -1048,7 +1048,7 @@ msgstr "با کلیک بر روی نماد حذف فقط یک پوشه از ای
 msgid "Close"
 msgstr "ببندید"
 
-#: src/components/app/AppState.tsx:172
+#: src/components/app/AppState.tsx:173
 msgid "Closing down services"
 msgstr "بسته شدن خدمات"
 
@@ -1147,8 +1147,8 @@ msgstr "متصل شده"
 msgid "Connected Applications"
 msgstr "برنامه های کاربردی متصل"
 
-#: src/components/app/AppState.tsx:238
-#: src/components/app/AppState.tsx:243
+#: src/components/app/AppState.tsx:239
+#: src/components/app/AppState.tsx:244
 msgid "Connecting to daemon"
 msgstr "اتصال به دیمن یا برنامه پس زمینه"
 
@@ -2801,7 +2801,7 @@ msgstr "بارگداری اطلاعات فارم"
 msgid "Loading fingerprint"
 msgstr "بازکذاری کدهای شخصی"
 
-#: src/components/app/AppState.tsx:209
+#: src/components/app/AppState.tsx:210
 msgid "Loading keyring status"
 msgstr "بارکذاری وضعیت دسته کلید"
 
@@ -4943,7 +4943,7 @@ msgstr "فهرست شروع"
 msgid "Start Key"
 msgstr "کلید شروع"
 
-#: src/components/app/AppState.tsx:267
+#: src/components/app/AppState.tsx:268
 msgid "Starting services"
 msgstr "شروع خدمات"
 

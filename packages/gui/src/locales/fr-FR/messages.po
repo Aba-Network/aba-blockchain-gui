@@ -701,7 +701,7 @@ msgstr "Vous donnerez"
 msgid "Assets you will receive"
 msgstr "Vous recevrez"
 
-#: src/components/app/AppState.tsx:246
+#: src/components/app/AppState.tsx:247
 msgid "Attempt {attempt}"
 msgstr "Tentative {attempt}"
 
@@ -1048,7 +1048,7 @@ msgstr ""
 msgid "Close"
 msgstr "Fermer"
 
-#: src/components/app/AppState.tsx:172
+#: src/components/app/AppState.tsx:173
 msgid "Closing down services"
 msgstr "Fermeture des services"
 
@@ -1147,8 +1147,8 @@ msgstr "Connecté"
 msgid "Connected Applications"
 msgstr "Applications connectées"
 
-#: src/components/app/AppState.tsx:238
-#: src/components/app/AppState.tsx:243
+#: src/components/app/AppState.tsx:239
+#: src/components/app/AppState.tsx:244
 msgid "Connecting to daemon"
 msgstr "Connexion au service"
 
@@ -2801,7 +2801,7 @@ msgstr "Chargement des données de culture"
 msgid "Loading fingerprint"
 msgstr "Chargement de l'empreinte"
 
-#: src/components/app/AppState.tsx:209
+#: src/components/app/AppState.tsx:210
 msgid "Loading keyring status"
 msgstr "Chargement du statut du trousseau de clés"
 
@@ -4943,7 +4943,7 @@ msgstr "Index de départ"
 msgid "Start Key"
 msgstr "Clé de départ"
 
-#: src/components/app/AppState.tsx:267
+#: src/components/app/AppState.tsx:268
 msgid "Starting services"
 msgstr "Démarrage des services"
 

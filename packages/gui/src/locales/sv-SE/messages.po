@@ -701,7 +701,7 @@ msgstr ""
 msgid "Assets you will receive"
 msgstr "Tillgångar du kommer att få"
 
-#: src/components/app/AppState.tsx:246
+#: src/components/app/AppState.tsx:247
 msgid "Attempt {attempt}"
 msgstr "Försök {attempt}"
 
@@ -1048,7 +1048,7 @@ msgstr ""
 msgid "Close"
 msgstr "Stäng"
 
-#: src/components/app/AppState.tsx:172
+#: src/components/app/AppState.tsx:173
 msgid "Closing down services"
 msgstr "Stänger ner tjänster"
 
@@ -1147,8 +1147,8 @@ msgstr "Ansluten"
 msgid "Connected Applications"
 msgstr "Anslutna program"
 
-#: src/components/app/AppState.tsx:238
-#: src/components/app/AppState.tsx:243
+#: src/components/app/AppState.tsx:239
+#: src/components/app/AppState.tsx:244
 msgid "Connecting to daemon"
 msgstr "Ansluter till daemon"
 
@@ -2797,7 +2797,7 @@ msgstr "Läser in odlingsdata"
 msgid "Loading fingerprint"
 msgstr "Läser in fingeravtryck"
 
-#: src/components/app/AppState.tsx:209
+#: src/components/app/AppState.tsx:210
 msgid "Loading keyring status"
 msgstr "Läser in nyckelringsstatus"
 
@@ -4939,7 +4939,7 @@ msgstr "Startindex"
 msgid "Start Key"
 msgstr ""
 
-#: src/components/app/AppState.tsx:267
+#: src/components/app/AppState.tsx:268
 msgid "Starting services"
 msgstr "Startar tjänster"
 

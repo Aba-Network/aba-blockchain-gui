@@ -701,7 +701,7 @@ msgstr "提供的资产"
 msgid "Assets you will receive"
 msgstr "将会收到的资产："
 
-#: src/components/app/AppState.tsx:246
+#: src/components/app/AppState.tsx:247
 msgid "Attempt {attempt}"
 msgstr "尝试 {attempt}"
 
@@ -1048,7 +1048,7 @@ msgstr "单击删除图标只会从列表中移除文件夹，而不会删除文
 msgid "Close"
 msgstr "关闭"
 
-#: src/components/app/AppState.tsx:172
+#: src/components/app/AppState.tsx:173
 msgid "Closing down services"
 msgstr "关闭服务"
 
@@ -1147,8 +1147,8 @@ msgstr "已连接"
 msgid "Connected Applications"
 msgstr "已连接的应用程序"
 
-#: src/components/app/AppState.tsx:238
-#: src/components/app/AppState.tsx:243
+#: src/components/app/AppState.tsx:239
+#: src/components/app/AppState.tsx:244
 msgid "Connecting to daemon"
 msgstr "正在连接到进程"
 
@@ -2801,7 +2801,7 @@ msgstr "正在加载耕种数据"
 msgid "Loading fingerprint"
 msgstr "加载指纹中"
 
-#: src/components/app/AppState.tsx:209
+#: src/components/app/AppState.tsx:210
 msgid "Loading keyring status"
 msgstr "正在载入密钥串状态"
 
@@ -4943,7 +4943,7 @@ msgstr "起始索引"
 msgid "Start Key"
 msgstr "选择密钥"
 
-#: src/components/app/AppState.tsx:267
+#: src/components/app/AppState.tsx:268
 msgid "Starting services"
 msgstr "正在启动服务..."
 
