@@ -194,7 +194,7 @@ export default function AppState(props: Props) {
     const guiVersionClean = version.replace(/[-+.]/g, '');
 
     if (backendVersionClean !== guiVersionClean && process.env.NODE_ENV !== 'development') {
-      backendVersionClean += ' ';
+      // const backendVersionTemp = backendVersionClean + ' ';
       /* return (
         <LayoutHero>
           <AppVersionWarning backV={backendVersion} guiV={version} setVersionDialog={setVersionDialog} />
