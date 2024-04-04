@@ -175,7 +175,7 @@ export default function WalletTokenCard(props: WalletTokenCardProps) {
               )}
               {assetId && (
                 <Link
-                  href="https://api-fin.spacescan.io/cat/info/{$assetId.toLowerCase()}?version=0.1.0&network=aba"
+                  href="https://api-fin.aba.spacescan.io/cat/info/{$assetId.toLowerCase()}?version=0.1.0&network=aba"
                   target="_blank"
                   variant="caption"
                 >

@@ -57,7 +57,7 @@ export default function WalletCATTAILDialog(props: Props) {
               />
             </Box>
             <Link
-              href={`https://api-fin.spacescan.io/cat/info/${wallet.meta?.assetId}?version=0.1.0&network=aba`}
+              href={`https://api-fin.aba.spacescan.io/cat/info/${wallet.meta?.assetId}?version=0.1.0&network=aba`}
               target="_blank"
               variant="body2"
             >

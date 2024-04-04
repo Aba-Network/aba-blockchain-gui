@@ -102,7 +102,7 @@ export default function OfferBuilderValue(props: OfferBuilderValueProps) {
                       {displayValue}
                       {type === 'token' ? (
                         <Link
-                          href="https://api-fin.spacescan.io/cat/info/{$value.toLowerCase()}?version=0.1.0&network=aba"
+                          href="https://api-fin.aba.spacescan.io/cat/info/{$value.toLowerCase()}?version=0.1.0&network=aba"
                           target="_blank"
                         >
                           <Trans>Search on Spacescan</Trans>

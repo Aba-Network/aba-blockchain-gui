@@ -178,7 +178,7 @@ export function OfferSummaryTokenRow(props: OfferSummaryTokenRowProps): React.Re
               </Box>
               {(!assetIdInfo || [WalletType.CAT, WalletType.CRCAT].includes(assetIdInfo?.walletType)) && (
                 <Link
-                  href="https://api-fin.spacescan.io/cat/info/{$assetId.toLowerCase()}?version=0.1.0&network=aba"
+                  href="https://api-fin.aba.spacescan.io/cat/info/{$assetId.toLowerCase()}?version=0.1.0&network=aba"
                   target="_blank"
                 >
                   <Trans>Search on Spacescan</Trans>

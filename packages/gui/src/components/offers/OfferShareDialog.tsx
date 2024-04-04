@@ -284,7 +284,7 @@ async function postToSpacescan(offerData: string, testnet: boolean): Promise<{ v
     protocol: 'https:',
     hostname: 'api2.aba.spacescan.io',
     port: 443,
-    path: `/api/offer/upload?coin=${testnet ? 'txch' : 'xch'}&version=1`,
+    path: `/api/offer/upload?coin=${testnet ? 'taba' : 'aba'}&version=1`,
   };
   const requestHeaders = {
     'Content-Type': 'application/json',
