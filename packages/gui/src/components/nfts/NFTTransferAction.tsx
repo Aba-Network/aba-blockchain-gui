@@ -120,13 +120,12 @@ export default function NFTTransferAction(props: NFTTransferActionProps) {
             );
           });
       }
-      destinationLocal = address;
 
       try {
         if (!currencyCode) {
           throw new Error('Selected network address prefix is not defined');
         }
-        validAddress(destinationLocal, [currencyCode.toLowerCase()]);
+        validAddress(address, [currencyCode.toLowerCase()]);
       } catch (error) {
         showError(error);
         return;
@@ -135,7 +134,7 @@ export default function NFTTransferAction(props: NFTTransferActionProps) {
         await transferNFT({
           walletId: nfts[0].walletId,
           nftCoinIds: nfts.map((nft: NFTInfo) => nft.nftCoinId),
-          targetAddress: destinationLocal,
+          targetAddress: address,
           fee: feeInMojos,
         }).unwrap();
         success = true;
