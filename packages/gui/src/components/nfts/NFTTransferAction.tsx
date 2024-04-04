@@ -96,7 +96,7 @@ export default function NFTTransferAction(props: NFTTransferActionProps) {
       let errorMessage;
 
       // trim off any whitespace user entered
-      address = address.trim();
+      address = destinationLocal.trim();
       // console.log("address after trimming: " + address);
 
       // If it's a Namesdao .xch name, do a lookup for the address
@@ -120,6 +120,7 @@ export default function NFTTransferAction(props: NFTTransferActionProps) {
             );
           });
       }
+      destinationLocal = address;
 
       try {
         if (!currencyCode) {
