@@ -96,7 +96,7 @@ export default function NFTTransferAction(props: NFTTransferActionProps) {
       let errorMessage;
 
       // trim off any whitespace user entered
-      address = destinationLocal.trim();
+      let address = destinationLocal.trim();
       // console.log("address after trimming: " + address);
 
       // If it's a Namesdao .xch name, do a lookup for the address
