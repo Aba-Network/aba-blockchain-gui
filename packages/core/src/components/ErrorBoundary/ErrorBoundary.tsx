@@ -1,3 +1,4 @@
+// Aba modified this file
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import { styled } from '@mui/styles';
@@ -52,7 +53,7 @@ export default class ErrorBoundary extends Component {
   render() {
     if (this.state.error) {
       const { stacktrace, error } = this.state;
-      const issueLink = `https://github.com/Chia-Network/chia-blockchain-gui/issues/new?${qs.stringify({
+      const issueLink = `https://github.com/Aba-Network/aba-blockchain-gui/issues/new?${qs.stringify({
         labels: 'bug',
         template: 'bug_report.yaml',
         title: `[BUG] ${error.message}`,

@@ -75,4 +75,4 @@ export default function Application() {
 
 ## Development
 
-Please read and follow the main [README.md](https://github.com/Chia-Network/chia-blockchain-gui) of this monorepo.
+Please read and follow the main [README.md](https://github.com/Aba-Network/aba-blockchain-gui) of this monorepo.

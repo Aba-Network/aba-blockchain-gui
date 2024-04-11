@@ -1,3 +1,4 @@
+// Aba modified this file
 import { useRefreshPlotsMutation } from '@chia-network/api-react';
 import { Button, CardHero, Flex, Link, useOpenDialog } from '@chia-network/core';
 import { Plots } from '@chia-network/icons';
@@ -33,7 +34,7 @@ export default function PlotOverviewHero() {
           <Typography variant="body1">
             <Trans>
               Plots are allocated space on your hard drive used to farm and earn Chia. &nbsp;
-              <Link target="_blank" href="https://github.com/Chia-Network/chia-blockchain/wiki/Network-Architecture">
+              <Link target="_blank" href="https://github.com/Aba-Network/aba-blockchain/wiki/Network-Architecture">
                 Learn more
               </Link>
             </Trans>

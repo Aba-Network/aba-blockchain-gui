@@ -148,7 +148,7 @@ export default function About(props: Props) {
           )}
         </VersionsTable>
 
-        <BugReport href="https://github.com/Chia-Network/chia-blockchain/issues" target="_blank">
+        <BugReport href="https://github.com/Aba-Network/aba-blockchain/issues" target="_blank">
           Report an issue
         </BugReport>
         {'{{CSS}}'}

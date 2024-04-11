@@ -1,3 +1,4 @@
+// Aba modified this file
 import type { Connection } from '@chia-network/api';
 import { ServiceName } from '@chia-network/api';
 import { useGetFarmerFullNodeConnectionsQuery } from '@chia-network/api-react';
@@ -78,7 +79,7 @@ export default function FarmFullNodeConnections() {
       tooltip={
         <Trans>
           {'The full node that your farmer is connected to is below. '}
-          <Link target="_blank" href="https://github.com/Chia-Network/chia-blockchain/wiki/Network-Architecture">
+          <Link target="_blank" href="https://github.com/Aba-Network/aba-blockchain/wiki/Network-Architecture">
             Learn more
           </Link>
         </Trans>

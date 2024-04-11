@@ -1,3 +1,4 @@
+// Aba modified this file
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import React from 'react';
@@ -21,7 +22,7 @@ const SendFeedback = styled.a`
 async function openFAQURL(): Promise<void> {
   try {
     const { shell } = window as any;
-    await shell.openExternal('https://github.com/Chia-Network/chia-blockchain/wiki/FAQ');
+    await shell.openExternal('https://github.com/Aba-Network/aba-blockchain/wiki/FAQ');
   } catch (e) {
     console.error(e);
   }
@@ -30,7 +31,7 @@ async function openFAQURL(): Promise<void> {
 async function openSendFeedbackURL(): Promise<void> {
   try {
     const { shell } = window as any;
-    await shell.openExternal('https://feedback.chia.net/lightwallet');
+    await shell.openExternal('https://feedback.aba.ooo/lightwallet');
   } catch (e) {
     console.error(e);
   }

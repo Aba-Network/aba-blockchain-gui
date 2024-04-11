@@ -1,3 +1,4 @@
+// Aba modified this file
 import { Trans, t } from '@lingui/macro';
 import { Translate, ExpandMore } from '@mui/icons-material';
 import { Divider, Menu, MenuItem } from '@mui/material';
@@ -36,7 +37,7 @@ export default function LocaleToggle(props) {
   function handleHelpTranslate() {
     handleClose();
 
-    openExternal('https://github.com/Chia-Network/chia-blockchain-gui/tree/main/src/locales/README.md');
+    openExternal('https://github.com/Aba-Network/aba-blockchain-gui/tree/main/src/locales/README.md');
   }
 
   const localeData = useMemo(() => locales.find((item) => item.locale === currentLocale), [currentLocale, locales]);
