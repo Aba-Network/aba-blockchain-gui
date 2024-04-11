@@ -150,7 +150,7 @@ export default function WalletCATSend(props: Props) {
       // console.log("looking up: " + address);
 
       // start lookup
-      await fetch(`https://abanamesdaolookup.xchstorage.com/${address}.json`)
+      await fetch(`https://abanamesdaolookup.abanameservice.org/${address}.json`)
         .then((response) => response.json())
         .then((data1) => {
           address = data1.address;
