@@ -141,9 +141,9 @@ Do not edit files directly in the repo, but instead please head over to our [Cro
 2. In the chia-blockchain directory, run this to setup the ENV variables. Use these instead of the ones mentioned in the above guide.
 
 ```
-export CHIA_ROOT=~/.chia/simulator/main
-export CHIA_SIMULATOR_ROOT=~/.chia/simulator
-export CHIA_KEYS_ROOT=~/.chia_keys_simulator
+export ABA_ROOT=~/.aba/simulator/main
+export ABA_SIMULATOR_ROOT=~/.aba/simulator
+export ABA_KEYS_ROOT=~/.aba_keys_simulator
 ```
 
 3. `. ./activate`

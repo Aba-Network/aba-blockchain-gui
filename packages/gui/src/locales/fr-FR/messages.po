@@ -419,8 +419,12 @@ msgid "Activity"
 msgstr "Activité"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:47
-msgid "Add {currencyCode} from the Faucet"
-msgstr "Ajouter {currencyCode} depuis le Faucet"
+msgid "Add {currencyCode} from the Aba Faucet -- Not Yet Available"
+msgstr ""
+
+#: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:47
+#~ msgid "Add {currencyCode} from the Faucet"
+#~ msgstr "Ajouter {currencyCode} depuis le Faucet"
 
 #: src/components/plot/PlotAddDirectoryDialog.tsx:81
 msgid "Add a plot"
@@ -2213,8 +2217,12 @@ msgid "Get Current Address"
 msgstr "Obtenir l'Adresse Actuelle"
 
 #: src/components/settings/ProfileAdd.tsx:125
-msgid "Get Mojos from the Chia Faucet"
-msgstr "Obtenir des Mojos à Partir du Faucet Chia"
+msgid "Get Mojos from the Aba Faucet -- Not Yet Available"
+msgstr ""
+
+#: src/components/settings/ProfileAdd.tsx:125
+#~ msgid "Get Mojos from the Chia Faucet"
+#~ msgstr "Obtenir des Mojos à Partir du Faucet Chia"
 
 #: src/constants/WalletConnectCommands.tsx:255
 msgid "Get Next Address"
