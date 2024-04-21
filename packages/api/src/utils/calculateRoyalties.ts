@@ -16,7 +16,7 @@ export default function royaltyAssetFromNFTInfo(
 ): RoyaltyCalculationRoyaltyAsset {
   return {
     asset: nftInfo.$nftId,
-    royaltyAddress: toBech32m(nftInfo.royaltyPuzzleHash, testnet ? 'txch' : 'xch'),
+    royaltyAddress: toBech32m(nftInfo.royaltyPuzzleHash, testnet ? 'txch' : 'aba'),
     royaltyPercentage: nftInfo.royaltyPercentage,
   };
 }

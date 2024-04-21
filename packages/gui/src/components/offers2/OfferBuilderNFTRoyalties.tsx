@@ -53,7 +53,7 @@ export default function OfferBuilderNFTRoyalties(props: OfferBuilderNFTRoyalties
         const { address, amount, asset } = royalty;
         const assetLowerCase = asset.toLowerCase();
 
-        if (assetLowerCase === 'xch' || assetLowerCase === currencyCode.toUpperCase()) {
+        if (assetLowerCase === 'aba' || assetLowerCase === currencyCode.toUpperCase()) {
           return {
             address,
             amount: mojoToChia(amount),

@@ -400,7 +400,7 @@ msgstr "Accepter l'Offre"
 msgid "Action"
 msgstr "Action"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:54
+#: src/components/farm/FarmFullNodeConnections.tsx:55
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:54
 #: src/components/fullNode/FullNodeConnections.tsx:65
 #: src/components/nfts/NFTContextualActions.tsx:590
@@ -426,9 +426,9 @@ msgstr "Ajouter {currencyCode} depuis le Faucet"
 msgid "Add a plot"
 msgstr "Ajouter une parcelle"
 
-#: src/components/farm/FarmHero.tsx:37
+#: src/components/farm/FarmHero.tsx:38
 #: src/components/plot/add/PlotAddForm.tsx:254
-#: src/components/plot/overview/PlotOverviewHero.tsx:43
+#: src/components/plot/overview/PlotOverviewHero.tsx:44
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:199
 #: src/components/plotNFT/PlotNFTCard.tsx:233
 msgid "Add a Plot"
@@ -653,7 +653,7 @@ msgstr "Êtes-vous sûr de vouloir supprimer"
 msgid "Are you sure you want to revoke"
 msgstr "Êtes-vous sûr de vouloir révoquer"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:64
+#: src/components/plot/add/PlotAddChooseSize.tsx:65
 msgid "Are you sure you want to use k={plotSize}?"
 msgstr "Êtes-vous sûr de vouloir utiliser k={plotSize} ?"
 
@@ -899,7 +899,7 @@ msgstr "Impossible d'offrir et de demander le même actif"
 msgid "CAT credential restrictions"
 msgstr "Restrictions des identifiants CAT"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:15
+#: src/components/farm/FarmLastAttemptedProof.tsx:16
 msgid "Challenge"
 msgstr "Défi"
 
@@ -972,11 +972,11 @@ msgstr "Vérifier la provenance sur Spacescan.io"
 msgid "Choose Farming Mode"
 msgstr "Choisir le mode Culture"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:89
+#: src/components/plot/add/PlotAddChooseSize.tsx:90
 msgid "Choose K value"
 msgstr "Choisissez la valeur K"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:89
+#: src/components/plot/add/PlotAddChooseSize.tsx:90
 msgid "Choose K value and compression level"
 msgstr "Choisissez la valeur K et le niveau de compression"
 
@@ -1081,7 +1081,7 @@ msgstr "Support des parcelles compressées"
 msgid "Compression"
 msgstr "Compression"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:126
+#: src/components/plot/add/PlotAddChooseSize.tsx:127
 msgid "Compression level"
 msgstr "Niveau de compression"
 
@@ -1156,7 +1156,7 @@ msgstr "Connexion au service"
 msgid "Connection Status"
 msgstr "Statut de la connexion"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:89
+#: src/components/farm/FarmFullNodeConnections.tsx:90
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:87
 msgid "Connection Status:"
 msgstr "Statut de la connexion :"
@@ -1404,7 +1404,7 @@ msgstr "DataLayer permet de stocker des bases de données avec redondance qui pe
 msgid "DataLayer Services"
 msgstr "Services du DataLayer"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:31
+#: src/components/farm/FarmLastAttemptedProof.tsx:32
 msgid "Date"
 msgstr "Date"
 
@@ -1616,8 +1616,8 @@ msgstr "Afficher les options de partage après la création d'une offre"
 msgid "Do not show this dialog again"
 msgstr "Ne plus afficher cette fenêtre"
 
-#: src/components/farm/FarmHero.tsx:43
-#: src/components/plot/overview/PlotOverviewHero.tsx:53
+#: src/components/farm/FarmHero.tsx:44
+#: src/components/plot/overview/PlotOverviewHero.tsx:54
 msgid "Do you have existing plots on this machine? <0>Add Plot Directory</0>"
 msgstr "Avez-vous des parcelles existantes sur cette machine ? <0>Ajouter un répertoire de parcelles</0>"
 
@@ -2030,7 +2030,7 @@ msgstr "L'adresse de récompense du fermier n'est pas correctement formatée."
 msgid "Farmer Reward Address must not be empty."
 msgstr "L'adresse de récompense du fermier ne doit pas être vide."
 
-#: src/components/farm/FarmHero.tsx:28
+#: src/components/farm/FarmHero.tsx:29
 msgid "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
 msgstr "Les fermiers gagnent des blocs de récompense et des frais de transaction en engageant de l'espace libre dans le réseau pour aider à sécuriser les transactions. C'est là où se trouvera votre ferme une fois que vous aurez ajouté une parcelle. <0>En savoir plus</0>"
 
@@ -2412,7 +2412,7 @@ msgstr "Indice"
 msgid "Hooray, no files here!"
 msgstr "Hourra, aucun fichier ici !"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:33
+#: src/components/farm/FarmFullNodeConnections.tsx:34
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:33
 msgid "Host Name"
 msgstr "Nom d'hôte"
@@ -2645,7 +2645,7 @@ msgstr "Rejoindre des pools de farming"
 msgid "Join Pool"
 msgstr "Rejoindre le pool"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:106
+#: src/components/plot/add/PlotAddChooseSize.tsx:107
 msgid "K value"
 msgstr ""
 
@@ -2682,7 +2682,7 @@ msgstr "La migration du trousseau a échoué : {0}"
 msgid "Keys"
 msgstr ""
 
-#: src/components/farm/FarmFullNodeConnections.tsx:51
+#: src/components/farm/FarmFullNodeConnections.tsx:52
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:51
 msgid "KiB Up/Down"
 msgstr "Kio envoyés/reçus"
@@ -2707,7 +2707,7 @@ msgstr ""
 msgid "LAST 64 SPs"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:50
+#: src/components/farm/FarmLastAttemptedProof.tsx:51
 msgid "Last Attempted Proof"
 msgstr "Dernière tentative de preuve"
 
@@ -3267,7 +3267,7 @@ msgstr "Aucune clé privée pour une ou les deux adresses. Sécurisé uniquement
 msgid "No standard wallet found"
 msgstr "Aucun portefeuille standard trouvé"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:29
+#: src/components/farm/FarmFullNodeConnections.tsx:30
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:29
 #: src/components/fullNode/FullNodeConnections.tsx:29
 msgid "Node ID"
@@ -3296,7 +3296,7 @@ msgstr "Aucun"
 msgid "None (0)"
 msgstr "Aucun (0)"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:72
+#: src/components/farm/FarmLastAttemptedProof.tsx:73
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Encore aucune de vos parcelles n'a passé le filtre."
 
@@ -3962,7 +3962,7 @@ msgstr "Le NFT de parcelles est en cours de transition vers (target state). Cela
 msgid "Plots"
 msgstr "Parcelles"
 
-#: src/components/plot/overview/PlotOverviewHero.tsx:34
+#: src/components/plot/overview/PlotOverviewHero.tsx:35
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia.  <0>Learn more</0>"
 msgstr "Les parcelles sont de l'espace alloué sur votre disque dur, utilisé pour cultiver et gagner des Chias. <0>En savoir plus</0>"
 
@@ -3974,7 +3974,7 @@ msgstr "Échec de l'ouverture des parcelles"
 msgid "Plots in the same queue will run in serial"
 msgstr "Les parcelles dans la même file d'attente seront exécutées en série"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:21
+#: src/components/farm/FarmLastAttemptedProof.tsx:22
 msgid "Plots Passed Filter"
 msgstr "Parcelles passées par le filtre"
 
@@ -4109,7 +4109,7 @@ msgstr "Pooling"
 msgid "Pooling Health"
 msgstr ""
 
-#: src/components/farm/FarmFullNodeConnections.tsx:39
+#: src/components/farm/FarmFullNodeConnections.tsx:40
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:39
 #: src/components/fullNode/FullNodeAddConnection.tsx:95
 #: src/components/fullNode/FullNodeConnections.tsx:39
@@ -4182,7 +4182,7 @@ msgstr "Taille de la preuve d'espace"
 msgid "Proofs"
 msgstr "Preuves"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:25
+#: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
 msgstr "Preuves trouvées"
 
@@ -4268,7 +4268,7 @@ msgstr ""
 msgid "Refresh NFT data"
 msgstr "Rafraîchir les données NFT"
 
-#: src/components/plot/overview/PlotOverviewHero.tsx:46
+#: src/components/plot/overview/PlotOverviewHero.tsx:47
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 msgid "Refresh Plots"
 msgstr "Actualiser les parcelles"
@@ -5072,7 +5072,7 @@ msgstr ""
 msgid "The folder is on a RAM Disk"
 msgstr "Le dossier est sur un RAM Disk"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:79
+#: src/components/farm/FarmFullNodeConnections.tsx:80
 msgid "The full node that your farmer is connected to is below. <0>Learn more</0>"
 msgstr "Le nœud complet auquel votre fermier est connecté est ci-dessous. <0>En savoir plus</0>"
 
@@ -5080,8 +5080,8 @@ msgstr "Le nœud complet auquel votre fermier est connecté est ci-dessous. <0>E
 msgid "The Harvester manages plots and fetches proofs of space corresponding to challenges sent by a farmer."
 msgstr ""
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:60
-#: src/components/plot/add/PlotAddChooseSize.tsx:117
+#: src/components/plot/add/PlotAddChooseSize.tsx:61
+#: src/components/plot/add/PlotAddChooseSize.tsx:118
 msgid "The minimum required size for mainnet is k=32"
 msgstr "La taille minimum requise pour le mainnet est k=32"
 
@@ -5301,7 +5301,7 @@ msgstr "Cette offre n'expirera pas"
 msgid "This plot NFT is assigned to a different key. You can still create plots for this plot NFT, but you can not make changes."
 msgstr "Ce NFT de parcelles est affecté à une autre clé. Vous pouvez toujours ajouter des parcelles à ce NFT de parcelles, mais vous ne pouvez pas effectuer de changements."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:53
+#: src/components/farm/FarmLastAttemptedProof.tsx:54
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "Ce tableau vous montre la dernière fois que votre ferme a tenté de gagner un défi de bloc. <0>En savoir plus</0>"
 
@@ -6012,7 +6012,7 @@ msgstr "Voulez-vous transférer le NFT sélectionné vers un profil ?"
 msgid "Would you like to transfer the specified NFT to a new owner?"
 msgstr "Voulez-vous transférer le NFT spécifié à un nouveau propriétaire ?"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:61
+#: src/components/plot/add/PlotAddChooseSize.tsx:62
 #: src/components/vcs/VCCard.tsx:89
 msgid "Yes"
 msgstr "Oui"
@@ -6058,7 +6058,7 @@ msgstr "Vous pouvez toujours ajouter des parcelles à ce NFT de parcelles, mais 
 msgid "You created this offer"
 msgstr "Vous avez créé cette offre"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:92
+#: src/components/plot/add/PlotAddChooseSize.tsx:93
 msgid "You do not need to be synced or connected to plot. Temporary files are created during the plotting process which exceed the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
 msgstr "Vous n'avez pas besoin d'être connectés pour tracer une parcelle. Les fichiers temporaires sont créés durant le traçage, ils excèdent la taille de la parcelle finale. Soyez assurés d'avoir suffisamment de place. <0>En savoir plus</0>"
 
@@ -6128,7 +6128,7 @@ msgstr "Votre version actuelle de l'application Chia peut ne pas prendre en char
 #~ msgid "Your Farm Overview"
 #~ msgstr "Your Farm Overview"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:76
+#: src/components/farm/FarmFullNodeConnections.tsx:77
 msgid "Your Full Node Connection"
 msgstr "Votre connexion au full node"
 

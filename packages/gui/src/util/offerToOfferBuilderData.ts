@@ -16,11 +16,11 @@ export default function offerToOfferBuilderData(
 
   const defaultFeeXCH = defaultFee ? mojoToChia(defaultFee).toFixed() : '';
 
-  const offeredXch: OfferBuilderData['offered']['xch'] = [];
+  const offeredXch: OfferBuilderData['offered']['aba'] = [];
   const offeredTokens: OfferBuilderData['offered']['tokens'] = [];
   const offeredNfts: OfferBuilderData['offered']['nfts'] = [];
   const offeredFee: OfferBuilderData['offered']['fee'] = setDefaultOfferedFee ? [{ amount: defaultFeeXCH }] : [];
-  const requestedXch: OfferBuilderData['requested']['xch'] = [];
+  const requestedXch: OfferBuilderData['requested']['aba'] = [];
   const requestedTokens: OfferBuilderData['requested']['tokens'] = [];
   const requestedNfts: OfferBuilderData['requested']['nfts'] = [];
 
@@ -41,7 +41,7 @@ export default function offerToOfferBuilderData(
       offeredNfts.push({
         nftId: launcherIdToNFTId(info.launcherId),
       });
-    } else if (id === 'xch') {
+    } else if (id === 'aba') {
       offeredXch.push({
         amount: mojoToChia(amount).toFixed(),
       });
@@ -63,7 +63,7 @@ export default function offerToOfferBuilderData(
       requestedNfts.push({
         nftId: launcherIdToNFTId(info.launcherId),
       });
-    } else if (id === 'xch') {
+    } else if (id === 'aba') {
       requestedXch.push({
         amount: mojoToChia(amount).toFixed(),
       });

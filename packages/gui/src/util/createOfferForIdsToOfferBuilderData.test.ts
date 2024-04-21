@@ -15,7 +15,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
     jest.clearAllMocks();
   });
 
-  describe('when offering XCH for CAT', () => {
+  describe('when offering ABA for CAT', () => {
     it('should return a valid offer builder data object', () => {
       const calledLookupByWalletIdWithIds: string[] = [];
       const assetIdMapEntriesByWalletId: Record<string, AssetIdMapEntry> = {
@@ -23,10 +23,10 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletId: 1,
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
-          name: 'Chia',
-          symbol: 'XCH',
-          displayName: 'XCH',
-          assetId: 'xch',
+          name: 'Aba',
+          symbol: 'ABA',
+          displayName: 'ABA',
+          assetId: 'aba',
         },
         2: {
           walletId: 2,
@@ -86,10 +86,10 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletId: 1,
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
-          name: 'Chia',
-          symbol: 'XCH',
-          displayName: 'XCH',
-          assetId: 'xch',
+          name: 'Aba',
+          symbol: 'ABA',
+          displayName: 'ABA',
+          assetId: 'aba',
         },
         2: {
           walletId: 2,
@@ -152,10 +152,10 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletId: 1,
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
-          name: 'Chia',
-          symbol: 'XCH',
-          displayName: 'XCH',
-          assetId: 'xch',
+          name: 'Aba',
+          symbol: 'ABA',
+          displayName: 'ABA',
+          assetId: 'aba',
         },
       };
 
@@ -219,10 +219,10 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletId: 1,
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
-          name: 'Chia',
-          symbol: 'XCH',
-          displayName: 'XCH',
-          assetId: 'xch',
+          name: 'Aba',
+          symbol: 'ABA',
+          displayName: 'ABA',
+          assetId: 'aba',
         },
         2: {
           walletId: 2,

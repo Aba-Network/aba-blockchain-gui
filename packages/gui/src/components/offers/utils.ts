@@ -189,7 +189,7 @@ export function offerContainsAssetOfType(
 export function offerAssetTypeForAssetId(assetId: string, offerSummary: OfferSummaryRecord): OfferAsset | undefined {
   let assetType: OfferAsset | undefined;
 
-  if (['xch', 'txch'].includes(assetId)) {
+  if (['aba', 'txch'].includes(assetId)) {
     assetType = OfferAsset.CHIA;
   } else {
     const { infos } = offerSummary;
@@ -225,7 +225,7 @@ export function offerAssetIdForAssetType(
   }
 
   if (assetType === OfferAsset.CHIA) {
-    return keys.includes('xch') ? 'xch' : undefined;
+    return keys.includes('aba') ? 'aba' : undefined;
   }
 
   const assetId = Object.keys(offerSummary.infos).find(

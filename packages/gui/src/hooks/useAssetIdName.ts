@@ -40,8 +40,8 @@ export default function useAssetIdName() {
       let isVerified = false;
 
       if (walletType === WalletType.STANDARD_WALLET) {
-        assetId = 'xch';
-        name = 'Chia';
+        assetId = 'aba';
+        name = 'Aba';
         symbol = currencyCode;
         isVerified = true;
       } else if ([WalletType.CAT, WalletType.CRCAT].includes(walletType)) {

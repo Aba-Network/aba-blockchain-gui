@@ -64,7 +64,7 @@ function buildAssetSelectorList(params: BuildAssetSelectorListParams): WalletOff
     }
 
     if (wallet.type === WalletType.STANDARD_WALLET) {
-      name = 'Chia';
+      name = 'Aba';
       symbol = chiaCurrencyCode;
     } else if ([WalletType.CAT, WalletType.CRCAT].includes(wallet.type)) {
       name = wallet.name;

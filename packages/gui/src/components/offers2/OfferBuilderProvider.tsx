@@ -92,7 +92,7 @@ export default function OfferBuilderProvider(props: OfferBuilderProviderProps) {
   const requestedFungibleAssets = [
     ...(requestedXCH ?? [])
       .filter(({ amount }) => amount > 0)
-      .map(({ amount }) => fungibleAssetFromAssetIdAndAmount('xch', chiaToMojo(amount))),
+      .map(({ amount }) => fungibleAssetFromAssetIdAndAmount('aba', chiaToMojo(amount))),
     ...(requestedTokens ?? [])
       .filter(({ assetId, amount }) => assetId?.length > 0 && amount > 0)
       .map(({ amount, assetId }) => fungibleAssetFromAssetIdAndAmount(assetId, catToMojo(amount))),
@@ -101,7 +101,7 @@ export default function OfferBuilderProvider(props: OfferBuilderProviderProps) {
   const offeredFungibleAssets = [
     ...(offeredXCH ?? [])
       .filter(({ amount }) => amount > 0)
-      .map(({ amount }) => fungibleAssetFromAssetIdAndAmount('xch', chiaToMojo(amount))),
+      .map(({ amount }) => fungibleAssetFromAssetIdAndAmount('aba', chiaToMojo(amount))),
     ...(offeredTokens ?? [])
       .filter(({ assetId, amount }) => assetId?.length > 0 && amount > 0)
       .map(({ amount, assetId }) => fungibleAssetFromAssetIdAndAmount(assetId, catToMojo(amount))),

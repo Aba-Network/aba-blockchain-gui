@@ -400,7 +400,7 @@ msgstr "接受報價單"
 msgid "Action"
 msgstr "動作"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:54
+#: src/components/farm/FarmFullNodeConnections.tsx:55
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:54
 #: src/components/fullNode/FullNodeConnections.tsx:65
 #: src/components/nfts/NFTContextualActions.tsx:590
@@ -426,9 +426,9 @@ msgstr "從水龍頭新增{currencyCode}."
 msgid "Add a plot"
 msgstr "新增耕地"
 
-#: src/components/farm/FarmHero.tsx:37
+#: src/components/farm/FarmHero.tsx:38
 #: src/components/plot/add/PlotAddForm.tsx:254
-#: src/components/plot/overview/PlotOverviewHero.tsx:43
+#: src/components/plot/overview/PlotOverviewHero.tsx:44
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:199
 #: src/components/plotNFT/PlotNFTCard.tsx:233
 msgid "Add a Plot"
@@ -653,7 +653,7 @@ msgstr "您確定要移除嗎？"
 msgid "Are you sure you want to revoke"
 msgstr "您確定要撤銷嗎？"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:64
+#: src/components/plot/add/PlotAddChooseSize.tsx:65
 msgid "Are you sure you want to use k={plotSize}?"
 msgstr "您確定要使用 k={plotSize} 嗎？"
 
@@ -899,7 +899,7 @@ msgstr "無法同時提供和請求相同的資產"
 msgid "CAT credential restrictions"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:15
+#: src/components/farm/FarmLastAttemptedProof.tsx:16
 msgid "Challenge"
 msgstr "挑戰"
 
@@ -972,11 +972,11 @@ msgstr "在Spacescan.io上面檢查出處"
 msgid "Choose Farming Mode"
 msgstr "選擇耕種模式"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:89
+#: src/components/plot/add/PlotAddChooseSize.tsx:90
 msgid "Choose K value"
 msgstr ""
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:89
+#: src/components/plot/add/PlotAddChooseSize.tsx:90
 msgid "Choose K value and compression level"
 msgstr ""
 
@@ -1081,7 +1081,7 @@ msgstr ""
 msgid "Compression"
 msgstr ""
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:126
+#: src/components/plot/add/PlotAddChooseSize.tsx:127
 msgid "Compression level"
 msgstr ""
 
@@ -1156,7 +1156,7 @@ msgstr "連接到daemon"
 msgid "Connection Status"
 msgstr "連線狀態"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:89
+#: src/components/farm/FarmFullNodeConnections.tsx:90
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:87
 msgid "Connection Status:"
 msgstr "連線狀態："
@@ -1404,7 +1404,7 @@ msgstr "DataLayer 可以將豐富的數據存儲在可以使用 Chia 區塊鏈�
 msgid "DataLayer Services"
 msgstr "DataLayer 服務"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:31
+#: src/components/farm/FarmLastAttemptedProof.tsx:32
 msgid "Date"
 msgstr "日期"
 
@@ -1616,8 +1616,8 @@ msgstr "在建立新的報價後顯示分享選項"
 msgid "Do not show this dialog again"
 msgstr "不要再顯示這個對話窗"
 
-#: src/components/farm/FarmHero.tsx:43
-#: src/components/plot/overview/PlotOverviewHero.tsx:53
+#: src/components/farm/FarmHero.tsx:44
+#: src/components/plot/overview/PlotOverviewHero.tsx:54
 msgid "Do you have existing plots on this machine? <0>Add Plot Directory</0>"
 msgstr "你有已存在的耕地在本機上？ <0>增加耕地資料夾</0>"
 
@@ -2030,7 +2030,7 @@ msgstr "農夫獎勵地址並不符合格式。"
 msgid "Farmer Reward Address must not be empty."
 msgstr "農夫獎勵地址不能為空。"
 
-#: src/components/farm/FarmHero.tsx:28
+#: src/components/farm/FarmHero.tsx:29
 msgid "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
 msgstr "農夫可通過提交閒置空間到網路上來幫助保護交易，從而獲得區塊獎勵和交易費。這便是新增耕地後耕種的地方。<0>了解詳情</0>"
 
@@ -2412,7 +2412,7 @@ msgstr "提示"
 msgid "Hooray, no files here!"
 msgstr "萬歲，這裡沒有文件!"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:33
+#: src/components/farm/FarmFullNodeConnections.tsx:34
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:33
 msgid "Host Name"
 msgstr "主機名稱"
@@ -2641,7 +2641,7 @@ msgstr "加入農會耕種"
 msgid "Join Pool"
 msgstr "加入礦池"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:106
+#: src/components/plot/add/PlotAddChooseSize.tsx:107
 msgid "K value"
 msgstr ""
 
@@ -2678,7 +2678,7 @@ msgstr "鑰匙串轉移失敗:{0}"
 msgid "Keys"
 msgstr ""
 
-#: src/components/farm/FarmFullNodeConnections.tsx:51
+#: src/components/farm/FarmFullNodeConnections.tsx:52
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:51
 msgid "KiB Up/Down"
 msgstr "KiB 上傳/下傳"
@@ -2703,7 +2703,7 @@ msgstr ""
 msgid "LAST 64 SPs"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:50
+#: src/components/farm/FarmLastAttemptedProof.tsx:51
 msgid "Last Attempted Proof"
 msgstr "最後試過證明"
 
@@ -3263,7 +3263,7 @@ msgstr "一方或雙方地址缺少私鑰。只有在將獎勵發送到其他錢
 msgid "No standard wallet found"
 msgstr "找不到標準錢包"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:29
+#: src/components/farm/FarmFullNodeConnections.tsx:30
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:29
 #: src/components/fullNode/FullNodeConnections.tsx:29
 msgid "Node ID"
@@ -3292,7 +3292,7 @@ msgstr "無"
 msgid "None (0)"
 msgstr "無 (0)"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:72
+#: src/components/farm/FarmLastAttemptedProof.tsx:73
 msgid "None of your plots have passed the plot filter yet."
 msgstr "你還沒有任何的耕地通過篩選。"
 
@@ -3958,7 +3958,7 @@ msgstr "農場正在切換到 (target state). 這可能會需要一段時間. �
 msgid "Plots"
 msgstr "耕地"
 
-#: src/components/plot/overview/PlotOverviewHero.tsx:34
+#: src/components/plot/overview/PlotOverviewHero.tsx:35
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia.  <0>Learn more</0>"
 msgstr "耕地是在你硬碟上劃出的空間，用於耕種來賺取 Chia。 <0>了解更多</0>"
 
@@ -3970,7 +3970,7 @@ msgstr "耕地無法打開"
 msgid "Plots in the same queue will run in serial"
 msgstr "在相同佇列中的耕地將按順序運行"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:21
+#: src/components/farm/FarmLastAttemptedProof.tsx:22
 msgid "Plots Passed Filter"
 msgstr "通過篩選的耕地"
 
@@ -4105,7 +4105,7 @@ msgstr "正在為農會耕種中"
 msgid "Pooling Health"
 msgstr ""
 
-#: src/components/farm/FarmFullNodeConnections.tsx:39
+#: src/components/farm/FarmFullNodeConnections.tsx:40
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:39
 #: src/components/fullNode/FullNodeAddConnection.tsx:95
 #: src/components/fullNode/FullNodeConnections.tsx:39
@@ -4178,7 +4178,7 @@ msgstr "空間證明的大小"
 msgid "Proofs"
 msgstr "證明"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:25
+#: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
 msgstr "發現證明數"
 
@@ -4264,7 +4264,7 @@ msgstr ""
 msgid "Refresh NFT data"
 msgstr "刷新NFT資料"
 
-#: src/components/plot/overview/PlotOverviewHero.tsx:46
+#: src/components/plot/overview/PlotOverviewHero.tsx:47
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 msgid "Refresh Plots"
 msgstr "刷新耕地"
@@ -5068,7 +5068,7 @@ msgstr ""
 msgid "The folder is on a RAM Disk"
 msgstr "該資料夾位於 RAM 磁碟"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:79
+#: src/components/farm/FarmFullNodeConnections.tsx:80
 msgid "The full node that your farmer is connected to is below. <0>Learn more</0>"
 msgstr "您的塊農連接的完整節點如下。 <0>了解更多</0>"
 
@@ -5076,8 +5076,8 @@ msgstr "您的塊農連接的完整節點如下。 <0>了解更多</0>"
 msgid "The Harvester manages plots and fetches proofs of space corresponding to challenges sent by a farmer."
 msgstr ""
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:60
-#: src/components/plot/add/PlotAddChooseSize.tsx:117
+#: src/components/plot/add/PlotAddChooseSize.tsx:61
+#: src/components/plot/add/PlotAddChooseSize.tsx:118
 msgid "The minimum required size for mainnet is k=32"
 msgstr "主網所需的最小大小為 k=32"
 
@@ -5297,7 +5297,7 @@ msgstr ""
 msgid "This plot NFT is assigned to a different key. You can still create plots for this plot NFT, but you can not make changes."
 msgstr "此農場分配給其他的金鑰。你仍然可以為此農場建立耕地，但不能進行更改。"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:53
+#: src/components/farm/FarmLastAttemptedProof.tsx:54
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "此表顯示您的農場最後一次嘗試贏得區塊挑戰的時間。<0>了解更多</0>"
 
@@ -6008,7 +6008,7 @@ msgstr "您是否要將指定的 NFT 移至個人檔案？"
 msgid "Would you like to transfer the specified NFT to a new owner?"
 msgstr "您是否要將指定的 NFT 轉移給新擁有者？"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:61
+#: src/components/plot/add/PlotAddChooseSize.tsx:62
 #: src/components/vcs/VCCard.tsx:89
 msgid "Yes"
 msgstr "是"
@@ -6054,7 +6054,7 @@ msgstr "您仍然可以為此農場創建耕地，但在同步完成之前您不
 msgid "You created this offer"
 msgstr "您創建了這個報價"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:92
+#: src/components/plot/add/PlotAddChooseSize.tsx:93
 msgid "You do not need to be synced or connected to plot. Temporary files are created during the plotting process which exceed the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
 msgstr "你不需要同步或連線後才能規劃耕地。規劃耕地時所產生的暫存檔將大於最終的耕地大小。確保你有足夠的空間。<0>了解更多</0>"
 
@@ -6124,7 +6124,7 @@ msgstr "您目前使用的 Chia 應用程式版本可能不支持 dApp 要求的
 #~ msgid "Your Farm Overview"
 #~ msgstr "Your Farm Overview"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:76
+#: src/components/farm/FarmFullNodeConnections.tsx:77
 msgid "Your Full Node Connection"
 msgstr "您的完整節點連線"
 

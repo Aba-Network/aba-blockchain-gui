@@ -15,7 +15,7 @@ import { prepareNFTOfferFromNFTId } from './prepareNFTOffer';
 // Status of existing assets in offers
 // A combination of `type` and `assetId` must be unique through an array of `AssetStatusForOffer`.
 export type AssetStatusForOffer = {
-  type: 'XCH' | 'CAT' | 'SINGLETON';
+  type: 'ABA' | 'CAT' | 'SINGLETON';
   assetId: string;
   assetName?: string; // Used just for labeling
   nftId?: string;
@@ -88,10 +88,10 @@ export default async function offerBuilderDataToOffer({
       for (let k = 0; k < assetIds.length; k++) {
         const assetId = assetIds[k];
         const lockedAmount = new BigNumber(o.pending[assetId]);
-        if (assetId.toUpperCase() === 'XCH' || assetId.toUpperCase() === 'UNKNOWN') {
+        if (assetId.toUpperCase() === 'ABA' || assetId.toUpperCase() === 'UNKNOWN') {
           // 'UNKNOWN' is the diff between removals and additions of coins in this offer
           // It is assumed to be the amount of the 'fee'
-          const idx = pendingOffers.findIndex((po) => po.type === 'XCH');
+          const idx = pendingOffers.findIndex((po) => po.type === 'ABA');
           if (idx > -1) {
             pendingOffers[idx].lockedAmount = pendingOffers[idx].lockedAmount.plus(lockedAmount);
             pendingOffers[idx].relevantOffers.push(o);
@@ -101,9 +101,9 @@ export default async function offerBuilderDataToOffer({
             }
           } else {
             pendingOffers.push({
-              type: 'XCH',
+              type: 'ABA',
               assetId,
-              assetName: 'XCH',
+              assetName: 'ABA',
               lockedAmount,
               status: '',
               spendingAmount: new BigNumber(0),
@@ -144,7 +144,7 @@ export default async function offerBuilderDataToOffer({
     standardWallet = wallets.find((w) => w.type === WalletType.STANDARD_WALLET);
     for (let i = 0; i < pendingOffers.length; i++) {
       const po = pendingOffers[i];
-      if (po.type === 'XCH') {
+      if (po.type === 'ABA') {
         pendingXchOffer = po;
         pendingXch = po.lockedAmount;
         break;

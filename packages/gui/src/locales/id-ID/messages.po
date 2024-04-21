@@ -400,7 +400,7 @@ msgstr ""
 msgid "Action"
 msgstr "Tindakan"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:54
+#: src/components/farm/FarmFullNodeConnections.tsx:55
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:54
 #: src/components/fullNode/FullNodeConnections.tsx:65
 #: src/components/nfts/NFTContextualActions.tsx:590
@@ -426,9 +426,9 @@ msgstr "Tambah {currencyCode} dari sebuah Faucet"
 msgid "Add a plot"
 msgstr "Tambah sebuah plot"
 
-#: src/components/farm/FarmHero.tsx:37
+#: src/components/farm/FarmHero.tsx:38
 #: src/components/plot/add/PlotAddForm.tsx:254
-#: src/components/plot/overview/PlotOverviewHero.tsx:43
+#: src/components/plot/overview/PlotOverviewHero.tsx:44
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:199
 #: src/components/plotNFT/PlotNFTCard.tsx:233
 msgid "Add a Plot"
@@ -653,7 +653,7 @@ msgstr ""
 msgid "Are you sure you want to revoke"
 msgstr ""
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:64
+#: src/components/plot/add/PlotAddChooseSize.tsx:65
 msgid "Are you sure you want to use k={plotSize}?"
 msgstr "Anda yakin ingin menggunakan k={plotSize}?"
 
@@ -899,7 +899,7 @@ msgstr ""
 msgid "CAT credential restrictions"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:15
+#: src/components/farm/FarmLastAttemptedProof.tsx:16
 msgid "Challenge"
 msgstr "Percobaan"
 
@@ -972,11 +972,11 @@ msgstr ""
 msgid "Choose Farming Mode"
 msgstr "Pilih metode farming"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:89
+#: src/components/plot/add/PlotAddChooseSize.tsx:90
 msgid "Choose K value"
 msgstr ""
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:89
+#: src/components/plot/add/PlotAddChooseSize.tsx:90
 msgid "Choose K value and compression level"
 msgstr ""
 
@@ -1081,7 +1081,7 @@ msgstr ""
 msgid "Compression"
 msgstr ""
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:126
+#: src/components/plot/add/PlotAddChooseSize.tsx:127
 msgid "Compression level"
 msgstr ""
 
@@ -1156,7 +1156,7 @@ msgstr "Menyambungkan ke daemon"
 msgid "Connection Status"
 msgstr "Status Koneksi"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:89
+#: src/components/farm/FarmFullNodeConnections.tsx:90
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:87
 msgid "Connection Status:"
 msgstr "Status Koneksi:"
@@ -1404,7 +1404,7 @@ msgstr ""
 msgid "DataLayer Services"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:31
+#: src/components/farm/FarmLastAttemptedProof.tsx:32
 msgid "Date"
 msgstr "Tanggal"
 
@@ -1616,8 +1616,8 @@ msgstr ""
 msgid "Do not show this dialog again"
 msgstr ""
 
-#: src/components/farm/FarmHero.tsx:43
-#: src/components/plot/overview/PlotOverviewHero.tsx:53
+#: src/components/farm/FarmHero.tsx:44
+#: src/components/plot/overview/PlotOverviewHero.tsx:54
 msgid "Do you have existing plots on this machine? <0>Add Plot Directory</0>"
 msgstr "Apakah sudah memiliki plot pada komputer ini? <0>Tambahkan Direktori Plot</0>"
 
@@ -2030,7 +2030,7 @@ msgstr "Alamat penghasilan Farmer tidak sesuai format."
 msgid "Farmer Reward Address must not be empty."
 msgstr "Alamat penghasilan farmer tidak seharus nya kosong."
 
-#: src/components/farm/FarmHero.tsx:28
+#: src/components/farm/FarmHero.tsx:29
 msgid "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
 msgstr "Para farmer mendapatkan upah blok dan biaya transaksi dengan mengalokasikan ruang kosong untuk membantu pengamanan transaksi. Ini adalah tempat farm anda setelah anda menambahkan sebuah plot. <0>Pelajari lebih lanjut</0>"
 
@@ -2412,7 +2412,7 @@ msgstr "Petunjuk"
 msgid "Hooray, no files here!"
 msgstr "Hore, tidak ada file disini!"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:33
+#: src/components/farm/FarmFullNodeConnections.tsx:34
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:33
 msgid "Host Name"
 msgstr "Nama Host"
@@ -2641,7 +2641,7 @@ msgstr "Gabung ke farming pool"
 msgid "Join Pool"
 msgstr "Gabung ke Pool"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:106
+#: src/components/plot/add/PlotAddChooseSize.tsx:107
 msgid "K value"
 msgstr ""
 
@@ -2678,7 +2678,7 @@ msgstr "Migrasi penyimpan kunci gagal: {0}"
 msgid "Keys"
 msgstr ""
 
-#: src/components/farm/FarmFullNodeConnections.tsx:51
+#: src/components/farm/FarmFullNodeConnections.tsx:52
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:51
 msgid "KiB Up/Down"
 msgstr "KiB Naik/Turun"
@@ -2703,7 +2703,7 @@ msgstr ""
 msgid "LAST 64 SPs"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:50
+#: src/components/farm/FarmLastAttemptedProof.tsx:51
 msgid "Last Attempted Proof"
 msgstr "Percobaan Bukti Terakhir"
 
@@ -3263,7 +3263,7 @@ msgstr "Tiada kod pribadi untuk satu atau semua alamat. Hanya selamat jika mengh
 msgid "No standard wallet found"
 msgstr ""
 
-#: src/components/farm/FarmFullNodeConnections.tsx:29
+#: src/components/farm/FarmFullNodeConnections.tsx:30
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:29
 #: src/components/fullNode/FullNodeConnections.tsx:29
 msgid "Node ID"
@@ -3292,7 +3292,7 @@ msgstr "Tidak Tersedia"
 msgid "None (0)"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:72
+#: src/components/farm/FarmLastAttemptedProof.tsx:73
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Anda tidak ada plot yang telah lulus plot filter."
 
@@ -3958,7 +3958,7 @@ msgstr "PlotNFT sedang bertransisi ke (target state). Ini akan berlangsung beber
 msgid "Plots"
 msgstr "Plot-Plot"
 
-#: src/components/plot/overview/PlotOverviewHero.tsx:34
+#: src/components/plot/overview/PlotOverviewHero.tsx:35
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia.  <0>Learn more</0>"
 msgstr ""
 
@@ -3970,7 +3970,7 @@ msgstr "Plot gagal di buka"
 msgid "Plots in the same queue will run in serial"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:21
+#: src/components/farm/FarmLastAttemptedProof.tsx:22
 msgid "Plots Passed Filter"
 msgstr "Plot Diterima Seleksi"
 
@@ -4105,7 +4105,7 @@ msgstr "Pooling"
 msgid "Pooling Health"
 msgstr ""
 
-#: src/components/farm/FarmFullNodeConnections.tsx:39
+#: src/components/farm/FarmFullNodeConnections.tsx:40
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:39
 #: src/components/fullNode/FullNodeAddConnection.tsx:95
 #: src/components/fullNode/FullNodeConnections.tsx:39
@@ -4178,7 +4178,7 @@ msgstr "Ukuran Bukti Dari Ruang"
 msgid "Proofs"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:25
+#: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
 msgstr "Bukti Ditemukan"
 
@@ -4264,7 +4264,7 @@ msgstr ""
 msgid "Refresh NFT data"
 msgstr ""
 
-#: src/components/plot/overview/PlotOverviewHero.tsx:46
+#: src/components/plot/overview/PlotOverviewHero.tsx:47
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 msgid "Refresh Plots"
 msgstr "Segarkan data Plot-Plot"
@@ -5068,7 +5068,7 @@ msgstr ""
 msgid "The folder is on a RAM Disk"
 msgstr ""
 
-#: src/components/farm/FarmFullNodeConnections.tsx:79
+#: src/components/farm/FarmFullNodeConnections.tsx:80
 msgid "The full node that your farmer is connected to is below. <0>Learn more</0>"
 msgstr "Node penuh yang terhubung ke farmer anda di bawah. <0>Pelajari lebih lanjut</0>"
 
@@ -5076,8 +5076,8 @@ msgstr "Node penuh yang terhubung ke farmer anda di bawah. <0>Pelajari lebih lan
 msgid "The Harvester manages plots and fetches proofs of space corresponding to challenges sent by a farmer."
 msgstr ""
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:60
-#: src/components/plot/add/PlotAddChooseSize.tsx:117
+#: src/components/plot/add/PlotAddChooseSize.tsx:61
+#: src/components/plot/add/PlotAddChooseSize.tsx:118
 msgid "The minimum required size for mainnet is k=32"
 msgstr "Ukuran minimum yang di butuhkan untuk mainnet adalah k=32"
 
@@ -5297,7 +5297,7 @@ msgstr ""
 msgid "This plot NFT is assigned to a different key. You can still create plots for this plot NFT, but you can not make changes."
 msgstr "PlotNFT ini telah di alokasi kan ke kunci yang berbeda. Anda masi bisa membuat plots untuk plotNFT ini, tapi anda tidak bisa membuat perubahan."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:53
+#: src/components/farm/FarmLastAttemptedProof.tsx:54
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "Tabel berikut menunjukan waktu terakhir farm anda mencoba untuk memenangkan sebuah blok tantangan. <0>Pelajari lebih lanjut</0>"
 
@@ -6008,7 +6008,7 @@ msgstr ""
 msgid "Would you like to transfer the specified NFT to a new owner?"
 msgstr ""
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:61
+#: src/components/plot/add/PlotAddChooseSize.tsx:62
 #: src/components/vcs/VCCard.tsx:89
 msgid "Yes"
 msgstr "Ya"
@@ -6054,7 +6054,7 @@ msgstr "Kamu masi bisa membuat plot untuk plot NFT ini, tetapi tidak bisa membua
 msgid "You created this offer"
 msgstr ""
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:92
+#: src/components/plot/add/PlotAddChooseSize.tsx:93
 msgid "You do not need to be synced or connected to plot. Temporary files are created during the plotting process which exceed the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
 msgstr "Anda tidak terlu tersinkronisasi atau terhubung ke plot. File sementara akan dibuat ketika membuat plot yang melebihi ukuran ahir plot. Pastikan anda mempunyai sisa penyimpanan yang cukup. <0>Pelajari lebih lanjut</0>"
 
@@ -6124,7 +6124,7 @@ msgstr ""
 #~ msgid "Your Farm Overview"
 #~ msgstr "Your Farm Overview"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:76
+#: src/components/farm/FarmFullNodeConnections.tsx:77
 msgid "Your Full Node Connection"
 msgstr "Koneksi Full Node Anda"
 

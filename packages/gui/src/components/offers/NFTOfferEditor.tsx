@@ -553,7 +553,7 @@ export default function NFTOfferEditor(props: NFTOfferEditorProps) {
       walletId: 1,
       walletType: WalletType.STANDARD_WALLET,
       symbol: currencyCode,
-      name: 'Chia',
+      name: 'Aba',
       spendableBalance: new BigNumber(0),
     },
     tokenAmount: '',

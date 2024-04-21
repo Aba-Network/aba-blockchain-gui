@@ -400,7 +400,7 @@ msgstr "Acceptera erbjudandet"
 msgid "Action"
 msgstr "Åtgärd"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:54
+#: src/components/farm/FarmFullNodeConnections.tsx:55
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:54
 #: src/components/fullNode/FullNodeConnections.tsx:65
 #: src/components/nfts/NFTContextualActions.tsx:590
@@ -426,9 +426,9 @@ msgstr "Lägg till {currencyCode} från kranen"
 msgid "Add a plot"
 msgstr "Lägg till en plott"
 
-#: src/components/farm/FarmHero.tsx:37
+#: src/components/farm/FarmHero.tsx:38
 #: src/components/plot/add/PlotAddForm.tsx:254
-#: src/components/plot/overview/PlotOverviewHero.tsx:43
+#: src/components/plot/overview/PlotOverviewHero.tsx:44
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:199
 #: src/components/plotNFT/PlotNFTCard.tsx:233
 msgid "Add a Plot"
@@ -653,7 +653,7 @@ msgstr "Är du säker på att du vill ta bort"
 msgid "Are you sure you want to revoke"
 msgstr "Är du säker på att du vill återkalla"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:64
+#: src/components/plot/add/PlotAddChooseSize.tsx:65
 msgid "Are you sure you want to use k={plotSize}?"
 msgstr "Är du säker på att du vill använda k={plotSize}?"
 
@@ -899,7 +899,7 @@ msgstr "Det går inte erbjuda och begära samma tillgång"
 msgid "CAT credential restrictions"
 msgstr "CAT-autentiseringsbegränsningar"
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:15
+#: src/components/farm/FarmLastAttemptedProof.tsx:16
 msgid "Challenge"
 msgstr "Verifiering"
 
@@ -972,11 +972,11 @@ msgstr "Kontrollera proveniens på Spacescan.io"
 msgid "Choose Farming Mode"
 msgstr "Välj odlingsläge"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:89
+#: src/components/plot/add/PlotAddChooseSize.tsx:90
 msgid "Choose K value"
 msgstr "Välj K-värde"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:89
+#: src/components/plot/add/PlotAddChooseSize.tsx:90
 msgid "Choose K value and compression level"
 msgstr "Välj K-värde och komprimeringsnivå"
 
@@ -1081,7 +1081,7 @@ msgstr "Stöd för komprimerade plottar"
 msgid "Compression"
 msgstr "Komprimering"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:126
+#: src/components/plot/add/PlotAddChooseSize.tsx:127
 msgid "Compression level"
 msgstr "Komprimeringsnivå"
 
@@ -1156,7 +1156,7 @@ msgstr "Ansluter till daemon"
 msgid "Connection Status"
 msgstr "Anslutningsstatus"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:89
+#: src/components/farm/FarmFullNodeConnections.tsx:90
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:87
 msgid "Connection Status:"
 msgstr "Anslutningsstatus:"
@@ -1404,7 +1404,7 @@ msgstr "DataLayer gör det möjligt att lagra rika data på speglade databaser s
 msgid "DataLayer Services"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:31
+#: src/components/farm/FarmLastAttemptedProof.tsx:32
 msgid "Date"
 msgstr "Datum"
 
@@ -1616,8 +1616,8 @@ msgstr "Visa delningsalternativ efter att ett nytt erbjudande skapats"
 msgid "Do not show this dialog again"
 msgstr "Visa inte denna dialog igen"
 
-#: src/components/farm/FarmHero.tsx:43
-#: src/components/plot/overview/PlotOverviewHero.tsx:53
+#: src/components/farm/FarmHero.tsx:44
+#: src/components/plot/overview/PlotOverviewHero.tsx:54
 msgid "Do you have existing plots on this machine? <0>Add Plot Directory</0>"
 msgstr "Har du redan några plottar på denna maskin? <0>Lägg till plottmapp</0>"
 
@@ -2030,7 +2030,7 @@ msgstr "Den här dressen är inte korrekt formaterad."
 msgid "Farmer Reward Address must not be empty."
 msgstr "Adress får inte vara tom."
 
-#: src/components/farm/FarmHero.tsx:28
+#: src/components/farm/FarmHero.tsx:29
 msgid "Farmers earn block rewards and transaction fees by committing spare space to the network to help secure transactions. This is where your farm will be once you add a plot. <0>Learn more</0>"
 msgstr "Odlare tjänar blockbelöningar och transaktionsavgifter genom att dedikera ledigt utrymme till nätverket för att hjälpa till att säkra transaktioner. Detta är vad din odling gör när du väl har lagt till en plott. <0>Läs mer</0>"
 
@@ -2412,7 +2412,7 @@ msgstr "Ledtråd"
 msgid "Hooray, no files here!"
 msgstr "Hurra, inga filer här!"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:33
+#: src/components/farm/FarmFullNodeConnections.tsx:34
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:33
 msgid "Host Name"
 msgstr "Värdnamn"
@@ -2641,7 +2641,7 @@ msgstr "Gå med i odlingspooler"
 msgid "Join Pool"
 msgstr "Gå med i en pool"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:106
+#: src/components/plot/add/PlotAddChooseSize.tsx:107
 msgid "K value"
 msgstr "K-värde"
 
@@ -2678,7 +2678,7 @@ msgstr "Det gick inte att migrera nyckelring: {0}"
 msgid "Keys"
 msgstr "Nycklar"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:51
+#: src/components/farm/FarmFullNodeConnections.tsx:52
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:51
 msgid "KiB Up/Down"
 msgstr "KiB Upp/Ner"
@@ -2703,7 +2703,7 @@ msgstr "SENASTE 24 TIMMARNA"
 msgid "LAST 64 SPs"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:50
+#: src/components/farm/FarmLastAttemptedProof.tsx:51
 msgid "Last Attempted Proof"
 msgstr "Senaste bevis som prövats"
 
@@ -3263,7 +3263,7 @@ msgstr "Inga privata nycklar för en eller båda adresser. Endast säkert om du 
 msgid "No standard wallet found"
 msgstr "Ingen standardplånbok hittades"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:29
+#: src/components/farm/FarmFullNodeConnections.tsx:30
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:29
 #: src/components/fullNode/FullNodeConnections.tsx:29
 msgid "Node ID"
@@ -3292,7 +3292,7 @@ msgstr "Ingen"
 msgid "None (0)"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:72
+#: src/components/farm/FarmLastAttemptedProof.tsx:73
 msgid "None of your plots have passed the plot filter yet."
 msgstr "Ingen av dina plottar har passerat plottfiltret ännu."
 
@@ -3958,7 +3958,7 @@ msgstr "PlotNFT håller på att byta status till (target state). Detta kan ta et
 msgid "Plots"
 msgstr "Plottar"
 
-#: src/components/plot/overview/PlotOverviewHero.tsx:34
+#: src/components/plot/overview/PlotOverviewHero.tsx:35
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia.  <0>Learn more</0>"
 msgstr "Plottar är reserverat utrymme på din hårddisk som används för att odla och tjäna Chia.  <0>Läs mer</0>"
 
@@ -3970,7 +3970,7 @@ msgstr "Det gick inte att öppna plottar"
 msgid "Plots in the same queue will run in serial"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:21
+#: src/components/farm/FarmLastAttemptedProof.tsx:22
 msgid "Plots Passed Filter"
 msgstr "Plottar som passerat filtret"
 
@@ -4105,7 +4105,7 @@ msgstr "Poolning"
 msgid "Pooling Health"
 msgstr ""
 
-#: src/components/farm/FarmFullNodeConnections.tsx:39
+#: src/components/farm/FarmFullNodeConnections.tsx:40
 #: src/components/farm/FarmYourHarvesterNetwork.tsx:39
 #: src/components/fullNode/FullNodeAddConnection.tsx:95
 #: src/components/fullNode/FullNodeConnections.tsx:39
@@ -4178,7 +4178,7 @@ msgstr "Storlek på bevis-på-utrymme"
 msgid "Proofs"
 msgstr ""
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:25
+#: src/components/farm/FarmLastAttemptedProof.tsx:26
 msgid "Proofs Found"
 msgstr "Hittade bevis"
 
@@ -4264,7 +4264,7 @@ msgstr ""
 msgid "Refresh NFT data"
 msgstr ""
 
-#: src/components/plot/overview/PlotOverviewHero.tsx:46
+#: src/components/plot/overview/PlotOverviewHero.tsx:47
 #: src/components/plot/overview/PlotOverviewPlots.tsx:63
 msgid "Refresh Plots"
 msgstr "Uppdatera plottar"
@@ -5068,7 +5068,7 @@ msgstr ""
 msgid "The folder is on a RAM Disk"
 msgstr ""
 
-#: src/components/farm/FarmFullNodeConnections.tsx:79
+#: src/components/farm/FarmFullNodeConnections.tsx:80
 msgid "The full node that your farmer is connected to is below. <0>Learn more</0>"
 msgstr "Den fullständiga nod din odlare är ansluten till är nedan. <0>Läs mer</0>"
 
@@ -5076,8 +5076,8 @@ msgstr "Den fullständiga nod din odlare är ansluten till är nedan. <0>Läs me
 msgid "The Harvester manages plots and fetches proofs of space corresponding to challenges sent by a farmer."
 msgstr "Skördaren hanterar plottar och hämtar bevis på utrymme som motsvarar verifieringar som skickas av en odlare."
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:60
-#: src/components/plot/add/PlotAddChooseSize.tsx:117
+#: src/components/plot/add/PlotAddChooseSize.tsx:61
+#: src/components/plot/add/PlotAddChooseSize.tsx:118
 msgid "The minimum required size for mainnet is k=32"
 msgstr "Den minsta storlek som krävs för mainnet är k=32"
 
@@ -5297,7 +5297,7 @@ msgstr "Detta erbjudande kommer inte att löpa ut"
 msgid "This plot NFT is assigned to a different key. You can still create plots for this plot NFT, but you can not make changes."
 msgstr "Denna plott-NFT är tilldelad till en annan nyckel. Du kan fortfarande skapa plottar för denna plott-NFT, men du kan inte göra några ändringar."
 
-#: src/components/farm/FarmLastAttemptedProof.tsx:53
+#: src/components/farm/FarmLastAttemptedProof.tsx:54
 msgid "This table shows you the last time your farm attempted to win a block challenge. <0>Learn more</0>"
 msgstr "Denna tabell visar den sista tidpunkt då din odling försökte vinna en blockverifiering. <0>Läs mer</0>"
 
@@ -6008,7 +6008,7 @@ msgstr "Vill du flytta den angivna NFT:n till en profil?"
 msgid "Would you like to transfer the specified NFT to a new owner?"
 msgstr "Vill du överföra den angivna NFT:n till en ny ägare?"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:61
+#: src/components/plot/add/PlotAddChooseSize.tsx:62
 #: src/components/vcs/VCCard.tsx:89
 msgid "Yes"
 msgstr "Ja"
@@ -6054,7 +6054,7 @@ msgstr "Du kan fortfarande skapa plottar för denna plot-NFT, men du kan inte g�
 msgid "You created this offer"
 msgstr "Du skapade detta erbjudande"
 
-#: src/components/plot/add/PlotAddChooseSize.tsx:92
+#: src/components/plot/add/PlotAddChooseSize.tsx:93
 msgid "You do not need to be synced or connected to plot. Temporary files are created during the plotting process which exceed the size of the final plot files. Make sure you have enough space. <0>Learn more</0>"
 msgstr "Du behöver inte ha synkat blockkedjan eller vara ansluten till nätverket för att plotta. Under plottningen skapas tillfälliga filer som är större än de färdiga plottfilerna. Se till att du har tillräckligt med utrymme. <0>Läs mer</0>"
 
@@ -6124,7 +6124,7 @@ msgstr "Din nuvarande version av Chia-programmet kanske inte stöder vissa komma
 #~ msgid "Your Farm Overview"
 #~ msgstr "Your Farm Overview"
 
-#: src/components/farm/FarmFullNodeConnections.tsx:76
+#: src/components/farm/FarmFullNodeConnections.tsx:77
 msgid "Your Full Node Connection"
 msgstr "Din fullständiga nods anslutning"
 
