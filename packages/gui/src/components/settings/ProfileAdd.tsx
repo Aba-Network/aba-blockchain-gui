@@ -122,7 +122,7 @@ export default function ProfileAdd() {
                     <Trans>Need some {currencyCode}?</Trans>
                   </Typography>
                   <Link onClick={handleClick}>
-                    <Trans>Get Mojos from the Chia Faucet</Trans>
+                    <Trans>Get Mojos from the Aba Faucet -- Not Yet Available</Trans>
                   </Link>
                 </Flex>
               )}
