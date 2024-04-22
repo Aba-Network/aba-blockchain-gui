@@ -184,7 +184,7 @@ msgstr ""
 msgid "Error"
 msgstr "오류"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:72
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:73
 msgid "Error:"
 msgstr "오류:"
 
@@ -192,7 +192,7 @@ msgstr "오류:"
 msgid "Esc"
 msgstr ""
 
-#: src/components/LayoutMain/LayoutFooter.tsx:49
+#: src/components/LayoutMain/LayoutFooter.tsx:50
 msgid "FAQ"
 msgstr "자주하는 질문"
 
@@ -230,7 +230,7 @@ msgstr ""
 msgid "Help"
 msgstr "도움말"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:61
+#: src/components/LocaleToggle/LocaleToggle.tsx:62
 msgid "Help translate"
 msgstr "번역 돕기"
 
@@ -383,7 +383,7 @@ msgstr ""
 msgid "Release Notes"
 msgstr ""
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:85
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:86
 msgid "Reload Application"
 msgstr "애플리케이션 새로고침"
 
@@ -395,7 +395,7 @@ msgstr ""
 msgid "Rename"
 msgstr ""
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:80
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:81
 msgid "Report an Issue"
 msgstr "문제 보고"
 
@@ -433,7 +433,7 @@ msgstr "시드:"
 msgid "Select..."
 msgstr "선택..."
 
-#: src/components/LayoutMain/LayoutFooter.tsx:52
+#: src/components/LayoutMain/LayoutFooter.tsx:53
 #: src/components/Settings/SettingsApp.tsx:156
 msgid "Send Feedback"
 msgstr "피드백 전송"
@@ -464,7 +464,7 @@ msgstr "건너뛰기"
 msgid "Skip Passphrase Protection"
 msgstr "암호 보호 건너뛰기"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:67
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:68
 msgid "Something went wrong"
 msgstr "문제가 발생함"
 
@@ -524,7 +524,7 @@ msgstr ""
 #~ msgid "Unable to load the list of the keys"
 #~ msgstr "Unable to load the list of the keys"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:44
+#: src/components/LocaleToggle/LocaleToggle.tsx:45
 msgid "Unknown"
 msgstr "알 수 없음"
 

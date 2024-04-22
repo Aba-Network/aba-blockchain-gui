@@ -184,7 +184,7 @@ msgstr "Ladda ner"
 msgid "Error"
 msgstr "Fel"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:72
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:73
 msgid "Error:"
 msgstr "Fel:"
 
@@ -192,7 +192,7 @@ msgstr "Fel:"
 msgid "Esc"
 msgstr "Esc"
 
-#: src/components/LayoutMain/LayoutFooter.tsx:49
+#: src/components/LayoutMain/LayoutFooter.tsx:50
 msgid "FAQ"
 msgstr "FAQ"
 
@@ -230,7 +230,7 @@ msgstr "Gå till nedladdningssidan"
 msgid "Help"
 msgstr "Hjälp"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:61
+#: src/components/LocaleToggle/LocaleToggle.tsx:62
 msgid "Help translate"
 msgstr "Hjälp till med översättning"
 
@@ -383,7 +383,7 @@ msgstr "Rekommenderat värde: 0,000005"
 msgid "Release Notes"
 msgstr "Viktig information"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:85
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:86
 msgid "Reload Application"
 msgstr "Läs in programmet på nytt"
 
@@ -395,7 +395,7 @@ msgstr "Ta bort ikon"
 msgid "Rename"
 msgstr "Byt namn"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:80
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:81
 msgid "Report an Issue"
 msgstr "Rapportera ett problem"
 
@@ -433,7 +433,7 @@ msgstr "Minnesfras:"
 msgid "Select..."
 msgstr "Välj..."
 
-#: src/components/LayoutMain/LayoutFooter.tsx:52
+#: src/components/LayoutMain/LayoutFooter.tsx:53
 #: src/components/Settings/SettingsApp.tsx:156
 msgid "Send Feedback"
 msgstr "Skicka feedback"
@@ -464,7 +464,7 @@ msgstr "Hoppa över"
 msgid "Skip Passphrase Protection"
 msgstr "Hoppa över lösenfrasskydd"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:67
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:68
 msgid "Something went wrong"
 msgstr "Något gick fel"
 
@@ -524,7 +524,7 @@ msgstr "Det gick inte att läsa in nycklar"
 #~ msgid "Unable to load the list of the keys"
 #~ msgstr "Unable to load the list of the keys"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:44
+#: src/components/LocaleToggle/LocaleToggle.tsx:45
 msgid "Unknown"
 msgstr "Okänd"
 

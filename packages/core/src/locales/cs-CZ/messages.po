@@ -184,7 +184,7 @@ msgstr ""
 msgid "Error"
 msgstr "Chyba"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:72
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:73
 msgid "Error:"
 msgstr "Chyba:"
 
@@ -192,7 +192,7 @@ msgstr "Chyba:"
 msgid "Esc"
 msgstr ""
 
-#: src/components/LayoutMain/LayoutFooter.tsx:49
+#: src/components/LayoutMain/LayoutFooter.tsx:50
 msgid "FAQ"
 msgstr "Často kladené dotazy"
 
@@ -230,7 +230,7 @@ msgstr ""
 msgid "Help"
 msgstr "Nápověda"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:61
+#: src/components/LocaleToggle/LocaleToggle.tsx:62
 msgid "Help translate"
 msgstr "Pomozte s překladem"
 
@@ -383,7 +383,7 @@ msgstr ""
 msgid "Release Notes"
 msgstr ""
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:85
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:86
 msgid "Reload Application"
 msgstr "Znovu spustit aplikaci"
 
@@ -395,7 +395,7 @@ msgstr ""
 msgid "Rename"
 msgstr "Přejmenovat"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:80
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:81
 msgid "Report an Issue"
 msgstr "Nahlásit problém"
 
@@ -433,7 +433,7 @@ msgstr "Slova pro zálohu:"
 msgid "Select..."
 msgstr "Zvolit..."
 
-#: src/components/LayoutMain/LayoutFooter.tsx:52
+#: src/components/LayoutMain/LayoutFooter.tsx:53
 #: src/components/Settings/SettingsApp.tsx:156
 msgid "Send Feedback"
 msgstr "Odeslat zpětnou vazbu"
@@ -464,7 +464,7 @@ msgstr "Přeskočit"
 msgid "Skip Passphrase Protection"
 msgstr "Přeskočit ochranu heslem"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:67
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:68
 msgid "Something went wrong"
 msgstr "Něco se pokazilo"
 
@@ -524,7 +524,7 @@ msgstr ""
 #~ msgid "Unable to load the list of the keys"
 #~ msgstr "Unable to load the list of the keys"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:44
+#: src/components/LocaleToggle/LocaleToggle.tsx:45
 msgid "Unknown"
 msgstr "Neznámé"
 

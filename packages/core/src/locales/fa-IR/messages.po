@@ -186,7 +186,7 @@ msgstr "دخیره"
 msgid "Error"
 msgstr "خطا"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:72
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:73
 msgid "Error:"
 msgstr "خطا:"
 
@@ -194,7 +194,7 @@ msgstr "خطا:"
 msgid "Esc"
 msgstr "خروج"
 
-#: src/components/LayoutMain/LayoutFooter.tsx:49
+#: src/components/LayoutMain/LayoutFooter.tsx:50
 msgid "FAQ"
 msgstr "پاسخ به سوالات"
 
@@ -232,7 +232,7 @@ msgstr "به صفحه ذخیره بروید"
 msgid "Help"
 msgstr "راهنما"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:61
+#: src/components/LocaleToggle/LocaleToggle.tsx:62
 msgid "Help translate"
 msgstr "همکاری برای ترجمه"
 
@@ -385,7 +385,7 @@ msgstr "مقدار پیشنهادی: 0.000005"
 msgid "Release Notes"
 msgstr "یادداشت های انتشار"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:85
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:86
 msgid "Reload Application"
 msgstr "بارگذاری مجدد برنامه"
 
@@ -397,7 +397,7 @@ msgstr "حذف نماد"
 msgid "Rename"
 msgstr "تغییر نام"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:80
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:81
 msgid "Report an Issue"
 msgstr "گزارش یک خطا"
 
@@ -435,7 +435,7 @@ msgstr "کلمات زمز:"
 msgid "Select..."
 msgstr "انتخاب..."
 
-#: src/components/LayoutMain/LayoutFooter.tsx:52
+#: src/components/LayoutMain/LayoutFooter.tsx:53
 #: src/components/Settings/SettingsApp.tsx:156
 msgid "Send Feedback"
 msgstr "ارسال پیشنهاد"
@@ -466,7 +466,7 @@ msgstr "صرف نظر"
 msgid "Skip Passphrase Protection"
 msgstr "صرف نظر از محافظت رمز ورود"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:67
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:68
 msgid "Something went wrong"
 msgstr "مشکلی پیش آمد"
 
@@ -526,7 +526,7 @@ msgstr "کلیدها بارگیری نمیشوند"
 #~ msgid "Unable to load the list of the keys"
 #~ msgstr "Unable to load the list of the keys"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:44
+#: src/components/LocaleToggle/LocaleToggle.tsx:45
 msgid "Unknown"
 msgstr "ناشناخته"
 

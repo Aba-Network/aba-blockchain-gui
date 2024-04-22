@@ -184,7 +184,7 @@ msgstr ""
 msgid "Error"
 msgstr "Error"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:72
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:73
 msgid "Error:"
 msgstr "Error:"
 
@@ -192,7 +192,7 @@ msgstr "Error:"
 msgid "Esc"
 msgstr ""
 
-#: src/components/LayoutMain/LayoutFooter.tsx:49
+#: src/components/LayoutMain/LayoutFooter.tsx:50
 msgid "FAQ"
 msgstr "Preguntas más frecuentes"
 
@@ -230,7 +230,7 @@ msgstr ""
 msgid "Help"
 msgstr "Ayuda"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:61
+#: src/components/LocaleToggle/LocaleToggle.tsx:62
 msgid "Help translate"
 msgstr "Ayudar a traducir"
 
@@ -383,7 +383,7 @@ msgstr ""
 msgid "Release Notes"
 msgstr ""
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:85
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:86
 msgid "Reload Application"
 msgstr "Recargar aplicación"
 
@@ -395,7 +395,7 @@ msgstr ""
 msgid "Rename"
 msgstr ""
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:80
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:81
 msgid "Report an Issue"
 msgstr "Reportar un problema"
 
@@ -433,7 +433,7 @@ msgstr "Semilla:"
 msgid "Select..."
 msgstr "Seleccione..."
 
-#: src/components/LayoutMain/LayoutFooter.tsx:52
+#: src/components/LayoutMain/LayoutFooter.tsx:53
 #: src/components/Settings/SettingsApp.tsx:156
 msgid "Send Feedback"
 msgstr "Enviar comentarios"
@@ -464,7 +464,7 @@ msgstr "Saltar"
 msgid "Skip Passphrase Protection"
 msgstr "Omitir protección de contraseña"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:67
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:68
 msgid "Something went wrong"
 msgstr "Algo salió mal"
 
@@ -524,7 +524,7 @@ msgstr ""
 #~ msgid "Unable to load the list of the keys"
 #~ msgstr "Unable to load the list of the keys"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:44
+#: src/components/LocaleToggle/LocaleToggle.tsx:45
 msgid "Unknown"
 msgstr "Desconocido"
 

@@ -184,7 +184,7 @@ msgstr "下载"
 msgid "Error"
 msgstr "错误"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:72
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:73
 msgid "Error:"
 msgstr "错误:"
 
@@ -192,7 +192,7 @@ msgstr "错误:"
 msgid "Esc"
 msgstr "关闭"
 
-#: src/components/LayoutMain/LayoutFooter.tsx:49
+#: src/components/LayoutMain/LayoutFooter.tsx:50
 msgid "FAQ"
 msgstr "常见问题"
 
@@ -230,7 +230,7 @@ msgstr "转到下载页面"
 msgid "Help"
 msgstr "帮助"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:61
+#: src/components/LocaleToggle/LocaleToggle.tsx:62
 msgid "Help translate"
 msgstr "改进翻译"
 
@@ -383,7 +383,7 @@ msgstr "推荐值︰ 0.000005"
 msgid "Release Notes"
 msgstr "更新日志"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:85
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:86
 msgid "Reload Application"
 msgstr "重新加载程序"
 
@@ -395,7 +395,7 @@ msgstr "删除图标"
 msgid "Rename"
 msgstr "重命名"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:80
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:81
 msgid "Report an Issue"
 msgstr "反馈问题"
 
@@ -433,7 +433,7 @@ msgstr "种子："
 msgid "Select..."
 msgstr "请选择..."
 
-#: src/components/LayoutMain/LayoutFooter.tsx:52
+#: src/components/LayoutMain/LayoutFooter.tsx:53
 #: src/components/Settings/SettingsApp.tsx:156
 msgid "Send Feedback"
 msgstr "发送反馈"
@@ -464,7 +464,7 @@ msgstr "跳过"
 msgid "Skip Passphrase Protection"
 msgstr "跳过密码保护"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:67
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:68
 msgid "Something went wrong"
 msgstr "出错了"
 
@@ -524,7 +524,7 @@ msgstr "无法加载密钥"
 #~ msgid "Unable to load the list of the keys"
 #~ msgstr "Unable to load the list of the keys"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:44
+#: src/components/LocaleToggle/LocaleToggle.tsx:45
 msgid "Unknown"
 msgstr "未知"
 

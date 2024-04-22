@@ -184,7 +184,7 @@ msgstr "Lataa"
 msgid "Error"
 msgstr "Virhe"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:72
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:73
 msgid "Error:"
 msgstr "Virhe:"
 
@@ -192,7 +192,7 @@ msgstr "Virhe:"
 msgid "Esc"
 msgstr "Poistu"
 
-#: src/components/LayoutMain/LayoutFooter.tsx:49
+#: src/components/LayoutMain/LayoutFooter.tsx:50
 msgid "FAQ"
 msgstr "UKK"
 
@@ -230,7 +230,7 @@ msgstr "Siirry Lataussivulle"
 msgid "Help"
 msgstr "Apuja"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:61
+#: src/components/LocaleToggle/LocaleToggle.tsx:62
 msgid "Help translate"
 msgstr "Auta kääntämisessä"
 
@@ -383,7 +383,7 @@ msgstr "Suositeltu arvo: 0.000005"
 msgid "Release Notes"
 msgstr "Version Muutokset"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:85
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:86
 msgid "Reload Application"
 msgstr "Uudelleenkäynnistä Sovellus"
 
@@ -395,7 +395,7 @@ msgstr "Poista Kuvake"
 msgid "Rename"
 msgstr "Nimeä uudelleen"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:80
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:81
 msgid "Report an Issue"
 msgstr "Raportoi Ongelma"
 
@@ -433,7 +433,7 @@ msgstr "Siemenarvo:"
 msgid "Select..."
 msgstr "Valitse..."
 
-#: src/components/LayoutMain/LayoutFooter.tsx:52
+#: src/components/LayoutMain/LayoutFooter.tsx:53
 #: src/components/Settings/SettingsApp.tsx:156
 msgid "Send Feedback"
 msgstr "Lähetä palautetta"
@@ -464,7 +464,7 @@ msgstr "Ohita"
 msgid "Skip Passphrase Protection"
 msgstr "Ohita Salasanalauseiden Suojaus"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:67
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:68
 msgid "Something went wrong"
 msgstr "Jokin meni pieleen"
 
@@ -524,7 +524,7 @@ msgstr "Avaimia ei voi ladata"
 #~ msgid "Unable to load the list of the keys"
 #~ msgstr "Unable to load the list of the keys"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:44
+#: src/components/LocaleToggle/LocaleToggle.tsx:45
 msgid "Unknown"
 msgstr "Tuntematon"
 

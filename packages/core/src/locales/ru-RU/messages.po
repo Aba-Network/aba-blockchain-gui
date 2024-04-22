@@ -184,7 +184,7 @@ msgstr "Загрузить"
 msgid "Error"
 msgstr "Ошибка"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:72
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:73
 msgid "Error:"
 msgstr "Ошибка:"
 
@@ -192,7 +192,7 @@ msgstr "Ошибка:"
 msgid "Esc"
 msgstr "Выйти"
 
-#: src/components/LayoutMain/LayoutFooter.tsx:49
+#: src/components/LayoutMain/LayoutFooter.tsx:50
 msgid "FAQ"
 msgstr "ЧаВо"
 
@@ -230,7 +230,7 @@ msgstr "Перейти на страницу загрузки"
 msgid "Help"
 msgstr "Помощь"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:61
+#: src/components/LocaleToggle/LocaleToggle.tsx:62
 msgid "Help translate"
 msgstr "Помогите с переводом"
 
@@ -383,7 +383,7 @@ msgstr ""
 msgid "Release Notes"
 msgstr ""
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:85
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:86
 msgid "Reload Application"
 msgstr "Перезагрузить приложение"
 
@@ -395,7 +395,7 @@ msgstr ""
 msgid "Rename"
 msgstr "Переименовать"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:80
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:81
 msgid "Report an Issue"
 msgstr "Сообщить о проблеме"
 
@@ -433,7 +433,7 @@ msgstr "Семя:"
 msgid "Select..."
 msgstr "Выбрать..."
 
-#: src/components/LayoutMain/LayoutFooter.tsx:52
+#: src/components/LayoutMain/LayoutFooter.tsx:53
 #: src/components/Settings/SettingsApp.tsx:156
 msgid "Send Feedback"
 msgstr "Оставить отзыв"
@@ -464,7 +464,7 @@ msgstr "Пропустить"
 msgid "Skip Passphrase Protection"
 msgstr "Пропустить защиту паролем"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:67
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:68
 msgid "Something went wrong"
 msgstr "Что-то пошло не так"
 
@@ -524,7 +524,7 @@ msgstr "Не удается загрузить ключи"
 #~ msgid "Unable to load the list of the keys"
 #~ msgstr "Unable to load the list of the keys"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:44
+#: src/components/LocaleToggle/LocaleToggle.tsx:45
 msgid "Unknown"
 msgstr "Неизвестный"
 

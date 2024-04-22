@@ -184,7 +184,7 @@ msgstr "Télécharger"
 msgid "Error"
 msgstr "Erreur"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:72
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:73
 msgid "Error:"
 msgstr "Erreur :"
 
@@ -192,7 +192,7 @@ msgstr "Erreur :"
 msgid "Esc"
 msgstr "Échap"
 
-#: src/components/LayoutMain/LayoutFooter.tsx:49
+#: src/components/LayoutMain/LayoutFooter.tsx:50
 msgid "FAQ"
 msgstr "FAQ"
 
@@ -230,7 +230,7 @@ msgstr "Aller à la page de téléchargement"
 msgid "Help"
 msgstr "Aide"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:61
+#: src/components/LocaleToggle/LocaleToggle.tsx:62
 msgid "Help translate"
 msgstr "Aider à traduire"
 
@@ -383,7 +383,7 @@ msgstr "Valeur recommandée : 0.000005"
 msgid "Release Notes"
 msgstr "Notes de version"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:85
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:86
 msgid "Reload Application"
 msgstr "Relancer l'application"
 
@@ -395,7 +395,7 @@ msgstr "Supprimer l'icône"
 msgid "Rename"
 msgstr "Renommer"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:80
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:81
 msgid "Report an Issue"
 msgstr "Signaler un problème"
 
@@ -433,7 +433,7 @@ msgstr "Graine :"
 msgid "Select..."
 msgstr "Sélectionner..."
 
-#: src/components/LayoutMain/LayoutFooter.tsx:52
+#: src/components/LayoutMain/LayoutFooter.tsx:53
 #: src/components/Settings/SettingsApp.tsx:156
 msgid "Send Feedback"
 msgstr "Envoyer un commentaire"
@@ -464,7 +464,7 @@ msgstr "Ignorer"
 msgid "Skip Passphrase Protection"
 msgstr "Ignorer la protection par phrase secrète"
 
-#: src/components/ErrorBoundary/ErrorBoundary.tsx:67
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:68
 msgid "Something went wrong"
 msgstr "Une erreur s'est produite"
 
@@ -524,7 +524,7 @@ msgstr "Impossible de charger les clés"
 #~ msgid "Unable to load the list of the keys"
 #~ msgstr "Unable to load the list of the keys"
 
-#: src/components/LocaleToggle/LocaleToggle.tsx:44
+#: src/components/LocaleToggle/LocaleToggle.tsx:45
 msgid "Unknown"
 msgstr "Inconnu"
 
