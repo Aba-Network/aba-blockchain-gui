@@ -36,11 +36,11 @@
     "test": "jest"
   },
   "dependencies": {
-    "@chia-network/api": "1.0.0",
-    "@chia-network/api-react": "1.0.0",
-    "@chia-network/core": "1.0.0",
-    "@chia-network/icons": "1.0.0",
-    "@chia-network/wallets": "1.0.0",
+    "@chia-network/api": "^0.2.0",
+    "@chia-network/api-react": "^0.2.0",
+    "@chia-network/core": "^0.2.0",
+    "@chia-network/icons": "^0.2.0",
+    "@chia-network/wallets": "^0.2.0",
     "@electron/remote": "2.0.10",
     "@lingui/core": "4.4.0",
     "@lingui/macro": "4.4.0",
@@ -134,8 +134,8 @@
     "concurrently": "8.2.1",
     "copy-webpack-plugin": "11.0.0",
     "cross-env": "7.0.3",
-    "date-and-time": "2.4.3",
     "css-loader": "6.8.1",
+    "date-and-time": "2.4.3",
     "electron": "27.0.0",
     "electron-devtools-assembler": "1.2.0",
     "electron-playwright-helpers": "^1.6.0",
@@ -168,5 +168,5 @@
       "last 1 safari version"
     ]
   },
-  "version": "0.1.2-dev5"
+  "version": "0.2.0"
 }
