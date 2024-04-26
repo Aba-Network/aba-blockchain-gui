@@ -44,7 +44,7 @@ export default function PlotNFTSelectFaucet(props: Props) {
 
       <Box>
         <Button onClick={handleClick} color="primary" variant="contained">
-          <Trans>Add {currencyCode} from the Aba Faucet -- Not Yet Available</Trans>
+          <Trans>Add {currencyCode} from the Aba Faucet</Trans>
         </Button>
       </Box>
     </CardStep>
