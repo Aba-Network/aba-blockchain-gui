@@ -381,6 +381,14 @@ msgstr ""
 #~ msgid "Aba Core"
 #~ msgstr ""
 
+#: src/components/offers/OfferShareDialog.tsx:417
+#~ msgid "Aba Offers . com URL"
+#~ msgstr ""
+
+#: src/components/offers/OfferShareDialog.tsx:417
+#~ msgid "Aba Offers URL"
+#~ msgstr ""
+
 #: src/electron/main.tsx:1101
 #: src/electron/main.tsx:1188
 #~ msgid "About Chia Blockchain"
@@ -419,8 +427,12 @@ msgid "Activity"
 msgstr ""
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:47
-msgid "Add {currencyCode} from the Aba Faucet -- Not Yet Available"
+msgid "Add {currencyCode} from the Aba Faucet"
 msgstr ""
+
+#: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:47
+#~ msgid "Add {currencyCode} from the Aba Faucet -- Not Yet Available"
+#~ msgstr ""
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:47
 #~ msgid "Add {currencyCode} from the Faucet"
@@ -2217,8 +2229,12 @@ msgid "Get Current Address"
 msgstr ""
 
 #: src/components/settings/ProfileAdd.tsx:125
-msgid "Get Mojos from the Aba Faucet -- Not Yet Available"
+msgid "Get Mojos from the Aba Faucet"
 msgstr ""
+
+#: src/components/settings/ProfileAdd.tsx:125
+#~ msgid "Get Mojos from the Aba Faucet -- Not Yet Available"
+#~ msgstr ""
 
 #: src/components/settings/ProfileAdd.tsx:125
 #~ msgid "Get Mojos from the Chia Faucet"
@@ -4724,6 +4740,14 @@ msgid "Share Offer"
 msgstr ""
 
 #: src/components/offers/OfferShareDialog.tsx:466
+#~ msgid "Share on Aba Offers"
+#~ msgstr ""
+
+#: src/components/offers/OfferShareDialog.tsx:466
+#~ msgid "Share on Aba Offers . com"
+#~ msgstr ""
+
+#: src/components/offers/OfferShareDialog.tsx:466
 msgid "Share on Dexie"
 msgstr ""
 
@@ -5794,6 +5818,14 @@ msgstr "Vezi Jurnal"
 #: src/components/offers/OfferManager.tsx:437
 msgid "View Offer"
 msgstr ""
+
+#: src/components/offers/OfferShareDialog.tsx:432
+#~ msgid "View on Aba Offers"
+#~ msgstr ""
+
+#: src/components/offers/OfferShareDialog.tsx:432
+#~ msgid "View on Aba Offers . com"
+#~ msgstr ""
 
 #: src/components/offers/OfferShareDialog.tsx:432
 msgid "View on Dexie"
