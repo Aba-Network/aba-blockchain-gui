@@ -36,11 +36,11 @@
     "test": "jest"
   },
   "dependencies": {
-    "@chia-network/api": "^0.2.0",
-    "@chia-network/api-react": "^0.2.0",
-    "@chia-network/core": "^0.2.0",
+    "@chia-network/api": "^0.2.1",
+    "@chia-network/api-react": "^0.2.1",
+    "@chia-network/core": "^0.2.1",
     "@chia-network/icons": "^0.2.0",
-    "@chia-network/wallets": "^0.2.0",
+    "@chia-network/wallets": "^0.2.1",
     "@electron/remote": "2.0.10",
     "@lingui/core": "4.4.0",
     "@lingui/macro": "4.4.0",
@@ -168,5 +168,5 @@
       "last 1 safari version"
     ]
   },
-  "version": "0.1.2-dev20"
+  "version": "0.2.1"
 }
