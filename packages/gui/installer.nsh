@@ -1,3 +1,4 @@
+; Aba modified this file
 !include "LogicLib.nsh"
 !include "nsDialogs.nsh"
 !include "nsProcess.nsh"
@@ -92,7 +93,7 @@ Function checkIsChiaRunning
       ${EndIf}
     ${EndIf}
 
-    StrCpy $R0 "daemon.exe chia_data_layer.exe start_data_layer.exe chia_data_layer_http.exe start_data_layer_http.exe chia_farmer.exe start_farmer.exe chia_full_node.exe start_full_node.exe chia_harvester.exe start_harvester.exe chia_wallet.exe start_wallet.exe"
+    StrCpy $R0 "daemon.exe aba_data_layer.exe start_data_layer.exe aba_data_layer_http.exe start_data_layer_http.exe aba_farmer.exe start_farmer.exe aba_full_node.exe start_full_node.exe aba_harvester.exe start_harvester.exe aba_wallet.exe start_wallet.exe"
     StrCpy $R3 "" ; Accumulator for the names of all running processes
   processLoop:
     ClearErrors

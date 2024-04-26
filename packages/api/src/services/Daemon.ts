@@ -365,7 +365,7 @@ export default class Daemon extends Service {
 
     return Promise.all(
       runningServices.map((service) => {
-        if (service.startsWith('chia_')) {
+        if (service.startsWith('aba_')) {
           return this.stopService({ service });
         }
 
