@@ -73,7 +73,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://chia.net';
+const url = 'https://aba.ooo';
 
 type Props = {
   version: string;
