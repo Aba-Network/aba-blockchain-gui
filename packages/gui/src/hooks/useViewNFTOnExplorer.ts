@@ -12,7 +12,7 @@ function getMintGardenURL(nft: NFTInfo, testnet: boolean) {
 }
 
 function getSpacescanURL(nft: NFTInfo, testnet: boolean) {
-  const url = `https://aba.spacescan.io/${testnet ? 'txch10' : 'aba'}/nft/${nft.$nftId}`;
+  const url = `https://aba.spacescan.io/${testnet ? 'txch10/' : ''}nft/${nft.$nftId}`;
   return url;
 }
 
