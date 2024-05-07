@@ -19,7 +19,7 @@ function getBlockRewardByHeight(height: number) {
     return 21_000_000 * MOJO_PER_CHIA;
   }
   if (height < 3 * BLOCKS_PER_YEAR) {
-    return 2 * MOJO_PER_CHIA;
+    return 1.25 * MOJO_PER_CHIA;
   }
   if (height < 6 * BLOCKS_PER_YEAR) {
     return 1 * MOJO_PER_CHIA;
