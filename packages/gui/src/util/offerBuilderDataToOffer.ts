@@ -1,3 +1,4 @@
+// Aba has modified this file
 import type { Wallet } from '@chia-network/api';
 import { WalletType } from '@chia-network/api';
 import { chiaToMojo, catToMojo } from '@chia-network/core';
@@ -159,7 +160,7 @@ export default async function offerBuilderDataToOffer({
   const xchTasks = offeredXch.map(async (xch) => {
     const { amount } = xch;
     if (!amount || amount === '0') {
-      throw new Error(t`Please enter an XCH amount`);
+      throw new Error(t`Please enter an ABA amount`);
     }
     if (!standardWallet || !standardWalletBalance) {
       throw new Error(t`No standard wallet found`);
@@ -171,7 +172,7 @@ export default async function offerBuilderDataToOffer({
     const spendableBalance = new BigNumber(standardWalletBalance.spendableBalance);
     const hasEnoughTotalBalance = spendableBalance.plus(pendingXch).minus(feeInMojos).gte(mojoAmount);
     if (!hasEnoughTotalBalance) {
-      throw new Error(t`Amount exceeds XCH total balance`);
+      throw new Error(t`Amount exceeds ABA total balance`);
     }
 
     if (pendingXchOffer) {
@@ -196,7 +197,7 @@ export default async function offerBuilderDataToOffer({
     const spendableBalance = new BigNumber(standardWalletBalance.spendableBalance);
     const hasEnoughTotalBalance = spendableBalance.gte(feeInMojos);
     if (!hasEnoughTotalBalance) {
-      throw new Error(t`Fee exceeds XCH total balance`);
+      throw new Error(t`Fee exceeds ABA total balance`);
     }
     if (pendingXchOffer) {
       pendingXchOffer.spendingAmount = feeInMojos;
@@ -295,7 +296,7 @@ export default async function offerBuilderDataToOffer({
     }
 
     if (!amount) {
-      throw new Error(t`Please enter an XCH amount`);
+      throw new Error(t`Please enter an ABA amount`);
     }
 
     const wallet = wallets.find((w) => w.type === WalletType.STANDARD_WALLET);
