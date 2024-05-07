@@ -19,7 +19,7 @@ This monorepo consists of the following packages:
 
 1. This repo (aba-blockchain-gui) must be under chia-blockchain repo. Make sure to install from source code (git clone...).
 2. Run the `sh install-gui.sh` as instructed in the previous step. This will clone the aba-blockchain-gui under aba-blockchain repo.
-3. Change directory into the chia-blockchain-gui subdirectory.
+3. Change directory into the aba-blockchain-gui subdirectory.
 4. Run `npm run dev:gui`
 
 **When developing, please:**
@@ -102,7 +102,7 @@ After adding a new NPM package, please **pin down the package version**. This is
 
 ## Localization
 
-Do not edit files directly in the repo, but instead please head over to our [Crowdin project](https://chia.crowdin.com/chia-blockchain-gui) and add/edit translations there.
+Do not edit files directly in the repo, these are inherited from [Crowdin project](https://chia.crowdin.com/chia-blockchain-gui) and add/edit translations there.
 
 ## Troubleshooting
 
@@ -114,7 +114,7 @@ Do not edit files directly in the repo, but instead please head over to our [Cro
 
   1. In your command line, please go to the `chia-blockchain` directory (one level up)
   2. Run `. ./activate`
-  3. Run `cd chia-blockchain-gui`
+  3. Run `cd aba-blockchain-gui`
   4. Run `npm run dev:gui` to start the app.
   5. If still does not work, please open you process manager and kill all Chia / Python related processes.
 

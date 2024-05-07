@@ -1,4 +1,4 @@
-# chia-blockchain-gui/api-react
+# aba-blockchain-gui/api-react
 
 ![Chia logo](https://www.chia.net/wp-content/uploads/2022/09/chia-logo.svg)
 
