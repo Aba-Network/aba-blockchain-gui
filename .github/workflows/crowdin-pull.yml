@@ -27,7 +27,7 @@ jobs:
       localization_branch_name: l10n_crowdin_translations
     steps:
       - name: Add safe git directory
-        uses: Chia-Network/actions/git-mark-workspace-safe@main
+        uses: Aba-Network/actions/git-mark-workspace-safe@main
 
       - name: Checkout
         uses: actions/checkout@v3
@@ -35,10 +35,10 @@ jobs:
           ref: '${{ inputs.pr_target || github.ref_name }}'
 
       - name: Vault Login
-        uses: Chia-Network/actions/vault/login@main
+        uses: Aba-Network/actions/vault/login@main
         with:
           vault_url: ${{ secrets.VAULT_URL }}
-          role_name: github-chia-blockchain-gui
+          role_name: github-aba-blockchain-gui
 
       - name: Get secrets from vault
         uses: hashicorp/vault-action@v2
@@ -50,10 +50,10 @@ jobs:
             secret/data/crowdin project-id-blockchain-gui | CROWDIN_PROJECT_ID;
 
       # Setting this up globally so that we can also commit the compiled translations after crowdin runs
-      - uses: Chia-Network/actions/commit-sign/gpg@main
+      - uses: Aba-Network/actions/commit-sign/gpg@main
         with:
-          gpg_private_key: ${{ secrets.CHIA_AUTOMATION_PRIVATE_GPG_KEY_RSA }}
-          passphrase: ${{ secrets.CHIA_AUTOMATION_PRIVATE_GPG_PASSPHRASE }}
+          gpg_private_key: ${{ secrets.ABA_AUTOMATION_PRIVATE_GPG_KEY_RSA }}
+          passphrase: ${{ secrets.ABA_AUTOMATION_PRIVATE_GPG_PASSPHRASE }}
 
       - name: crowdin action
         uses: crowdin/github-action@v1.11.0
@@ -69,8 +69,8 @@ jobs:
           pull_request_base_branch_name: "${{ inputs.pr_target || 'main' }}"
           github_user_name: 'Chia Automation'
           github_user_email: 'automation@chia.net'
-          gpg_private_key: ${{ secrets.CHIA_AUTOMATION_PRIVATE_GPG_KEY_RSA }}
-          gpg_passphrase: ${{ secrets.CHIA_AUTOMATION_PRIVATE_GPG_PASSPHRASE }}
+          gpg_private_key: ${{ secrets.ABA_AUTOMATION_PRIVATE_GPG_KEY_RSA }}
+          gpg_passphrase: ${{ secrets.ABA_AUTOMATION_PRIVATE_GPG_PASSPHRASE }}
           skip_ref_checkout: 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

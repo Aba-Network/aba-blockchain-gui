@@ -3,7 +3,7 @@ name: Push strings to Crowdin
 on:
   push:
     branches:
-      - main
+      #- main
   workflow_dispatch:
 
 permissions:
