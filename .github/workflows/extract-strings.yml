@@ -31,10 +31,10 @@ jobs:
           node-version: '18.x'
 
       - name: Set up commit signing
-        uses: Chia-Network/actions/commit-sign/gpg@main
+        uses: Aba-Network/actions/commit-sign/gpg@main
         with:
-          gpg_private_key: ${{ secrets.CHIA_AUTOMATION_PRIVATE_GPG_KEY }}
-          passphrase: ${{ secrets.CHIA_AUTOMATION_PRIVATE_GPG_PASSPHRASE }}
+          gpg_private_key: ${{ secrets.ABA_AUTOMATION_PRIVATE_GPG_KEY }}
+          passphrase: ${{ secrets.ABA_AUTOMATION_PRIVATE_GPG_PASSPHRASE }}
 
       - name: Extract Strings
         run: |
@@ -53,5 +53,5 @@ jobs:
           assignees: 'paninaro'
           title: 'Latest Strings'
           token: '${{ secrets.GITHUB_TOKEN }}'
-          committer: 'ChiaAutomation <automation@chia.net>'
-          author: 'ChiaAutomation <automation@chia.net>'
+          committer: 'AbaAutomation <automation@aba.ooo>'
+          author: 'AbaAutomation <automation@aba.ooo>'
