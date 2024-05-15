@@ -749,6 +749,10 @@ msgstr "Количество"
 msgid "Amount before adding royalties"
 msgstr "Сумма до добавления роялти"
 
+#: src/util/offerBuilderDataToOffer.ts:175
+msgid "Amount exceeds ABA total balance"
+msgstr ""
+
 #: src/components/offers/NFTOfferEditor.tsx:594
 #: src/components/offers/OfferEditor.tsx:109
 msgid "Amount exceeds spendable balance"
@@ -758,7 +762,7 @@ msgstr "Сумма превышает доступный баланс"
 #~ msgid "Amount exceeds spendable balance for {0} token"
 #~ msgstr ""
 
-#: src/util/offerBuilderDataToOffer.ts:242
+#: src/util/offerBuilderDataToOffer.ts:243
 msgid "Amount exceeds total balance for {catName} token"
 msgstr ""
 
@@ -767,8 +771,8 @@ msgstr ""
 #~ msgstr ""
 
 #: src/util/offerBuilderDataToOffer.ts:174
-msgid "Amount exceeds XCH total balance"
-msgstr ""
+#~ msgid "Amount exceeds XCH total balance"
+#~ msgstr ""
 
 #: src/components/farm/FarmHealth.tsx:322
 msgid "An increase in the number of missing signage points (SPs) suggests that you were either disconnected from or significantly distant from a Timelord in your Full Node network. The total number of missing SPs serves as an indicator of potential rewards you could have claimed."
@@ -1079,7 +1083,7 @@ msgstr "Отменить неподтвержденную транзакцию"
 msgid "Cancelled"
 msgstr "Отменена"
 
-#: src/util/offerBuilderDataToOffer.ts:307
+#: src/util/offerBuilderDataToOffer.ts:308
 msgid "Cannot offer and request the same asset"
 msgstr ""
 
@@ -2287,9 +2291,13 @@ msgstr "Комиссия"
 msgid "Fee (Optional)"
 msgstr "Комиссия (необязательно)"
 
-#: src/util/offerBuilderDataToOffer.ts:199
-msgid "Fee exceeds XCH total balance"
+#: src/util/offerBuilderDataToOffer.ts:200
+msgid "Fee exceeds ABA total balance"
 msgstr ""
+
+#: src/util/offerBuilderDataToOffer.ts:199
+#~ msgid "Fee exceeds XCH total balance"
+#~ msgstr ""
 
 #: src/components/plotNFT/PlotNFTChangePool.tsx:115
 msgid "Fee is used TWICE: once to leave pool, once to join."
@@ -3306,8 +3314,8 @@ msgstr "Далее"
 msgid "NFT"
 msgstr "NFT"
 
-#: src/util/offerBuilderDataToOffer.ts:262
-#: src/util/offerBuilderDataToOffer.ts:336
+#: src/util/offerBuilderDataToOffer.ts:263
+#: src/util/offerBuilderDataToOffer.ts:337
 msgid "NFT {nftId} is already used in this offer"
 msgstr ""
 
@@ -3408,8 +3416,8 @@ msgstr ""
 #~ msgid "No blocks farmed yet"
 #~ msgstr "No blocks farmed yet"
 
-#: src/util/offerBuilderDataToOffer.ts:223
-#: src/util/offerBuilderDataToOffer.ts:323
+#: src/util/offerBuilderDataToOffer.ts:224
+#: src/util/offerBuilderDataToOffer.ts:324
 msgid "No CAT wallet found for {assetId} token"
 msgstr ""
 
@@ -3453,9 +3461,9 @@ msgstr "Пока нет участков"
 msgid "No private keys for one or both addresses. Safe only if you are sending rewards to another wallet."
 msgstr "Не найдено закрытых ключей для одного или обоих адресов. Безопасно только в том случае, если вы отправляете вознаграждение на другой кошелек."
 
-#: src/util/offerBuilderDataToOffer.ts:165
-#: src/util/offerBuilderDataToOffer.ts:193
-#: src/util/offerBuilderDataToOffer.ts:303
+#: src/util/offerBuilderDataToOffer.ts:166
+#: src/util/offerBuilderDataToOffer.ts:194
+#: src/util/offerBuilderDataToOffer.ts:304
 msgid "No standard wallet found"
 msgstr ""
 
@@ -3996,15 +4004,20 @@ msgstr ""
 msgid "Please enter a valid numeric fee"
 msgstr "Пожалуйста, укажите корректное численное значение комиссии"
 
+#: src/util/offerBuilderDataToOffer.ts:163
+#: src/util/offerBuilderDataToOffer.ts:299
+msgid "Please enter an ABA amount"
+msgstr ""
+
 #: src/components/offers/NFTOfferEditor.tsx:589
 msgid "Please enter an amount"
 msgstr "Пожалуйста, введите сумму"
 
-#: src/util/offerBuilderDataToOffer.ts:327
+#: src/util/offerBuilderDataToOffer.ts:328
 msgid "Please enter an amount for {0} token"
 msgstr ""
 
-#: src/util/offerBuilderDataToOffer.ts:229
+#: src/util/offerBuilderDataToOffer.ts:230
 msgid "Please enter an amount for {catName} token"
 msgstr ""
 
@@ -4018,8 +4031,8 @@ msgstr "Пожалуйста, введите идентификатор NFT"
 
 #: src/util/offerBuilderDataToOffer.ts:162
 #: src/util/offerBuilderDataToOffer.ts:298
-msgid "Please enter an XCH amount"
-msgstr ""
+#~ msgid "Please enter an XCH amount"
+#~ msgstr ""
 
 #: src/components/settings/ChangePassphrasePrompt.tsx:86
 msgid "Please enter your current passphrase, and a new passphrase"
@@ -4047,8 +4060,8 @@ msgstr "Пожалуйста, выберите профиль для перем�
 msgid "Please select an asset for each row"
 msgstr "Пожалуйста, выберите актив для каждой строки"
 
-#: src/util/offerBuilderDataToOffer.ts:218
-#: src/util/offerBuilderDataToOffer.ts:317
+#: src/util/offerBuilderDataToOffer.ts:219
+#: src/util/offerBuilderDataToOffer.ts:318
 msgid "Please select an asset for each token"
 msgstr ""
 
@@ -4064,7 +4077,7 @@ msgstr "Пожалуйста, выберите тип актива"
 msgid "Please select at least one key"
 msgstr ""
 
-#: src/util/offerBuilderDataToOffer.ts:78
+#: src/util/offerBuilderDataToOffer.ts:79
 msgid "Please specify at least one offered asset"
 msgstr ""
 

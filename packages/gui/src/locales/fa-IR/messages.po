@@ -577,6 +577,10 @@ msgstr "مبلغ"
 msgid "Amount before adding royalties"
 msgstr "مبلغ قبل از اضافه کردن حق امتیاز"
 
+#: src/util/offerBuilderDataToOffer.ts:175
+msgid "Amount exceeds ABA total balance"
+msgstr ""
+
 #: src/components/offers/NFTOfferEditor.tsx:594
 #: src/components/offers/OfferEditor.tsx:109
 msgid "Amount exceeds spendable balance"
@@ -586,7 +590,7 @@ msgstr "مبلغ از موجودی قابل خرج کردن بیشتر است"
 #~ msgid "Amount exceeds spendable balance for {0} token"
 #~ msgstr ""
 
-#: src/util/offerBuilderDataToOffer.ts:242
+#: src/util/offerBuilderDataToOffer.ts:243
 msgid "Amount exceeds total balance for {catName} token"
 msgstr "بیشتر است {catName} مقدار از کل موجودی برای توکن"
 
@@ -595,8 +599,8 @@ msgstr "بیشتر است {catName} مقدار از کل موجودی برای �
 #~ msgstr ""
 
 #: src/util/offerBuilderDataToOffer.ts:174
-msgid "Amount exceeds XCH total balance"
-msgstr "مقدار از موجودی کل چیا بیشتر است"
+#~ msgid "Amount exceeds XCH total balance"
+#~ msgstr "مقدار از موجودی کل چیا بیشتر است"
 
 #: src/components/farm/FarmHealth.tsx:322
 msgid "An increase in the number of missing signage points (SPs) suggests that you were either disconnected from or significantly distant from a Timelord in your Full Node network. The total number of missing SPs serves as an indicator of potential rewards you could have claimed."
@@ -907,7 +911,7 @@ msgstr "لغو معامله تایید نشده"
 msgid "Cancelled"
 msgstr "لغو شد"
 
-#: src/util/offerBuilderDataToOffer.ts:307
+#: src/util/offerBuilderDataToOffer.ts:308
 msgid "Cannot offer and request the same asset"
 msgstr "نمیتوان همان دارایی را ارائه داد و درخواست کرد"
 
@@ -2115,9 +2119,13 @@ msgstr "کارمزد"
 msgid "Fee (Optional)"
 msgstr "کارمزد (اختیاری)"
 
+#: src/util/offerBuilderDataToOffer.ts:200
+msgid "Fee exceeds ABA total balance"
+msgstr ""
+
 #: src/util/offerBuilderDataToOffer.ts:199
-msgid "Fee exceeds XCH total balance"
-msgstr "کارمزد از موجودی کل چیا بیشتر است"
+#~ msgid "Fee exceeds XCH total balance"
+#~ msgstr "کارمزد از موجودی کل چیا بیشتر است"
 
 #: src/components/plotNFT/PlotNFTChangePool.tsx:115
 msgid "Fee is used TWICE: once to leave pool, once to join."
@@ -3138,8 +3146,8 @@ msgstr "بعدی"
 msgid "NFT"
 msgstr "ان اف تی"
 
-#: src/util/offerBuilderDataToOffer.ts:262
-#: src/util/offerBuilderDataToOffer.ts:336
+#: src/util/offerBuilderDataToOffer.ts:263
+#: src/util/offerBuilderDataToOffer.ts:337
 msgid "NFT {nftId} is already used in this offer"
 msgstr "قبلاً در این پیشنهاد استفاده شده {nftId} ان اف تی"
 
@@ -3240,8 +3248,8 @@ msgstr "بدون هیچ فعالیتی"
 #~ msgid "No blocks farmed yet"
 #~ msgstr "No blocks farmed yet"
 
-#: src/util/offerBuilderDataToOffer.ts:223
-#: src/util/offerBuilderDataToOffer.ts:323
+#: src/util/offerBuilderDataToOffer.ts:224
+#: src/util/offerBuilderDataToOffer.ts:324
 msgid "No CAT wallet found for {assetId} token"
 msgstr "یافت نشد {assetId} برای توکن CAT هیچ کیف پول"
 
@@ -3285,9 +3293,9 @@ msgstr "هیچ پلاتی وجود ندارد"
 msgid "No private keys for one or both addresses. Safe only if you are sending rewards to another wallet."
 msgstr "هیچ کلید شخصی برای یک یا هر دو آدرس یافت نشد. فقط در صورتی امن است که پاداش را به کیف پول دیگری ارسال کنید."
 
-#: src/util/offerBuilderDataToOffer.ts:165
-#: src/util/offerBuilderDataToOffer.ts:193
-#: src/util/offerBuilderDataToOffer.ts:303
+#: src/util/offerBuilderDataToOffer.ts:166
+#: src/util/offerBuilderDataToOffer.ts:194
+#: src/util/offerBuilderDataToOffer.ts:304
 msgid "No standard wallet found"
 msgstr "کیف پول استانداردی پیدا نشد"
 
@@ -3828,15 +3836,20 @@ msgstr "لطفا یک URI وارد کنید"
 msgid "Please enter a valid numeric fee"
 msgstr "لطفاً یک کارمزد با اعداد معتبر وارد کنید"
 
+#: src/util/offerBuilderDataToOffer.ts:163
+#: src/util/offerBuilderDataToOffer.ts:299
+msgid "Please enter an ABA amount"
+msgstr ""
+
 #: src/components/offers/NFTOfferEditor.tsx:589
 msgid "Please enter an amount"
 msgstr "لطفا یک مبلع وارد کنید"
 
-#: src/util/offerBuilderDataToOffer.ts:327
+#: src/util/offerBuilderDataToOffer.ts:328
 msgid "Please enter an amount for {0} token"
 msgstr "لطفاً مبلغی را برای توکن {0} وارد کنید"
 
-#: src/util/offerBuilderDataToOffer.ts:229
+#: src/util/offerBuilderDataToOffer.ts:230
 msgid "Please enter an amount for {catName} token"
 msgstr "وارد کنید {catName} لطفاً مبلغی را برای توکن"
 
@@ -3850,8 +3863,8 @@ msgstr "لطفاً یک شناسه ان اف تی وارد کنید"
 
 #: src/util/offerBuilderDataToOffer.ts:162
 #: src/util/offerBuilderDataToOffer.ts:298
-msgid "Please enter an XCH amount"
-msgstr "لطفاً یک مبلغ چیا وارد کنید"
+#~ msgid "Please enter an XCH amount"
+#~ msgstr "لطفاً یک مبلغ چیا وارد کنید"
 
 #: src/components/settings/ChangePassphrasePrompt.tsx:86
 msgid "Please enter your current passphrase, and a new passphrase"
@@ -3879,8 +3892,8 @@ msgstr "لطفاً یک حساب کاربری برای انتقال ان اف ت
 msgid "Please select an asset for each row"
 msgstr "لطفاً برای هر ردیف مبلغی را انتخاب کنید"
 
-#: src/util/offerBuilderDataToOffer.ts:218
-#: src/util/offerBuilderDataToOffer.ts:317
+#: src/util/offerBuilderDataToOffer.ts:219
+#: src/util/offerBuilderDataToOffer.ts:318
 msgid "Please select an asset for each token"
 msgstr "لطفاً یک دارایی برای هر توکن انتخاب کنید"
 
@@ -3896,7 +3909,7 @@ msgstr "لطفاً یک نوع دارایی را انتخاب کنید"
 msgid "Please select at least one key"
 msgstr "لطفا حداقل یک کلید را انتخاب کنید"
 
-#: src/util/offerBuilderDataToOffer.ts:78
+#: src/util/offerBuilderDataToOffer.ts:79
 msgid "Please specify at least one offered asset"
 msgstr "لطفاً حداقل یک دارایی پیشنهادی را مشخص کنید"
 

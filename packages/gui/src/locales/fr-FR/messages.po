@@ -577,6 +577,10 @@ msgstr "Montant"
 msgid "Amount before adding royalties"
 msgstr "Montant sans royalties"
 
+#: src/util/offerBuilderDataToOffer.ts:175
+msgid "Amount exceeds ABA total balance"
+msgstr ""
+
 #: src/components/offers/NFTOfferEditor.tsx:594
 #: src/components/offers/OfferEditor.tsx:109
 msgid "Amount exceeds spendable balance"
@@ -586,7 +590,7 @@ msgstr "Le montant dépasse le solde disponible"
 #~ msgid "Amount exceeds spendable balance for {0} token"
 #~ msgstr ""
 
-#: src/util/offerBuilderDataToOffer.ts:242
+#: src/util/offerBuilderDataToOffer.ts:243
 msgid "Amount exceeds total balance for {catName} token"
 msgstr "Le montant dépasse le solde dépensable pour le jeton {catName}"
 
@@ -595,8 +599,8 @@ msgstr "Le montant dépasse le solde dépensable pour le jeton {catName}"
 #~ msgstr ""
 
 #: src/util/offerBuilderDataToOffer.ts:174
-msgid "Amount exceeds XCH total balance"
-msgstr "Le montant dépasse le solde de XCH dépensables"
+#~ msgid "Amount exceeds XCH total balance"
+#~ msgstr "Le montant dépasse le solde de XCH dépensables"
 
 #: src/components/farm/FarmHealth.tsx:322
 msgid "An increase in the number of missing signage points (SPs) suggests that you were either disconnected from or significantly distant from a Timelord in your Full Node network. The total number of missing SPs serves as an indicator of potential rewards you could have claimed."
@@ -907,7 +911,7 @@ msgstr "Supprimer les Transactions non Confirmées"
 msgid "Cancelled"
 msgstr "Annulée"
 
-#: src/util/offerBuilderDataToOffer.ts:307
+#: src/util/offerBuilderDataToOffer.ts:308
 msgid "Cannot offer and request the same asset"
 msgstr "Impossible d'offrir et de demander le même actif"
 
@@ -2115,9 +2119,13 @@ msgstr "Frais"
 msgid "Fee (Optional)"
 msgstr "Frais (facultatif)"
 
+#: src/util/offerBuilderDataToOffer.ts:200
+msgid "Fee exceeds ABA total balance"
+msgstr ""
+
 #: src/util/offerBuilderDataToOffer.ts:199
-msgid "Fee exceeds XCH total balance"
-msgstr "Les frais excèdent le solde total de XCH"
+#~ msgid "Fee exceeds XCH total balance"
+#~ msgstr "Les frais excèdent le solde total de XCH"
 
 #: src/components/plotNFT/PlotNFTChangePool.tsx:115
 msgid "Fee is used TWICE: once to leave pool, once to join."
@@ -3138,8 +3146,8 @@ msgstr "Suivant"
 msgid "NFT"
 msgstr "NFT"
 
-#: src/util/offerBuilderDataToOffer.ts:262
-#: src/util/offerBuilderDataToOffer.ts:336
+#: src/util/offerBuilderDataToOffer.ts:263
+#: src/util/offerBuilderDataToOffer.ts:337
 msgid "NFT {nftId} is already used in this offer"
 msgstr "Le NFT {nftId} est déjà utilisé dans cette offre"
 
@@ -3240,8 +3248,8 @@ msgstr "Aucune activité pour l'instant"
 #~ msgid "No blocks farmed yet"
 #~ msgstr "No blocks farmed yet"
 
-#: src/util/offerBuilderDataToOffer.ts:223
-#: src/util/offerBuilderDataToOffer.ts:323
+#: src/util/offerBuilderDataToOffer.ts:224
+#: src/util/offerBuilderDataToOffer.ts:324
 msgid "No CAT wallet found for {assetId} token"
 msgstr "Aucun portefeuille CAT trouvé pour le jeton {assetId}"
 
@@ -3285,9 +3293,9 @@ msgstr "Pas encore de parcelles"
 msgid "No private keys for one or both addresses. Safe only if you are sending rewards to another wallet."
 msgstr "Aucune clé privée pour une ou les deux adresses. Sécurisé uniquement si vous envoyez des récompenses à un autre portefeuille."
 
-#: src/util/offerBuilderDataToOffer.ts:165
-#: src/util/offerBuilderDataToOffer.ts:193
-#: src/util/offerBuilderDataToOffer.ts:303
+#: src/util/offerBuilderDataToOffer.ts:166
+#: src/util/offerBuilderDataToOffer.ts:194
+#: src/util/offerBuilderDataToOffer.ts:304
 msgid "No standard wallet found"
 msgstr "Aucun portefeuille standard trouvé"
 
@@ -3828,15 +3836,20 @@ msgstr "Veuillez entrer une URI"
 msgid "Please enter a valid numeric fee"
 msgstr "Veuillez saisir un montant de frais valide"
 
+#: src/util/offerBuilderDataToOffer.ts:163
+#: src/util/offerBuilderDataToOffer.ts:299
+msgid "Please enter an ABA amount"
+msgstr ""
+
 #: src/components/offers/NFTOfferEditor.tsx:589
 msgid "Please enter an amount"
 msgstr "Veuillez saisir un montant"
 
-#: src/util/offerBuilderDataToOffer.ts:327
+#: src/util/offerBuilderDataToOffer.ts:328
 msgid "Please enter an amount for {0} token"
 msgstr "Veuillez entrer un montant pour le jeton {0}"
 
-#: src/util/offerBuilderDataToOffer.ts:229
+#: src/util/offerBuilderDataToOffer.ts:230
 msgid "Please enter an amount for {catName} token"
 msgstr "Veuillez entrer un montant pour le jeton {catName}"
 
@@ -3850,8 +3863,8 @@ msgstr "Veuillez saisir un identifiant NFT"
 
 #: src/util/offerBuilderDataToOffer.ts:162
 #: src/util/offerBuilderDataToOffer.ts:298
-msgid "Please enter an XCH amount"
-msgstr "Veuillez saisir un montant de XCH"
+#~ msgid "Please enter an XCH amount"
+#~ msgstr "Veuillez saisir un montant de XCH"
 
 #: src/components/settings/ChangePassphrasePrompt.tsx:86
 msgid "Please enter your current passphrase, and a new passphrase"
@@ -3879,8 +3892,8 @@ msgstr "Veuillez sélectionner un profil vers lequel transférer le NFT."
 msgid "Please select an asset for each row"
 msgstr "Veuillez saisir un actif pour chaque ligne"
 
-#: src/util/offerBuilderDataToOffer.ts:218
-#: src/util/offerBuilderDataToOffer.ts:317
+#: src/util/offerBuilderDataToOffer.ts:219
+#: src/util/offerBuilderDataToOffer.ts:318
 msgid "Please select an asset for each token"
 msgstr "Veuillez sélectionner un actif pour chaque jeton"
 
@@ -3896,7 +3909,7 @@ msgstr "Veuillez sélectionner un type d'actif"
 msgid "Please select at least one key"
 msgstr "Veuillez sélectionner au moins une clé"
 
-#: src/util/offerBuilderDataToOffer.ts:78
+#: src/util/offerBuilderDataToOffer.ts:79
 msgid "Please specify at least one offered asset"
 msgstr "Veuillez spécifier au moins un actif offert"
 

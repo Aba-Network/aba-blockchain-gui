@@ -577,6 +577,10 @@ msgstr "Belopp"
 msgid "Amount before adding royalties"
 msgstr "Belopp innan royaltyer läggs till"
 
+#: src/util/offerBuilderDataToOffer.ts:175
+msgid "Amount exceeds ABA total balance"
+msgstr ""
+
 #: src/components/offers/NFTOfferEditor.tsx:594
 #: src/components/offers/OfferEditor.tsx:109
 msgid "Amount exceeds spendable balance"
@@ -586,7 +590,7 @@ msgstr "Beloppet överstiger spenderbart saldo"
 #~ msgid "Amount exceeds spendable balance for {0} token"
 #~ msgstr ""
 
-#: src/util/offerBuilderDataToOffer.ts:242
+#: src/util/offerBuilderDataToOffer.ts:243
 msgid "Amount exceeds total balance for {catName} token"
 msgstr "Beloppet överstiger det totala saldot för token {catName}"
 
@@ -595,8 +599,8 @@ msgstr "Beloppet överstiger det totala saldot för token {catName}"
 #~ msgstr ""
 
 #: src/util/offerBuilderDataToOffer.ts:174
-msgid "Amount exceeds XCH total balance"
-msgstr "Beloppet överstiger totalt saldo i XCH"
+#~ msgid "Amount exceeds XCH total balance"
+#~ msgstr "Beloppet överstiger totalt saldo i XCH"
 
 #: src/components/farm/FarmHealth.tsx:322
 msgid "An increase in the number of missing signage points (SPs) suggests that you were either disconnected from or significantly distant from a Timelord in your Full Node network. The total number of missing SPs serves as an indicator of potential rewards you could have claimed."
@@ -907,7 +911,7 @@ msgstr "Avbryt obekräftad transaktion"
 msgid "Cancelled"
 msgstr "Avbrutet"
 
-#: src/util/offerBuilderDataToOffer.ts:307
+#: src/util/offerBuilderDataToOffer.ts:308
 msgid "Cannot offer and request the same asset"
 msgstr "Det går inte erbjuda och begära samma tillgång"
 
@@ -2115,9 +2119,13 @@ msgstr "Avgift"
 msgid "Fee (Optional)"
 msgstr "Avgift (valfritt)"
 
+#: src/util/offerBuilderDataToOffer.ts:200
+msgid "Fee exceeds ABA total balance"
+msgstr ""
+
 #: src/util/offerBuilderDataToOffer.ts:199
-msgid "Fee exceeds XCH total balance"
-msgstr "Avgiften överstiger totalt saldo i XCH"
+#~ msgid "Fee exceeds XCH total balance"
+#~ msgstr "Avgiften överstiger totalt saldo i XCH"
 
 #: src/components/plotNFT/PlotNFTChangePool.tsx:115
 msgid "Fee is used TWICE: once to leave pool, once to join."
@@ -3134,8 +3142,8 @@ msgstr "Nästa"
 msgid "NFT"
 msgstr "NFT"
 
-#: src/util/offerBuilderDataToOffer.ts:262
-#: src/util/offerBuilderDataToOffer.ts:336
+#: src/util/offerBuilderDataToOffer.ts:263
+#: src/util/offerBuilderDataToOffer.ts:337
 msgid "NFT {nftId} is already used in this offer"
 msgstr ""
 
@@ -3236,8 +3244,8 @@ msgstr "Inga aktiviteter ännu"
 #~ msgid "No blocks farmed yet"
 #~ msgstr "No blocks farmed yet"
 
-#: src/util/offerBuilderDataToOffer.ts:223
-#: src/util/offerBuilderDataToOffer.ts:323
+#: src/util/offerBuilderDataToOffer.ts:224
+#: src/util/offerBuilderDataToOffer.ts:324
 msgid "No CAT wallet found for {assetId} token"
 msgstr ""
 
@@ -3281,9 +3289,9 @@ msgstr "Inga plottar ännu"
 msgid "No private keys for one or both addresses. Safe only if you are sending rewards to another wallet."
 msgstr "Inga privata nycklar för en eller båda adresser. Endast säkert om du skicka belöningar till en annan plånbok."
 
-#: src/util/offerBuilderDataToOffer.ts:165
-#: src/util/offerBuilderDataToOffer.ts:193
-#: src/util/offerBuilderDataToOffer.ts:303
+#: src/util/offerBuilderDataToOffer.ts:166
+#: src/util/offerBuilderDataToOffer.ts:194
+#: src/util/offerBuilderDataToOffer.ts:304
 msgid "No standard wallet found"
 msgstr "Ingen standardplånbok hittades"
 
@@ -3824,15 +3832,20 @@ msgstr "Ange en URI"
 msgid "Please enter a valid numeric fee"
 msgstr "Ange en giltig numerisk avgift"
 
+#: src/util/offerBuilderDataToOffer.ts:163
+#: src/util/offerBuilderDataToOffer.ts:299
+msgid "Please enter an ABA amount"
+msgstr ""
+
 #: src/components/offers/NFTOfferEditor.tsx:589
 msgid "Please enter an amount"
 msgstr "Ange ett belopp"
 
-#: src/util/offerBuilderDataToOffer.ts:327
+#: src/util/offerBuilderDataToOffer.ts:328
 msgid "Please enter an amount for {0} token"
 msgstr "Ange ett belopp för token {0}"
 
-#: src/util/offerBuilderDataToOffer.ts:229
+#: src/util/offerBuilderDataToOffer.ts:230
 msgid "Please enter an amount for {catName} token"
 msgstr "Ange ett belopp för token {catName}"
 
@@ -3846,8 +3859,8 @@ msgstr "Ange en NFT-identifierare"
 
 #: src/util/offerBuilderDataToOffer.ts:162
 #: src/util/offerBuilderDataToOffer.ts:298
-msgid "Please enter an XCH amount"
-msgstr "Ange ett belopp i XCH"
+#~ msgid "Please enter an XCH amount"
+#~ msgstr "Ange ett belopp i XCH"
 
 #: src/components/settings/ChangePassphrasePrompt.tsx:86
 msgid "Please enter your current passphrase, and a new passphrase"
@@ -3875,8 +3888,8 @@ msgstr "Välj en profil att flytta NFT:n till."
 msgid "Please select an asset for each row"
 msgstr "Välj en tillgång för varje rad"
 
-#: src/util/offerBuilderDataToOffer.ts:218
-#: src/util/offerBuilderDataToOffer.ts:317
+#: src/util/offerBuilderDataToOffer.ts:219
+#: src/util/offerBuilderDataToOffer.ts:318
 msgid "Please select an asset for each token"
 msgstr "Välj en tillgång för varje token"
 
@@ -3892,7 +3905,7 @@ msgstr "Välj ett tillgångsslag"
 msgid "Please select at least one key"
 msgstr "Välj minst en nyckel"
 
-#: src/util/offerBuilderDataToOffer.ts:78
+#: src/util/offerBuilderDataToOffer.ts:79
 msgid "Please specify at least one offered asset"
 msgstr "Ange minst en erbjuden tillgång"
 
