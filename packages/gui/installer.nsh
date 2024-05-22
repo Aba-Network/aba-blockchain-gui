@@ -93,7 +93,8 @@ Function checkIsChiaRunning
       ${EndIf}
     ${EndIf}
 
-    StrCpy $R0 "daemon.exe aba_data_layer.exe start_data_layer.exe aba_data_layer_http.exe start_data_layer_http.exe aba_farmer.exe start_farmer.exe aba_full_node.exe start_full_node.exe aba_harvester.exe start_harvester.exe aba_wallet.exe start_wallet.exe"
+    ; todo rename these other processes later...
+    StrCpy $R0 "daemon.exe aba_data_layer.exe aba_start_data_layer.exe aba_data_layer_http.exe aba_start_data_layer_http.exe aba_farmer.exe aba_start_farmer.exe aba_full_node.exe aba_start_full_node.exe aba_harvester.exe aba_start_harvester.exe aba_wallet.exe aba_start_wallet.exe"
     StrCpy $R3 "" ; Accumulator for the names of all running processes
   processLoop:
     ClearErrors
